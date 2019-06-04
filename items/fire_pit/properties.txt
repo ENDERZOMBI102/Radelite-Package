@@ -1,0 +1,12 @@
+"Properties"
+{
+"Authors" "Radelite, ENDERZOMBI102"
+"Tags" "Portal 2;Geometry"
+"Description" "Creates a fire panel where placed can be used to make the fire pits from portal 1"
+"infoURL" "none"
+"ent_count" "0"
+"Icon"
+{
+"0" "fire_pit.png"
+}
+}

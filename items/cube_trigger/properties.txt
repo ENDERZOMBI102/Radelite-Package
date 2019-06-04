@@ -1,0 +1,17 @@
+"Properties"
+	{
+	"Authors" "Radelite, ENDERZOMBI102"
+	"Tags" "Portal 2;Geometry"
+	"Description" "Cube triggers that output when touched by cube or sphere may also work for turrets,autosave is normal"
+	"infoURL" "none"
+	"ent_count" "1"
+	"all_name" "TRIGGERS"
+	"all_icon" "palette/trigger_outputs.png"
+	"Icon"
+	{
+		"all" "trigger_outputs.png"
+		"0" "trigger_once.png"
+		"1" "trigger_multiple.png"
+		"2" "trigger_autosave.png"
+	}
+}
