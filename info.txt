@@ -1,0 +1,135 @@
+"ID" "RadAdd"
+"Name" "Radelite's Addon"
+"Desc" "Items added by the Radelite's Addon for the old beemod 2, ported to you by ENDERZOMBI102! include turret and portal detectors, fire pit and more! (ratman style? the entrance and the exit are taken from the overgrowth style)."
+"Prerequisites"
+{
+"Package" "BEE2_CLEAN_STYLE"
+"Package" "BEE2_OVERGROWN"
+}
+"Style"
+{
+	"ID" "RAD_Ratman"
+	"Authors" "Radelite, ENDERZOMBI102"
+	"Folder" "ratman"
+	"Icon" "styles/ratman.png"
+	"IconLarge" "styles/ratman.png"
+	"Name" "RatMan"
+	"Base" ""
+	"Has_Video" "0"
+	"Description" "Radelite's RatMan style, ported by ENDERZOMBI102. ratman style include all Radelite's items."
+	"Suggested"
+	{
+		"Quote" <NONE>
+		"Music" <NONE>
+		"Skybox" <NONE>
+		"Elev" <NONE>
+	}
+}
+
+"Item"
+	{
+	"ID" "ITEM_FIRE_PANEL"
+	"Description" "Creates a fire panel where placed can be used to make the fire pits from portal 1"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "fire_pit"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_Water_Block"
+	"Description" "A editor block size block of water (swimmable?)"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "water_block"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_PORTAL_DETECTOR"
+	"Description" "Outputs when a portal is placed on this item."
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "portal_detector"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_CUBE_TRIGGERS"
+	"Description" "Cube triggers that output when touched by cube or sphere may also work for turrets,autosave is normal"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "cube_trigger"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "EMBEDDED_BUTTONS"
+	"Description" "An underground button"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "embeded_buttons"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_ACTIVATOR_CUBES"
+	"Description" "One cube outputs when fizzled, another outputs when painted, the final cube is held in place and activats when painted"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "activator_cubes"
+			}
+		}
+	}
