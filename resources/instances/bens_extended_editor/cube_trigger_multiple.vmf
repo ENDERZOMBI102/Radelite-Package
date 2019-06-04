@@ -1,0 +1,175 @@
+versioninfo
+{
+"editorversion" "400"
+"editorbuild" "6432"
+"mapversion" "13"
+"formatversion" "100"
+"prefab" "0"
+}
+visgroups
+{
+}
+world
+{
+"id" "2"
+"classname" "worldspawn"
+"mapversion" "13"
+"skyname" "sky_black_nofog"
+editor
+{
+"color" "0 0 0"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 2]"
+"comments" ""
+}
+}
+entity
+{
+"id" "229"
+"classname" "func_instance_io_proxy"
+"origin" "0 0 -36"
+"targetname" "proxy"
+connections
+{
+"OnProxyRelay" "togFireUser10-1"
+"OnProxyRelay" "togFireUser20-1"
+}
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 2000]"
+"comments" ""
+}
+}
+entity
+{
+"id" "164"
+"classname" "env_texturetoggle"
+"origin" "0 0 -52"
+"target" "sign"
+"targetname" "tog"
+connections
+{
+"OnUser1" "togSetTextureIndex00-1"
+"OnUser2" "togSetTextureIndex10-1"
+}
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 2000]"
+"comments" ""
+}
+}
+entity
+{
+"id" "5"
+"classname" "func_brush"
+"disableflashlight" "0"
+"disablereceiveshadows" "0"
+"disableshadowdepth" "0"
+"disableshadows" "1"
+"drawinfastreflection" "0"
+"inputfilter" "0"
+"invert_exclusion" "0"
+"origin" "0 0 0"
+"renderamt" "255"
+"rendercolor" "255 255 255"
+"renderfx" "0"
+"rendermode" "0"
+"shadowdepthnocache" "0"
+"solidbsp" "0"
+"solidity" "1"
+"spawnflags" "2"
+"startdisabled" "0"
+"targetname" "sign"
+"vrad_brush_cast_shadows" "0"
+solid
+{
+"id" "129"
+side
+{
+"id" "156"
+"plane" "(-16 -16 -60) (-16 16 -60) (16 16 -60)"
+"material" "SIGNAGE/SIGNAGE_DOORSTATE_OLD"
+"uaxis" "[1 0 0 -64] 0.25"
+"vaxis" "[0 -1 0 64] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "155"
+"plane" "(-16 16 -62) (-16 -16 -62) (16 -16 -62)"
+"material" "SIGNAGE/SIGNAGE_DOORSTATE_OLD"
+"uaxis" "[1 0 0 -64] 0.25"
+"vaxis" "[0 -1 0 64] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "154"
+"plane" "(-16 -16 -62) (-16 16 -62) (-16 16 -60)"
+"material" "SIGNAGE/SIGNAGE_DOORSTATE_OLD"
+"uaxis" "[0 0 1 112] 0.25"
+"vaxis" "[0 -1 0 64] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "153"
+"plane" "(16 16 -62) (16 -16 -62) (16 -16 -60)"
+"material" "SIGNAGE/SIGNAGE_DOORSTATE_OLD"
+"uaxis" "[0 0 -1 -112] 0.25"
+"vaxis" "[0 -1 0 64] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "152"
+"plane" "(-16 16 -62) (16 16 -62) (16 16 -60)"
+"material" "SIGNAGE/SIGNAGE_DOORSTATE_OLD"
+"uaxis" "[1 0 0 -64] 0.25"
+"vaxis" "[0 0 1 112] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "151"
+"plane" "(16 -16 -62) (-16 -16 -62) (-16 -16 -60)"
+"material" "SIGNAGE/SIGNAGE_DOORSTATE_OLD"
+"uaxis" "[1 0 0 -64] 0.25"
+"vaxis" "[0 0 -1 -112] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+}
+}
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 500]"
+"comments" ""
+}
+}
