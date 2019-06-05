@@ -1,49 +1,35 @@
-"Item"
+//@Style
+//      "Style"         "Clean"
+//      "Name"          "radelite"
+//      "Author"        "radelite"
+//      "Comment"       "hehehehe"
+//@EndStyle
+
+"ItemData"
+{
+        "Item"
 	{
-		"Author" "Radelite, ENDERZOMBI102"
-		"Description" "Cube triggers that output when touched by cube or sphere may also work for turrets,autosave is normal"
-		"Filter"	"Radelite, ENDERZOMBI102"
-		"ItemClass"	"ItemButtonFloor"
-		"Type"		"ITEM_CUBE_TRIGGERS"
-		"Editor"
+		"Filter"		"Radelite"
+                "Author"                "Radelite"
+                "Description"	"One cube outputs when fizzled, another outputs when painted, the final cube is held in place and activats when painted"
+		"Type"		"ITEM_ACTIVATOR_CUBES"
+                "ItemClass"	"ItemButtonFloor"
+                "Editor"
 		{
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"Cube Trigger (once)"
+				"Name"			"FIZZLED ACTIVATOR"
 				"Model"
 				{
-					"ModelName"		"trigger_once.3ds"
-					"TextureName"	"once.png"
+					"ModelName"		"cube.3ds"
+					"TextureName"	"cube.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Cube Trigger (once)"
-					"Image"			"palette/trigger_once.png"
-					"Position"		"0 7 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceButton"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"					"P2Editor.RemoveButton"
-				}
-			}
-			
-			"SubType"
-			{
-				"Name"		"Cube Trigger (multiple)"
-				"Model"
-				{
-					"ModelName"		"trigger_multiple.3ds"
-					"TextureName"	"multiple.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"Cube Trigger (multiple)"
-					"Image"			"palette/trigger_multiple.png"
-					"Position"		"0 7 0"
+					"Tooltip"		"FIZZLED ACTIVATOR CUBE"
+					"Image"			"palette/fizzled_activator.png"
+					"Position"		"1 0 0"
 				}
 				"Sounds"
 				{
@@ -55,17 +41,39 @@
 			}
 			"SubType"
 			{
-				"Name"		"Trigger Autosave"
+				"Name"		"PAINTED ACTIVATOR"
 				"Model"
 				{
-					"ModelName"		"trigger_autosave.3ds"
-					"TextureName"	"autosave.png"
+					"ModelName"		"cube.3ds"
+					"TextureName"	"cube.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Trigger Autosave (dup)"
-					"Image"			"palette/trigger_autosave.png"
-					"Position"		"0 7 0"
+					"Tooltip"		"PAINTED ACTIVATOR CUBE"
+					"Image"			"palette/painted_activator.png"
+					"Position"		"2 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceButton"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
+					"SOUND_DELETED"					"P2Editor.RemoveButton"
+				}
+			}
+			"SubType"
+			{
+				"Name"		"PAINTED ACTIVATOR HELD"
+				"Model"
+				{
+					"ModelName"		"cube.3ds"
+					"TextureName"	"cube.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"PAINTED ACTIVATOR CUBE HELD"
+					"Image"			"palette/painted_activator_held.png"
+					"Position"		"3 0 0"
 				}
 				"Sounds"
 				{
@@ -91,56 +99,66 @@
 			{
 				"0"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_once.vmf"
-					"EntityCount"		"1"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/p2editor/fizzled_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"41"
+					"BrushSideCount"	"286"
 				}
 				"1"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_once.vmf"
-					"EntityCount"		"1"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/p2editor/fizzled_cube_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"41"
+					"BrushSideCount"	"286"
 				}
-				
 				"2"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_multiple.vmf"
-					"EntityCount"		"1"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/p2editor/painted_cube_white.vmf"
+					"EntityCount"		"4"
+					"BrushCount"		"12"
+					"BrushSideCount"	"88"
 				}
 				"3"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_multiple.vmf"
-					"EntityCount"		"1"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/p2editor/painted_cube_black.vmf"
+					"EntityCount"		"4"
+					"BrushCount"		"12"
+					"BrushSideCount"	"88"
 				}
 				"4"
 				{
-					"Name"				"instances/bens_extended_editor/trigger_autosave.vmf"
-					"EntityCount"		"0"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/p2editor/held_painted_cube_white.vmf"
+					"EntityCount"		"4"
+					"BrushCount"		"18"
+					"BrushSideCount"	"152"
 				}
 				"5"
 				{
-					"Name"				"instances/bens_extended_editor/trigger_autosave.vmf"
-					"EntityCount"		"0"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
+					"Name"				"instances/p2editor/held_painted_cube_black.vmf"
+					"EntityCount"		"4"
+					"BrushCount"		"18"
+					"BrushSideCount"	"152"
 				}
 			}
 
-			"TargetName"		"trigger"
+			"TargetName"		"button"
 			"Outputs"
 			{
 				"CONNECTION_STANDARD"
 				{
-					"Activate"		"instance:activate;OnTrigger"
-					"Deactivate"	"instance:deactivate;OnTrigger"
+					"Activate"		"instance:button;OnPressed"
+					"Deactivate"	"instance:button;OnUnPressed"
+				}
+			}
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
 				}
 			}
 			"ConnectionPoints"
@@ -212,3 +230,4 @@
 			"Offset"	"64 64 64"
 		}
 	}
+}

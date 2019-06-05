@@ -1,0 +1,12 @@
+"Properties"
+{
+"Authors" "Radelite, ENDERZOMBI102"
+"Tags" "Portal 2;Geometry"
+"Description" "The Radio is here!"
+"infoURL" "none"
+"ent_count" "3"
+"Icon"
+{
+"0" "radio.png"
+}
+}

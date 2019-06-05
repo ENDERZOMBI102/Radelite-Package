@@ -1,0 +1,75 @@
+"Item"
+    {
+		"Filter"		"Radelite,Niin31,ENDERZOMBI102"
+		"Author"		"Radelite,Niin31,ENDERZOMBI102"
+        "Type"     				"ITEM_GRAVITY_GUN"
+		"Description" "With the gravity gun, you can : Right click pull / Left click Push. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
+        "Editor"
+        {
+            "SubType"
+            {	
+                "Name"          		"GRAVITY GUN MK.1"
+		"Model"
+		{
+			"ModelName"		"switch.3ds"
+			"TextureName"		"buttonpedestal.png"
+		}
+                "Palette"
+                {
+                    "Tooltip"      			"GRAVITY GUN MK.1"
+                    "Image"         		"palette/portalgun.png"
+                    "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
+                }
+                "Sounds"
+                {
+                    "SOUND_CREATED"            "P2Editor.PlaceOther"
+                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
+                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+                    "SOUND_DELETED"            "P2Editor.RemoveOther"
+                }
+            }	
+            "MovementHandle"    		"HANDLE_4_DIRECTIONS"
+ 	    "InvalidSurface"			"CEILING WALL"
+            "OccupiesVoxel"     		"0"
+        }
+        "Exporting"
+        {
+            "Instances"
+            {
+                "0"
+                {
+                    "Name"         		"instances/p2editor/Gravity_gun.vmf"
+                    "EntityCount"       	"18"
+                    "BrushCount"        	"16"
+                    "BrushSideCount"    	"96"
+                }
+            }
+            "Offset"            		"64 64 64"
+            "TargetName"        		"Gravity_gun"
+            "OccupiedVoxels"
+            {
+                "Voxel"							// Gravity
+                {
+                    "Pos"               	"0 0 0"
+                    "CollideType"       	"COLLIDE_SOLID"
+                    "CollideAgainst"    	"COLLIDE_SOLID"
+
+                    "Surface"
+                    {
+                        "Normal"    		"0 0 1"
+                    }
+                }
+                "Voxel"							// Gun
+                {
+                    "Pos"              		 "1 0 0"
+                    "CollideType"       	"COLLIDE_SOLID"
+                    "CollideAgainst"    	"COLLIDE_SOLID"
+
+                    "Surface"
+                    {
+                        "Normal"    		"0 0 1"
+                    }
+                }
+            }
+        }
+    }
