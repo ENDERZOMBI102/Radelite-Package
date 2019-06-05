@@ -1,0 +1,8 @@
+TO-DO-LIST
+
+texture palette 4 gravity gun MK1/MK2
+texture palette 4 paint gun MK1/MK2
+texture palette 4 radio
+texture palette 4 skybox
+remove the duplicate description from all items
+
