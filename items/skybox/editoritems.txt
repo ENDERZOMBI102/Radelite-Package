@@ -37,7 +37,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/p2editor_destroyed/skybox_area_128x128_1.vmf"
+					"Name"			"instances/p2editor_destroyed/skybox_area_128x128_1.vmf"
 					"EntityCount"		"5"
 					"BrushCount"		"9"
 					"BrushSideCount"	"54"
