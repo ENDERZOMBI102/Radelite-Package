@@ -2,7 +2,6 @@
 	{
 		"Filter"	"Radelite,ENDERZOMBI102"
 		"Author"    "Radelite,ENDERZOMBI102"
-		"Description" "The Radio is here!"
 		"Type"		"ITEM_RADIO"
 		"ItemClass"	"ItemTurret"
 		"Filter"	"Portal 2"

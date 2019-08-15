@@ -2,7 +2,6 @@
 	{
 		"Filter"		"Radelite, ENDERZOMBI102"
 		"Author"		"Radelite, ENDERZOMBI102"
-		"Description"	"A editor block size block of water (swimmable?)"
 		"Type"			"ITEM_Water_Block"
 		"Editor"
 		{

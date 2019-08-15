@@ -2,7 +2,6 @@
 	{
 		"Filter"		"Radelite, ENDERZOMBI102"
 		"Author"		"Radelite, ENDERZOMBI102"
-		"Description"	"Creates a fire panel where placed can be used to make the fire pits from portal 1"
 		"Type"			"ITEM_FIRE_PANEL"
 		"Editor"
 		{

@@ -2,7 +2,6 @@
 	{
 		"Filter"		"Radelite,ENDERZOMBI102"
 		"Author"		"Radelite,ENDERZOMBI102"
-		"Description"	"One cube outputs when fizzled, another outputs when painted, the final cube is held in place and activats when painted"
 		"Type"		"ITEM_ACTIVATOR_CUBES"
 		"ItemClass"	"ItemButtonFloor"
 		"Editor"

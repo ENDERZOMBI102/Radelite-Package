@@ -1,7 +1,6 @@
 "Item"
 	{
 		"Author" "Radelite, ENDERZOMBI102"
-		"Description" "Cube triggers that output when touched by cube or sphere may also work for turrets,autosave is normal"
 		"Filter"	"Radelite, ENDERZOMBI102"
 		"ItemClass"	"ItemButtonFloor"
 		"Type"		"ITEM_CUBE_TRIGGERS"

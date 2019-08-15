@@ -2,7 +2,6 @@
     {
 		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102"
 		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102"
-		"Description" "With the gravity gun, you can : Right change mode / Left use. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
         "Type"     		"ITEM_Gravity_gun_MARK_2"
         "Editor"
         {

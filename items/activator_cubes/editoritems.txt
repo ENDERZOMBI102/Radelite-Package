@@ -2,7 +2,6 @@
 	{
 		"Filter"		"Radelite, ENDERZOMBI102"
 		"Author"        "Radelite, ENDERZOMBI102"
-		"Description"	"One cube outputs when fizzled, another outputs when painted, the final cube is held in place and activats when painted"
 		"Type"			"ITEM_ACTIVATOR_CUBES"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
@@ -10,7 +9,7 @@
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"FIZZLED ACTIVATOR"
+				"Name"			"Fizzled Activator Cube"
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
@@ -32,7 +31,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"PAINTED ACTIVATOR"
+				"Name"		"Painted Activator Cube"
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
@@ -54,7 +53,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"PAINTED ACTIVATOR HELD"
+				"Name"		"Painted Activator Cube Held"
 				"Model"
 				{
 					"ModelName"		"cube.3ds"

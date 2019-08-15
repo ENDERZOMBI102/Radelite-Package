@@ -3,7 +3,6 @@
 		"Filter"		"Radelite,Niin31,ENDERZOMBI102"
 		"Author"		"Radelite,Niin31,ENDERZOMBI102"
         "Type"     				"ITEM_GRAVITY_GUN"
-		"Description" "With the gravity gun, you can : Right click pull / Left click Push. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
         "Editor"
         {
             "SubType"

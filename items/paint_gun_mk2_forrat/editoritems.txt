@@ -2,7 +2,6 @@
     {
 		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102"
 		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102"
-		"Description" "Paint Gun MK2. right click change gel, left click launch a gel bomb. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
         "Type"     		"ITEM_Paint_gun2"
         "Editor"
         {

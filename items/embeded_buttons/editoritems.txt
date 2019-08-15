@@ -8,7 +8,7 @@
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"Embedded_portal_button"
+				"Name"			"Embedded Button"
 				"Model"
 				{
 					"ModelName"		"buttonweight.3ds"
@@ -30,7 +30,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Embedded_cube_button"
+				"Name"		"Embedded Cube Button"
 				"Model"
 				{
 					"ModelName"		"buttoncube.3ds"
@@ -52,7 +52,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Embedded_sphere_button"
+				"Name"		"Embedded Sphere Button"
 				"Model"
 				{
 					"ModelName"		"buttonball.3ds"

@@ -2,7 +2,6 @@
 	{
 		"Filter"		"Radelite, ENDERZOMBI102"
 		"Author"		"Radelite, ENDERZOMBI102"
-		"Description"	        "A editor block size block of water (swimmable?)"
 		"Type"			"ITEM_Water_Block"
 		"Editor"
 		{
@@ -12,20 +11,20 @@
 				"Model"
 				{
 					"ModelName"		"trigger_once.3ds"
-					"TextureName"	        "arm_4panel.png"
+					"TextureName"	"arm_4panel.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Swimmable Water"
+					"Tooltip"		"WATER BLOCK"
 					"Image"			"palette/water_block.png"
 					"Position"		"2 2 0"
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"				"P2Editor.PlaceOther"
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
 					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
 					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-					"SOUND_DELETED"				“P2Editor.RemoveOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
 			"MovementHandle"		"HANDLE_NONE"
@@ -39,7 +38,7 @@
 			{
 				"0"
 				{
-					"Name"			"instances/p2editor/water_block.vmf"
+					"Name"				"instances/p2editor/water_block.vmf"
 					"EntityCount"		"0"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
@@ -68,15 +67,15 @@
 				// left
 				"Point"
 				{
-					"Dir"			"1 0 0"
-					"Pos"			"-1 3 0"
+					"Dir"				"1 0 0"
+					"Pos"				"-1 3 0"
 					"SignageOffset"		"-2 2 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
-					"Dir"			"1 0 0"
-					"Pos"			"-1 4 0"
+					"Dir"				"1 0 0"
+					"Pos"				"-1 4 0"
 					"SignageOffset"		"-2 5 0"
 					"Priority"  "0"
 				}
@@ -84,15 +83,15 @@
 				// right
 				"Point"
 				{
-					"Dir"			"-1 0 0"
-					"Pos"			"8 3 0"
+					"Dir"				"-1 0 0"
+					"Pos"				"8 3 0"
 					"SignageOffset"		"9 2 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
-					"Dir"			"-1 0 0"
-					"Pos"			“8 4 0"
+					"Dir"				"-1 0 0"
+					"Pos"				"8 4 0"
 					"SignageOffset"		"9 5 0"
 					"Priority"  "0"
 				}
@@ -100,15 +99,15 @@
 				// up
 				"Point"
 				{
-					"Dir"			"0 1 0"
-					"Pos"			“3 -1 0"
+					"Dir"				"0 1 0"
+					"Pos"				"3 -1 0"
 					"SignageOffset"		"2 -2 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
-					"Dir"			"0 1 0"
-					"Pos"			"4 -1 0"
+					"Dir"				"0 1 0"
+					"Pos"				"4 -1 0"
 					"SignageOffset"		"5 -2 0"
 					"Priority"  "0"
 				}
@@ -116,15 +115,15 @@
 				// down
 				"Point"
 				{
-					"Dir"			"0 -1 0"
-					"Pos"			“3 8 0"
+					"Dir"				"0 -1 0"
+					"Pos"				"3 8 0"
 					"SignageOffset"		"2 9 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
-					"Dir"			"0 -1 0"
-					"Pos"			“4 8 0"
+					"Dir"				"0 -1 0"
+					"Pos"				"4 8 0"
 					"SignageOffset"		"5 9 0"
 					"Priority"  "0"
 				}

@@ -2,7 +2,6 @@
 	{	
 		"Filter"		"Radelite,ENDERZOMBI102"
 		"Author"		"Radelite,ENDERZOMBI102"
-		"Description"	"Outputs when a portal is placed on this item."
 		"Type"			"ITEM_PORTAL_DETECTOR"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
