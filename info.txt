@@ -1,20 +1,19 @@
-"ID" "RadAdd"
+"ID" "Radelite package"
 "Name" "Radelite's Addon"
 "Desc" "Items added by the Radelite's Addon for the old beemod 2, ported to you by ENDERZOMBI102! include turret and portal detectors, fire pit and more! (ratman style? the entrance and the exit are taken from the overgrowth style)."
 "Prerequisites"
 {
 "Package" "BEE2_CLEAN_STYLE"
-"Package" "BEE2_OVERGROWN"
 }
 "Style"
 {
-	"ID" "RAD_Ratman"
+	"ID" "EZ_Ratman"
 	"Authors" "Radelite, ENDERZOMBI102"
 	"Folder" "ratman"
 	"Icon" "styles/ratman.png"
 	"IconLarge" "styles/ratman.png"
 	"Name" "RatMan"
-	"Base" ""
+	"Base" "BEE2_OVERGROWN"
 	"Has_Video" "0"
 	"Description" "Radelite's RatMan style, ported by ENDERZOMBI102. ratman style include all Radelite's items."
 	"Suggested"
@@ -26,8 +25,35 @@
 	}
 }
 
-"Item"
+"Overrides"
+{
+	"StyleVar"
 	{
+		"ID" "RestartOnExit"
+		"Style" "EZ_Ratman"
+	}
+	
+	"StyleVar"
+	{
+		"ID" "BEE2_GOO_DEBRIS"
+		"Name" "Goo Debris"
+		"Enabled" "1"
+		"Description" "Add random junk in Toxic Goo."
+		"Style" "EZ_Ratman"
+	}
+
+	"StyleVar"
+	{
+		"ID" "OverFunnelFlicker"
+		"Enabled" "0"
+		"Name" "Flickering Ratman Funnel"
+		"Description" "Allow the Ratman Excursion Funnel to randomly shut off briefly. Objects or players travelling in the funnel will not fall out when this occurs."
+		"Style" "EZ_Ratman"
+	}
+}
+
+"Item"
+{
 	"ID" "ITEM_FIRE_PANEL"
 	"Description" "Creates a fire panel where placed can be used to make the fire pits from portal 1"
 	"AllDescLast" "0"
@@ -40,14 +66,15 @@
 		"Styles"
 			{
 			"ANY_STYLE" "fire_pit"
+			"EZ_ratman" "fire_pit_forrat"
 			}
 		}
 	}
-	
+
 "Item"
 	{
 	"ID" "ITEM_Water_Block"
-	"Description" "A editor block size block of water (swimmable?)"
+	"Description" "A editor block size block of swimmable water (danger for bots)"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -58,6 +85,7 @@
 		"Styles"
 			{
 			"ANY_STYLE" "water_block"
+			"EZ_ratman" "water_block_forrat"
 			}
 		}
 	}
@@ -76,6 +104,7 @@
 		"Styles"
 			{
 			"ANY_STYLE" "portal_detector"
+			"EZ_ratman" "portal_detector_forrat"
 			}
 		}
 	}
@@ -94,6 +123,7 @@
 		"Styles"
 			{
 			"ANY_STYLE" "cube_trigger"
+			"EZ_ratman" "cube_trigger_forrat"
 			}
 		}
 	}
@@ -112,6 +142,7 @@
 		"Styles"
 			{
 			"ANY_STYLE" "embeded_buttons"
+			"EZ_ratman" "embeded_buttons_forrat"
 			}
 		}
 	}
@@ -130,6 +161,138 @@
 		"Styles"
 			{
 			"ANY_STYLE" "activator_cubes"
+			"EZ_ratman" "activator_cubes_forrat"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_TURRET_DETECTOR"
+	"Description" "Outputs when a Turret is placed on this item."
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "turret_detector"
+			"EZ_ratman" "turret_detector_forrat"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_GRAVITY_GUN"
+	"Description" "With the gravity gun, you can : Right click pull / Left click Push. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "gravity_gun_mk1"
+			"EZ_ratman" "gravity_gun_mk1_forrat"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_Gravity_gun_MARK_2"
+	"Description" "With the gravity gun, you can : Right change mode / Left use. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "gravity_gun_mk2"
+			"EZ_ratman" "gravity_gun_mk2_forrat"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_Paint_gun"
+	"Description" "Paint Gun MK1. right click propulsion gel, left click repulsion gel. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE"  "paint_gun_mk1"
+			"EZ_ratman" "paint_gun_mk1_forrat"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_Paint_gun2"
+	"Description" "Paint Gun MK2. right click change gel, left click launch a gel bomb. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "paint_gun_mk2"
+			"EZ_ratman" "paint_gun_mk2_forrat"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_RADIO"
+	"Description" "The Radio is here!"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "radio"
+			}
+		}
+	}
+	
+"Item"
+	{
+	"ID" "ITEM_SKYBOX_AREA"
+	"Description" "First skybox to be added in pti :D"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "skybox"
 			}
 		}
 	}
