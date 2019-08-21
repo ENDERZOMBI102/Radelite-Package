@@ -1,7 +1,7 @@
 "Item"
 	{	
-		"Filter"		"Radelite, ENDERZOMBI102"
-		"Author"		"Radelite, ENDERZOMBI102"
+		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
+		"Author"		"Radelite, ENDERZOMBI102, Libbybapa"
 		"Type"			"ITEM_TURRET_DETECTOR"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
@@ -41,42 +41,14 @@
 			{
 				"0"
 				{
-					"Name"				"instances/p2editor/turret_detector.vmf"
+					"Name"				"instances/BEE2/p2editor/turret_detector.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"1"
 				{
-					"Name"				"instances/p2editor/turret_detector.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
-				}
-				"2"
-				{
-					"Name"				"instances/p2editor/turret_detector.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
-				}
-				"3"
-				{
-					"Name"				"instances/p2editor/turret_detector.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
-				}
-				"4"
-				{
-					"Name"				"instances/p2editor/turret_detector.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
-				}
-				"5"
-				{
-					"Name"				"instances/p2editor/turret_detector.vmf"
+					"Name"				"instances/BEE2/p2editor/turret_detector.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"

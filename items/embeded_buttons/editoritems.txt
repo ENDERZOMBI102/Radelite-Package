@@ -2,7 +2,7 @@
 	{
 		"ItemClass"	"ItemButtonFloor"
 		"Type"		"EMBEDDED_BUTTONS"
-		"Filter"		"Radelite, ENDERZOMBI102"
+		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
 		"Editor"
 		{
 			"SubTypeProperty"		"ButtonType"
@@ -88,42 +88,42 @@
 			{
 				"0"
 				{
-					"Name"				"instances/p2editor/imbeded_button_normal_white.vmf"
+					"Name"				"instances/BEE2/p2editor/imbeded_button_normal_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"1"
 				{
-					"Name"				"instances/p2editor/imbeded_button_normal_black.vmf"
+					"Name"				"instances/BEE2/p2editor/imbeded_button_normal_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"2"
 				{
-					"Name"				"instances/p2editor/imbeded_button_cube_white.vmf"
+					"Name"				"instances/BEE2/p2editor/imbeded_button_cube_white.vmf"
 					"EntityCount"		"4"
 					"BrushCount"		"12"
 					"BrushSideCount"	"88"
 				}
 				"3"
 				{
-					"Name"				"instances/p2editor/imbeded_button_cube_black.vmf"
+					"Name"				"instances/BEE2/p2editor/imbeded_button_cube_black.vmf"
 					"EntityCount"		"4"
 					"BrushCount"		"12"
 					"BrushSideCount"	"88"
 				}
 				"4"
 				{
-					"Name"				"instances/p2editor/imbeded_button_sphere_white.vmf"
+					"Name"				"instances/BEE2/p2editor/imbeded_button_sphere_white.vmf"
 					"EntityCount"		"4"
 					"BrushCount"		"18"
 					"BrushSideCount"	"152"
 				}
 				"5"
 				{
-					"Name"				"instances/p2editor/imbeded_button_sphere_black.vmf"
+					"Name"				"instances/BEE2/p2editor/imbeded_button_sphere_black.vmf"
 					"EntityCount"		"4"
 					"BrushCount"		"18"
 					"BrushSideCount"	"152"

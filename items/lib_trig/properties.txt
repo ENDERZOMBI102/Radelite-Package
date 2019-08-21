@@ -1,0 +1,25 @@
+"Properties"
+{
+"Authors" "Libbybapa"
+"Tags" "Button;Logic;Autosave"
+"Ent_Count" "1"
+"Description"
+{
+"" "Invisible blocks that trigger when a cube touches them."
+"" ""
+"" "* All three types accept connections in the standard way."
+"" "* Trigger once activates permanently."
+"" "* Trigger multiple activates every time a cube touches it."
+"" "* Connection Autosave will autosave when all connections are active simultaneously."
+"" "Thanks to libbybapa for the ''revisited'' version of the cube triggers!"
+}
+"all_name" "CUBE TRIGGERS"
+"all_icon" "palette/clean/cube_trigger_all.png"
+"Icon"
+{
+"all" "clean/cube_trigger_all.png"
+"0" "clean/cube_trigger_once.png"
+"1" "clean/cube_trigger_multiple.png"
+"2" "clean/connection_autosave.png"
+}
+}

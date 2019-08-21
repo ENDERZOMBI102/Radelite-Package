@@ -1,0 +1,12 @@
+"Properties"
+{
+		"Authors" "Radelite, bisqwit, ENDERZOMBI102"
+		"Tags" "Portal 2;Geometry"
+		"Description" "The vertical door used in BTS."
+		"infoURL" "none"
+		"ent_count" "7"
+		"Icon"
+		{
+				"0" "vertical_door.png"
+		}
+}

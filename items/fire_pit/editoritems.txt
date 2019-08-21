@@ -1,7 +1,7 @@
 	"Item"
 	{
-		"Filter"		"Radelite, ENDERZOMBI102"
-		"Author"		"Radelite, ENDERZOMBI102"
+		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
+		"Author"		"Radelite, ENDERZOMBI102, Libbybapa"
 		"Type"			"ITEM_FIRE_PANEL"
 		"Editor"
 		{
@@ -38,7 +38,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/p2editor/fire.vmf"
+					"Name"				"instances/BEE2/p2editor/fire.vmf"
 					"EntityCount"		"0"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"

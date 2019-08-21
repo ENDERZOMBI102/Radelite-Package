@@ -1,8 +1,8 @@
 "Item"
 	{
 		"Type"			 "ITEM_SKYBOX_AREA"
-		"Author"    	 "Radelite,ENDERZOMBI102"
-		"Filter"		 "Radelite,ENDERZOMBI102"
+		"Author"    	 "Radelite,ENDERZOMBI102,Libbybapa"
+		"Filter"		 "Radelite,ENDERZOMBI102,Libbybapa"
 		"Description"    "First skybox to be added in pti :D"
 		"Editor"
 		{
@@ -17,7 +17,7 @@
 				"Palette"
 				{
 					"Tooltip"	"SkyBox 1x1"
-					"Image"		"palette/skybox_area.png"
+					"Image"		"palette/skybox.png"
 					"Position"	"3 4 0"
 				}
 				"Sounds"
@@ -37,7 +37,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/p2editor_destroyed/skybox_area_128x128_1.vmf"
+					"Name"				"instances/BEE2/p2editor_destroyed/skybox_area_128x128_1.vmf"
 					"EntityCount"		"5"
 					"BrushCount"		"9"
 					"BrushSideCount"	"54"

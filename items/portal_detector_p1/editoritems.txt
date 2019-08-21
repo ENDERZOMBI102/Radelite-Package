@@ -1,23 +1,25 @@
 	"Item"
-	{
+	{	
 		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
 		"Author"		"Radelite, ENDERZOMBI102, Libbybapa"
-		"Type"			"ITEM_Water_Block"
+		"Type"			"ITEM_PORTAL_DETECTOR"
+		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
+			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"		"Water block"
+				"Name"			"Portal Detector"
 				"Model"
 				{
-					"ModelName"		"trigger_once.3ds"
-					"TextureName"	"arm_4panel.png"
+					"ModelName"		"panel_pushout.3ds"
+					"TextureName"	"panel.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"WATER BLOCK"
-					"Image"			"palette/water_block.png"
-					"Position"		"2 2 0"
+					"Tooltip"	"PORTAL DETECTOR"
+					"Image"		"palette/portal_detector_gray.png"
+					"Position"		"3 0 0"
 				}
 				"Sounds"
 				{
@@ -27,7 +29,8 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"		"HANDLE_NONE"
+			"MovementHandle"	"HANDLE_4_DIRECTIONS"
+			"DesiredFacing"		"DESIRES_UP"
 		}
 		"Properties"
 		{
@@ -38,29 +41,40 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/p2editor/water_block.vmf"
-					"EntityCount"		"0"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"Name"				"instances/BEE2/p2editor/pd_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"41"
+					"BrushSideCount"	"286"
+				}
+				"1"
+				{
+					"Name"				"instances/BEE2/p2editor/pd_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"41"
+					"BrushSideCount"	"286"
 				}
 			}
-
-			"TargetName"		"router"
-			"Offset"		"64 64 64"
-			"OccupiedVoxels"
+			"TargetName"		"pd"
+			"Offset"	"64 64 64"
+            "OccupiedVoxels"
+            {
+                "Voxel"
+                {
+                    "Pos"               "0 0 0"
+                    "Surface"
+                    {
+                        "Normal"    "0 0 1"
+                    }
+                }
+            }
+			
+			"Outputs"
 			{
-				"Voxel"
+				"CONNECTION_STANDARD"
 				{
-					"CollideType"		"COLLIDE_NOTHING"
-					"CollideAgainst"	"COLLIDE_ANTLINES"
-
-					"Pos"		"0 0 0"
-					"Surface"
-					{
-						"Normal"	"0 0 1"
-					}
+					"Activate"		"instance:activate;OnTrigger"
+					"Deactivate"	"instance:deactivate;OnTrigger"
 				}
-		
 			}
 			"ConnectionPoints"
 			{

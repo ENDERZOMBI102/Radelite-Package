@@ -1,0 +1,12 @@
+"Properties"
+{
+"Authors" "Radelite, ENDERZOMBI102"
+"Tags" "Portal 2;Geometry"
+"Description" "Outputs when a portal is placed on this item."
+"infoURL" "none"
+"ent_count" "3"
+"Icon"
+{
+"0" "portal_detector.png"
+}
+}

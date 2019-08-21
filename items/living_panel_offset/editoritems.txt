@@ -1,0 +1,292 @@
+"Item"
+	{
+		"Filter"		""
+		"Author"	""
+		"Type"		"ITEM_LIVING_PANEL_OFFSET"
+		"ItemClass"		"ItemButtonFloor"
+		"Editor"
+		{
+			"SubTypeProperty"		"ButtonType"
+			"SubType"
+			{
+				"Name"		"Living Panel Offset"
+				"Model"
+				{
+					"ModelName"		"laseremit.3ds"
+					"TextureName"		"laser_models.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"LIVING PANEL OFFSET"
+					"Image"			"palette/living_panel.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"SubType"
+			{
+				"Name"		"Living panel offset (glass)"
+				"Model"
+				{
+					"ModelName"		"laseremit.3ds"
+					"TextureName"		"laser_models.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"LIVING PANEL OFFSET (GLASS)"
+					"Image"			"palette/living_panel_glass.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"SubType"
+			{
+				"Name"		"Living panel offset (skeleton)"
+				"Model"
+				{
+					"ModelName"		"laseremit.3ds"
+					"TextureName"		"laser_models.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"LIVING PANEL OFFSET (SKELETON)"
+					"Image"			"palette/living_panel_skeleton.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"MovementHandle"		"HANDLE_5_POSITIONS"
+			"CanAnchorOnGoo"		"1"
+		}
+		"Properties"
+		{
+			"ButtonType"
+			{
+				"DefaultValue"	"0"
+				"Index"		"0"
+			}
+			"ConnectionCount"
+			{
+				"DefaultValue"	"0"
+				"Index"		"1"
+			}
+
+			"StartDeployed"
+			{
+				"DefaultValue"	"1"
+				"Index"		"2"
+			}
+			"AutoDrop"
+			{
+				"DefaultValue"	"0"
+				"Index"		"3"
+			}
+			"TimerDelay"
+			{
+				"DefaultValue"	"3"
+				"Index"		"4"
+			}
+			"TimerSound"
+			{
+				"DefaultValue"	"0"
+				"Index"		"5"
+			}
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_portalable.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"5"
+					"BrushSideCount"	"34"
+				}
+				"1"
+				{
+					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"5"
+					"BrushSideCount"	"34"
+				}
+				"2"
+				{
+					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_glass.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"5"
+					"BrushSideCount"	"34"
+				}
+				"3"
+				{
+					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_glass.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"5"
+					"BrushSideCount"	"34"
+				}
+				"4"
+				{
+					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_skeleton.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"5"
+					"BrushSideCount"	"34"
+				}
+				"5"
+				{
+					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_skeleton.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"5"
+					"BrushSideCount"	"34"
+				}
+			}
+
+			"TargetName"		"mpanel"
+			"Inputs"
+			{
+				"CONNECTION_STANDARD"
+				{
+					"Activate"		"instance:counter;Add"
+					"Deactivate"		"instance:counter;Subtract"
+				}
+			}
+			"Offset"		"64 64 64"
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
+				}
+			}
+			"EmbeddedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+				}
+			}
+			"EmbedFace"
+			{
+				"Solid"
+				{
+					"Center"		"32 16 128"
+					"Dimensions"	"64 32 4"
+					"Grid"			"4x4"
+				}
+				"Solid"
+				{
+					"Center"		"32 112 128"
+					"Dimensions"	"64 32 4"
+					"Grid"			"4x4"
+				}
+				"Solid"
+				{
+					"Center"		"96 64 128"
+					"Dimensions"	"64 128 4"
+					"Grid"			"2x2"
+				}
+			}
+
+			"ConnectionPoints"
+			{
+				// left
+				"Point"
+				{
+					"Dir"				"1 0 0"
+					"Pos"				"-1 3 0"
+					"SignageOffset"		"-2 2 0"
+					"Priority"	"0"
+				}
+				"Point"
+				{
+					"Dir"				"1 0 0"
+					"Pos"				"-1 4 0"
+					"SignageOffset"		"-2 5 0"
+					"Priority"	"0"
+				}
+
+
+				// right
+				"Point"
+				{
+					"Dir"				"-1 0 0"
+					"Pos"				"4 3 0"
+					"SignageOffset"		"5 2 0"
+					"Priority"	"0"
+				}
+				"Point"
+				{
+					"Dir"				"-1 0 0"
+					"Pos"				"4 4 0"
+					"SignageOffset"		"5 5 0"
+					"Priority"	"0"
+				}
+
+				// top
+				"Point"
+				{
+					"Dir"				"0 -1 0"
+					"Pos"				"1 6 0"
+					"SignageOffset"		"0 7 0"
+					"Priority"	"0"
+				}
+				"Point"
+				{
+					"Dir"				"0 -1 0"
+					"Pos"				"2 6 0"
+					"SignageOffset"		"3 7 0"
+					"Priority"	"0"
+				}
+
+				// bottom
+				"Point"
+				{
+					"Dir"				"0 1 0"
+					"Pos"				"1 1 0"
+					"SignageOffset"		"0 0 0"
+					"Priority"	"0"
+				}
+				"Point"
+				{
+					"Dir"				"0 1 0"
+					"Pos"				"2 1 0"
+					"Pos"				"2 1 0"
+					"SignageOffset"		"3 0 0"
+					"Priority"	"0"
+				}
+			}
+		}
+	}

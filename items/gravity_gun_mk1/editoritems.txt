@@ -1,7 +1,7 @@
 "Item"
     {
-		"Filter"		"Radelite,Niin31,ENDERZOMBI102"
-		"Author"		"Radelite,Niin31,ENDERZOMBI102"
+		"Filter"		"Radelite,Niin31,ENDERZOMBI102,Libbybapa"
+		"Author"		"Radelite,Niin31,ENDERZOMBI102,Libbybapa"
         "Type"     				"ITEM_GRAVITY_GUN"
         "Editor"
         {
@@ -16,7 +16,7 @@
                 "Palette"
                 {
                     "Tooltip"      			"GRAVITY GUN MK.1"
-                    "Image"         		"palette/portalgun.png"
+                    "Image"         		"palette/gravity_gun.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
                 "Sounds"
@@ -37,7 +37,7 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/p2editor/Gravity_gun.vmf"
+                    "Name"         		"instances/BEE2/p2editor/Gravity_gun.vmf"
                     "EntityCount"       	"18"
                     "BrushCount"        	"16"
                     "BrushSideCount"    	"96"

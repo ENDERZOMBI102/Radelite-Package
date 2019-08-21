@@ -1,7 +1,7 @@
 "Item"
     {
-		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102"
-		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102"
+		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
+		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
         "Type"     		"ITEM_Paint_gun"
         "Editor"
         {
@@ -37,7 +37,7 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/p2editor/Paint_gun.vmf"
+                    "Name"         		"instances/BEE2/p2editor/Paint_gun.vmf"
                     "EntityCount"       	"18"
                     "BrushCount"        	"16"
                     "BrushSideCount"    	"96"

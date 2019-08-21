@@ -1,7 +1,7 @@
 "Item"
 	{
-		"Author" "Radelite, ENDERZOMBI102"
-		"Filter"	"Radelite, ENDERZOMBI102"
+		"Author" "Radelite, ENDERZOMBI102, Libbybapa"
+		"Filter"	"Radelite, ENDERZOMBI102, Libbybapa"
 		"ItemClass"	"ItemButtonFloor"
 		"Type"		"ITEM_CUBE_TRIGGERS"
 		"Editor"
@@ -90,14 +90,14 @@
 			{
 				"0"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_once.vmf"
+					"Name"				"instances/BEE2/bens_extended_editor/cube_trigger_once.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"1"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_once.vmf"
+					"Name"				"instances/BEE2/bens_extended_editor/cube_trigger_once.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
@@ -105,28 +105,28 @@
 				
 				"2"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_multiple.vmf"
+					"Name"				"instances/BEE2/bens_extended_editor/cube_trigger_multiple.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"3"
 				{
-					"Name"				"instances/bens_extended_editor/cube_trigger_multiple.vmf"
+					"Name"				"instances/BEE2/bens_extended_editor/cube_trigger_multiple.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"4"
 				{
-					"Name"				"instances/bens_extended_editor/trigger_autosave.vmf"
+					"Name"				"instances/BEE2/bens_extended_editor/trigger_autosave.vmf"
 					"EntityCount"		"0"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"5"
 				{
-					"Name"				"instances/bens_extended_editor/trigger_autosave.vmf"
+					"Name"				"instances/BEE2/bens_extended_editor/trigger_autosave.vmf"
 					"EntityCount"		"0"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"

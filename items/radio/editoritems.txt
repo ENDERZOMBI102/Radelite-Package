@@ -1,7 +1,7 @@
 "Item"
 	{
-		"Filter"	"Radelite,ENDERZOMBI102"
-		"Author"    "Radelite,ENDERZOMBI102"
+		"Filter"	"Radelite,ENDERZOMBI102,Libbybapa"
+		"Author"    "Radelite,ENDERZOMBI102,Libbybapa"
 		"Type"		"ITEM_RADIO"
 		"ItemClass"	"ItemTurret"
 		"Filter"	"Portal 2"
@@ -18,7 +18,7 @@
 				"Palette"
 				{
 					"Tooltip"	"Radio"
-					"Image"		"palette/save_point.png"
+					"Image"		"palette/radio.png"
 					"Position"	"1 6 0"
 				}
 				"Sounds"
@@ -39,7 +39,7 @@
 			{
 				"0"
 				{
-					"Name"			"instances/p2editor/radio.vmf"
+					"Name"			"instances/BEE2/p2editor/radio.vmf"
 					"EntityCount"	"3"
 				}
 			}
