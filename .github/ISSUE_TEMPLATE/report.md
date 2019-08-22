@@ -21,6 +21,8 @@ The logs without numbers in portal 2\bin\bee2\
 **Desktop (please complete the following information):**
  - OS: [linux, macOS, win]
  - Bee version [e.g. 2.4.5]
+ 
+**Items used**
 
 **Additional context**
 Add any other context about the problem here.
