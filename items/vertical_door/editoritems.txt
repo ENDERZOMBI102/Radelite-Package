@@ -1,9 +1,9 @@
 	"Item"
 	{
-		"Filter"		   "Radelite, Bisqwit, ENDERZOMBI102"
-		"Author"		"Radelite, Bisqwit, ENDERZOMBI102"
-		"ItemClass"  "ItemButtonFloor"
-		"Type"		    "ITEM_VERTICAL_DOOR"
+		"Filter"    "Radelite, Bisqwit, ENDERZOMBI102"
+		"Author"	"Radelite, Bisqwit, ENDERZOMBI102"
+		"ItemClass" "ItemButtonFloor"
+		"Type"	    "ITEM_VERTICAL_DOOR"
 		"Editor"
 		{
 			"SubType"
@@ -16,7 +16,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		VERTICAL DOOR"
+					"Tooltip"		"VERTICAL DOOR"
 					"Image"			"palette/vertcal_door.png"
 					"Position"		"1 0 0"
 				}
