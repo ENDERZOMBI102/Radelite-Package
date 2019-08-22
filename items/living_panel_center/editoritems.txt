@@ -7,7 +7,7 @@
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"		"Living Panel Center"
+				"Name"		"Living Panel"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
@@ -29,11 +29,17 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living panel center (glass)"
+				"Name"		"Living Panel (glass)"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
 					"TextureName"		"laser_models.png"
+				}
+				"Palette"
+				{
+					"Tooltip"	"Living panel (glass)"
+					"Image"		"palette/laser_emitter.png"
+					"Position"	"0 0 0"
 				}
 				"Sounds"
 				{
@@ -45,11 +51,17 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living panel center (skeleton)"
+				"Name"		"Living Panel (skeleton)"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
 					"TextureName"		"laser_models.png"
+				}
+				"Palette"
+				{
+					"Tooltip"	"Living panel (skeleton)"
+					"Image"		"palette/laser_emitter.png"
+					"Position"	"0 0 0"
 				}
 				"Sounds"
 				{
