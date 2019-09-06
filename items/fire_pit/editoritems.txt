@@ -28,6 +28,7 @@
 				}
 			}
 			"MovementHandle"		"HANDLE_NONE"
+			"InvalidSurface"		"CEILING WALL"
 		}
 		"Properties"
 		{
