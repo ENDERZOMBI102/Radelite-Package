@@ -55,7 +55,6 @@
 "Item"
 {
 	"ID" "ITEM_FIRE_PANEL"
-	"Description" "Creates a fire panel where placed can be used to make the fire pits from portal 1"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -74,7 +73,6 @@
 "Item"
 	{
 	"ID" "ITEM_Water_Block"
-	"Description" "A editor block size block of swimmable water (danger for bots)"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -93,7 +91,6 @@
 "Item"
 	{
 	"ID" "ITEM_PORTAL_DETECTOR"
-	"Description" "Outputs when a portal is placed on this item."
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -112,7 +109,6 @@
 "Item"
 	{
 	"ID" "ITEM_CUBE_TRIGGERS"
-	"Description" "Cube triggers that output when touched by cube or sphere may also work for turrets,autosave is normal"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -131,7 +127,6 @@
 "Item"
 	{
 	"ID" "EMBEDDED_BUTTONS"
-	"Description" "An underground button"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -150,7 +145,6 @@
 "Item"
 	{
 	"ID" "ITEM_ACTIVATOR_CUBES"
-	"Description" "One cube outputs when fizzled, another outputs when painted, the final cube is held in place and activats when painted"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -169,7 +163,6 @@
 "Item"
 	{
 	"ID" "ITEM_TURRET_DETECTOR"
-	"Description" "Outputs when a Turret is placed on this item."
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -187,8 +180,7 @@
 	
 "Item"
 	{
-	"ID" "ITEM_GRAVITY_GUN"
-	"Description" "With the gravity gun, you can : Right click pull / Left click Push. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
+	
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
