@@ -180,7 +180,7 @@
 	
 "Item"
 	{
-	“ID” “”
+	“ID” ITEM_GRAVITY_GUN"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -199,7 +199,6 @@
 "Item"
 	{
 	"ID" "ITEM_Gravity_gun_MARK_2"
-	"Description" "With the gravity gun, you can : Right change mode / Left use. It work with turrets, cubes and paint bombs. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -218,7 +217,6 @@
 "Item"
 	{
 	"ID" "ITEM_Paint_gun"
-	"Description" "Paint Gun MK1. right click propulsion gel, left click repulsion gel. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -237,7 +235,6 @@
 "Item"
 	{
 	"ID" "ITEM_Paint_gun2"
-	"Description" "Paint Gun MK2. right click change gel, left click launch a gel bomb. WARNING, IS POSSIBLE TO USE ONE SIGLE GUN FOR-CHAMBER!"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -256,7 +253,6 @@
 "Item"
 	{
 	"ID" "ITEM_RADIO"
-	"Description" "The Radio is here!"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -274,7 +270,6 @@
 "Item"
 	{
 	"ID" "ITEM_SKYBOX_AREA"
-	"Description" "First skybox to be added in pti :D"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
