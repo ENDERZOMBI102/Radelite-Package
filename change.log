@@ -12,3 +12,5 @@ v1.2.4
 
 
 v.1.2.3
+Fixed portal detectors instances paths
+Added version.txt that contains info about the package version
