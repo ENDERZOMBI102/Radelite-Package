@@ -6,6 +6,7 @@ v1.2.4
 - Fixed a compiling issue with the cube triggers
 - Now the fire panel is more flat
 - Added sounds to the fire panel
+- Modifed water texture
 - Lowered the gun's "remove portal gun" area
 - Added custom sound effects in-editor for the Radio
 - Fixed withrat version Double Descriptions
