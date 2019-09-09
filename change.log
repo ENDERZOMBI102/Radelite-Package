@@ -5,10 +5,10 @@ v1.2.4
 - replaced the living panel with Libbybapa's ones
 - Fixed a compiling issue with the cube triggers
 - Now the fire panel is more flat
+- Added sounds to the fire panel
 - Lowered the gun's "remove portal gun" area
 - Added custom sound effects in-editor for the Radio
 - Fixed withrat version Double Descriptions
-- (Maybe I can like delete the panel of the Fire Panel to only make Fire. Hum.)
 - The Fire Panel now uses the "Infinite Duration" flag instead of a big duration number
 - Deleted useless files (desktop.ini and make_multifunction_panels.sh from resources/instances/p2editor/)
 
