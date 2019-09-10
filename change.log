@@ -10,7 +10,7 @@ v1.2.4
 - Lowered the gun's "remove portal gun" area
 - Added custom sound effects in-editor for the Radio
 - Fixed withrat version Double Descriptions
-- The Fire Panel now uses the "Infinite Duration" flag instead of a big duration number
+- The Fire Panel now uses the "Infinite Duration" flag instead of a big duration number(9 repeated 99times)(yes i counted them)
 - Deleted useless files (desktop.ini and make_multifunction_panels.sh from resources/instances/p2editor/)
 
 
