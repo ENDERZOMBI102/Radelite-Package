@@ -1,3 +1,0 @@
-Radelite BEE2.4 Package.
-is_withrat=false
-version=1.2.3
