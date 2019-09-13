@@ -41,14 +41,14 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/Libbybapa/pd_white.vmf"
+					"Name"				"instances/BEE2/clean/items/Libbybapa/pd_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/Libbybapa/pd_black.vmf"
+					"Name"				"instances/BEE2/clean/items/Libbybapa/pd_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"

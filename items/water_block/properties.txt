@@ -4,7 +4,7 @@
 "Tags" "Portal 2;Geometry"
 "Description" "A editor block size block of swimmable water (danger for bots)"
 "infoURL" "none"
-"ent_count" "0"
+"ent_count" "6"
 "Icon"
 {
 "0" "water_block.png"
