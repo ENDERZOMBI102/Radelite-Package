@@ -282,20 +282,3 @@
 			}
 		}
 	}
-	
-	"Item"
-	{
-	"ID" "ITEM_VERTICAL_DOOR"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "vertical_door"
-			}
-		}
-	}
