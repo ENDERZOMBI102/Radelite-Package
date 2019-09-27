@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6432"
-	"mapversion" "76"
+	"editorbuild" "7552"
+	"mapversion" "77"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "76"
+	"mapversion" "77"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1322,6 +1322,29 @@ world
 }
 entity
 {
+	"id" "1330"
+	"classname" "sky_camera"
+	"angles" "0 0 0"
+	"fogblend" "0"
+	"fogcolor" "255 255 255"
+	"fogcolor2" "255 255 255"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "2000.0"
+	"fogstart" "500.0"
+	"scale" "16"
+	"use_angles" "0"
+	"origin" "4 0 -186"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "1111"
 	"classname" "prop_static"
 	"angles" "40.5 0 0"
@@ -1459,7 +1482,7 @@ entity
 	"id" "622"
 	"classname" "light"
 	"_constant_attn" "20000"
-	"_distance" "0"
+	"_distance" "1968,5"
 	"_fifty_percent_distance" "0"
 	"_light" "183 204 218 400"
 	"_lightHDR" "183 204 218 400"
@@ -1467,9 +1490,9 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
-	"spawnflags" "1"
+	"spawnflags" "0"
 	"style" "0"
-	"origin" "16 0 -128"
+	"origin" "4 0 -180"
 	editor
 	{
 		"color" "220 30 220"
@@ -1509,8 +1532,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[10.6876 24.1402 -34.2918]"
-		"look" "[-13.9889 8.48393 -294.831]"
+		"position" "[-21.0204 -10.5858 -185.813]"
+		"look" "[227.269 71.975 -169.351]"
 	}
 }
 cordons
