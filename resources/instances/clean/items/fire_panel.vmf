@@ -1,0 +1,261 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8037"
+	"mapversion" "38"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "38"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "275"
+		side
+		{
+			"id" "637"
+			"plane" "(-64 -64 -63) (-64 64 -63) (64 64 -63)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "636"
+			"plane" "(-64 64 -64) (-64 -64 -64) (64 -64 -64)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "635"
+			"plane" "(-64 -64 -64) (-64 64 -64) (-64 64 -63)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "634"
+			"plane" "(64 64 -64) (64 -64 -64) (64 -64 -63)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "633"
+			"plane" "(-64 64 -64) (64 64 -64) (64 64 -63)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "632"
+			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 -63)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 154 107"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "324"
+	"classname" "env_fire"
+	"damagescale" "2000"
+	"fireattack" "1"
+	"firesize" "64"
+	"firetype" "0"
+	"health" "0"
+	"ignitionpoint" "32"
+	"spawnflags" "257"
+	"StartDisabled" "0"
+	"targetname" "fire"
+	"origin" "0 0 -54"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "276"
+	"classname" "env_fire"
+	"damagescale" "2000"
+	"fireattack" "1"
+	"firesize" "64"
+	"firetype" "0"
+	"health" "0"
+	"ignitionpoint" "32"
+	"spawnflags" "257"
+	"StartDisabled" "0"
+	"targetname" "fire"
+	"origin" "32 32 -54"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "278"
+	"classname" "env_fire"
+	"damagescale" "2000"
+	"fireattack" "1"
+	"firesize" "64"
+	"firetype" "0"
+	"health" "0"
+	"ignitionpoint" "32"
+	"spawnflags" "257"
+	"StartDisabled" "0"
+	"targetname" "fire"
+	"origin" "32 -32 -54"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "280"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "fireStartFire0-1"
+	}
+	"origin" "0 0 -48"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "282"
+	"classname" "env_fire"
+	"damagescale" "2000"
+	"fireattack" "1"
+	"firesize" "64"
+	"firetype" "0"
+	"health" "0"
+	"ignitionpoint" "32"
+	"spawnflags" "257"
+	"StartDisabled" "0"
+	"targetname" "fire"
+	"origin" "-32 -32 -54"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "284"
+	"classname" "env_fire"
+	"damagescale" "2000"
+	"fireattack" "1"
+	"firesize" "64"
+	"firetype" "0"
+	"health" "0"
+	"ignitionpoint" "32"
+	"spawnflags" "257"
+	"StartDisabled" "0"
+	"targetname" "fire"
+	"origin" "-32 32 -54"
+	editor
+	{
+		"color" "200 200 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "53"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	"origin" "0 0 -40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[34.2905 -20.7932 -48.4281]"
+		"look" "[2.91404 -8.59122 -48.2991]"
+	}
+}
+cordons
+{
+	"active" "0"
+}

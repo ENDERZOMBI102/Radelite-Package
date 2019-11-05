@@ -1,6 +1,6 @@
 "ID" "Radelite_package"
 "Name" "Radelite's package"
-"Desc" "Items added by the Radelite's Addon for the old beemod 2, ported to you by ENDERZOMBI102! include turret and portal detectors, fire pit and more!"
+"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported to you by ENDERZOMBI102!"
 "Prerequisites"
 {
 	"Package" "BEE2_CLEAN_STYLE"
@@ -19,7 +19,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "fire_pit"
+			"ANY_STYLE" "fire_panel"
 			}
 		}
 	}
