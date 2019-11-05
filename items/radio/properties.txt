@@ -2,11 +2,17 @@
 {
 "Authors" "Radelite, ENDERZOMBI102"
 "Tags" "Portal 2"
-"Description" "The Radio is here!"
-"infoURL" "none"
+"Description"
+{
+"" "The Radio is here!"
+"" ""
+"" "* It plays an up-tempo version of 'Still Alive'"
+"" "* The props can be used to exploit, unfortunately."
+}
+"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Radio"
 "ent_count" "5"
 "Icon"
 {
-"0" "radio.png"
+"0" "clean/radio.png"
 }
 }

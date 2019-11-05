@@ -18,7 +18,7 @@
 				"Palette"
 				{
 					"Tooltip"	"Radio"
-					"Image"		"palette/radio.png"
+					"Image"		"palette/clean/radio.png"
 					"Position"	"1 6 0"
 				}
 				"Sounds"
@@ -39,7 +39,7 @@
 			{
 				"0"
 				{
-					"Name"			"instances/BEE2/p2editor/radio.vmf"
+					"Name"			"instances/BEE2/clean/items/radio.vmf"
 					"EntityCount"	"5"
 				}
 			}
