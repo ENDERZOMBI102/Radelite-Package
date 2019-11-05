@@ -40,7 +40,7 @@
 				"0"
 				{
 					"Name"			"instances/BEE2/p2editor/radio.vmf"
-					"EntityCount"	"3"
+					"EntityCount"	"5"
 				}
 			}
 

@@ -1,10 +1,10 @@
 "Properties"
 {
 "Authors" "Radelite, ENDERZOMBI102"
-"Tags" "Portal 2;Geometry"
+"Tags" "Portal 2"
 "Description" "The Radio is here!"
 "infoURL" "none"
-"ent_count" "3"
+"ent_count" "5"
 "Icon"
 {
 "0" "radio.png"
