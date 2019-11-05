@@ -1,6 +1,6 @@
 "Item"
 {
-	"Type" "ITEM_LIB_TRIG"
+	"Type" "ITEM_RAD_LIB_TRIG"
 	"ItemClass" "ItemButtonFloor"
 	"Editor"
 	{

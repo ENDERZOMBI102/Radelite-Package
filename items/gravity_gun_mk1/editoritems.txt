@@ -37,7 +37,7 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/p2editor/Gravity_gun.vmf"
+                    "Name"         		"instances/BEE2/p2editor/guns/Gravity_gun.vmf"
                     "EntityCount"       	"18"
                     "BrushCount"        	"16"
                     "BrushSideCount"    	"96"
