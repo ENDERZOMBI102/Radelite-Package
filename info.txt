@@ -64,7 +64,7 @@
 	
 "Item"
 	{
-	"ID" "ITEM_RAD_LIB_TRIG"
+	"ID" "ITEM_LIB_TRIG"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	

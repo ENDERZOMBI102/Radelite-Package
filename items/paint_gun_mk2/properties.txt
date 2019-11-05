@@ -1,18 +1,12 @@
 "Properties"
 {
-	"Authors" "Radelite, Linking-yellow, Niin31, ENDERZOMBI102"
-	"Tags" "Portal 2;Geometry"
-	"Description"
-	{
-		"" "Paint Gun MK2. Fire Blue Portal: Shoot Selected Gel, Fire Orange Portal: Change Gel Type. Don't use more than one pedestal per chamber."
-		"" ""
-		"" "second type: Paint Gun Mk2 but renders a paint blob instead of a fast sphere. The paint blobs take a little bit more of performance to load and can cause seizures. (Rapid Fire Gel close to the screen)"
-		"" "third type: Paint Gun Mk2 but doesn't render paint blobs. It still creates gel."
-	}
-	"infoURL" "none"
-	"ent_count" "18"
-	"Icon"
-	{
-		"0" "paint_gun_mk2.png"
-	}
+"Authors" "Radelite, Linking-yellow, Niin31, ENDERZOMBI102"
+"Tags" "Portal 2;Geometry"
+"Description" "Paint Gun MK2. Fire Blue Portal: Shoot Selected Gel, Fire Orange Portal: Change Gel Type. Don't use more than one pedestal per chamber."
+"infoURL" "none"
+"ent_count" "3"
+"Icon"
+{
+"0" "paint_gun_mk2.png"
+}
 }
