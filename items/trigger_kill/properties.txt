@@ -1,0 +1,17 @@
+"Properties"
+{
+"Authors" "Radelite, ENDERZOMBI102, Flash4433"
+"Tags" "Portal 2"
+"Description"
+{
+"" "Invisible block that kills the player walked into."
+"" ""
+"" "* It's Damage Type is FALL."
+}
+"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Trigger-Kill"
+"ent_count" "1"
+"Icon"
+{
+"0" "clean/trigger_kill.png"
+}
+}

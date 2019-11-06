@@ -26,7 +26,7 @@
 
 "Item"
 	{
-	"ID" "ITEM_Water_Block"
+	"ID" "ITEM_WATER_BLOCK"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -279,6 +279,23 @@
 		"Styles"
 			{
 			"ANY_STYLE" "living_panel_offset"
+			}
+		}
+	}
+
+	"Item"
+	{
+	"ID" "ITEM_TRIGGER_KILL"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "trigger_kill"
 			}
 		}
 	}

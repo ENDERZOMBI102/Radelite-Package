@@ -1,8 +1,6 @@
 	"Item"
 	{
-		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
-		"Author"		"Radelite, ENDERZOMBI102, Libbybapa"
-		"Type"			"ITEM_Water_Block"
+		"Type"			"ITEM_WATER_BLOCK"
 		"Editor"
 		{
 			"SubType"
@@ -15,8 +13,8 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"WATER BLOCK"
-					"Image"			"palette/water_block.png"
+					"Tooltip"		"Water Block"
+					"Image"			"palette/clean/water_block.png"
 					"Position"		"2 2 0"
 				}
 				"Sounds"
@@ -38,10 +36,10 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/p2editor/water_block.vmf"
-					"EntityCount"		"0"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"Name"				"instances/BEE2/clean/items/water_block.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"1"
+					"BrushSideCount"	"6"
 				}
 			}
 

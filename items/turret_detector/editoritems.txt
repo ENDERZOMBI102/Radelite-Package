@@ -29,7 +29,7 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"	"HANDLE_4_DIRECTIONS"
+			"MovementHandle"	"HANDLE_NONE"
 			"DesiredFacing"		"DESIRES_UP"
 		}
 		"Properties"
@@ -42,14 +42,14 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/clean/items/turret_detector.vmf"
-					"EntityCount"		"4"
+					"EntityCount"		"3"
 					"BrushCount"		"11"
 					"BrushSideCount"	"70"
 				}
 				"1"
 				{
 					"Name"				"instances/BEE2/clean/items/turret_detector.vmf"
-					"EntityCount"		"4"
+					"EntityCount"		"3"
 					"BrushCount"		"11"
 					"BrushSideCount"	"70"
 				}
