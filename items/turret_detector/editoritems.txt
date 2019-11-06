@@ -18,7 +18,7 @@
 				"Palette"
 				{
 					"Tooltip"	"TURRET DETECTOR"
-					"Image"		"palette/turret_detector.png"
+					"Image"		"palette/clean/turret_detector.png"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
@@ -41,17 +41,17 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/p2editor/turret_detector.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"Name"				"instances/BEE2/clean/items/turret_detector.vmf"
+					"EntityCount"		"4"
+					"BrushCount"		"11"
+					"BrushSideCount"	"70"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/p2editor/turret_detector.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"Name"				"instances/BEE2/clean/items/turret_detector.vmf"
+					"EntityCount"		"4"
+					"BrushCount"		"11"
+					"BrushSideCount"	"70"
 				}
 			}
 			"TargetName"		"button"
