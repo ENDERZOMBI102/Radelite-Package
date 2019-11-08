@@ -5,7 +5,7 @@
 		{
 			"SubType"
 			{
-				"Name"		"Water block"
+				"Name"		"Water Block"
 				"Model"
 				{
 					"ModelName"		"trigger_once.3ds"

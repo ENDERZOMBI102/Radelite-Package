@@ -7,7 +7,7 @@
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"		"Large Living panel"
+				"Name"		"Large Living Panel"
 				"Model"
 				{
 					"ModelName"		"piston_lift_grate.3ds"
@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living panel 128x128"
+					"Tooltip"	"Large Living Panel"
 					"Image"		"palette/arm_paneltop.png"
 					"Position"	"1 0 0"
 				}
@@ -29,7 +29,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Large Living panel (glass)"
+				"Name"		"Large Living Panel (Glass)"
 				"Model"
 				{
 					"ModelName"		"piston_lift_grate.3ds"
@@ -37,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living panel 128x128 (glass)"
+					"Tooltip"	"Large Living Panel (Glass)"
 					"Image"		"palette/arm_paneltop.png"
 					"Position"	"1 0 0"
 				}
@@ -51,7 +51,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Large Living panel (Portal 1 wall)"
+				"Name"		"Large Living Panel (P1 Wall)"
 				"Model"
 				{
 					"ModelName"		"piston_lift_grate.3ds"
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living panel 128x128 (p1 wall)"
+					"Tooltip"	"Large Living Panel (P1 Wall)"
 					"Image"		"palette/arm_paneltop.png"
 					"Position"	"1 0 0"
 				}

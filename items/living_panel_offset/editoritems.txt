@@ -1,7 +1,5 @@
 "Item"
 	{
-		"Filter"		""
-		"Author"	""
 		"Type"		"ITEM_LIVING_PANEL_OFFSET"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
@@ -17,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"LIVING PANEL OFFSET"
+					"Tooltip"		"Living Panel Offset"
 					"Image"			"palette/living_panel.png"
 					"Position"		"1 0 0"
 				}
@@ -31,7 +29,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living panel offset (glass)"
+				"Name"		"Living Panel Offset (Glass)"
 				"Model"
 				{
 					"ModelName"		"laseremit.3ds"
@@ -39,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"LIVING PANEL OFFSET (GLASS)"
+					"Tooltip"		"Living Panel Offset (Glass)"
 					"Image"			"palette/living_panel_glass.png"
 					"Position"		"1 0 0"
 				}
@@ -53,7 +51,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living panel offset (skeleton)"
+				"Name"		"Living Panel Offset (Skeleton)"
 				"Model"
 				{
 					"ModelName"		"laseremit.3ds"
@@ -61,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"LIVING PANEL OFFSET (SKELETON)"
+					"Tooltip"		"Living Panel Offset (Skeleton)"
 					"Image"			"palette/living_panel_skeleton.png"
 					"Position"		"1 0 0"
 				}

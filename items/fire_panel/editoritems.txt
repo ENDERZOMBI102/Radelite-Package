@@ -7,7 +7,7 @@
 		{
 			"SubType"
 			{
-				"Name"		"FIRE PANEL"
+				"Name"		"Fire Panel"
 				"Model"
 				{
 					"ModelName"		"destination_target_outline.3ds"

@@ -7,7 +7,7 @@
         {
             "SubType"
             {	
-                "Name"          		"PAINT GUN MK1"
+                "Name"          		"Paint Gun Mk1"
 				"Model"
 				{
 					"ModelName"		"switch.3ds"

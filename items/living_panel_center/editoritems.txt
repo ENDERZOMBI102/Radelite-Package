@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living panel"
+					"Tooltip"	"Living Panel"
 					"Image"		"palette/laser_emitter.png"
 					"Position"	"0 0 0"
 				}
@@ -29,7 +29,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living Panel (glass)"
+				"Name"		"Living Panel (Glass)"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
@@ -37,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living panel (glass)"
+					"Tooltip"	"Living Panel (Glass)"
 					"Image"		"palette/laser_emitter.png"
 					"Position"	"0 0 0"
 				}
@@ -51,7 +51,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living Panel (skeleton)"
+				"Name"		"Living Panel (Skeleton)"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living panel (skeleton)"
+					"Tooltip"	"Living Panel (Skeleton)"
 					"Image"		"palette/laser_emitter.png"
 					"Position"	"0 0 0"
 				}

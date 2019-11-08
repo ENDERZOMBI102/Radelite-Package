@@ -7,7 +7,7 @@
         {
             "SubType"
             {	
-                "Name"          		"GRAVITY GUN MK1"
+                "Name"          		"Gravity Gun Mk1"
 				"Model"
 				{
 					"ModelName"		"switch.3ds"
