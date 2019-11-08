@@ -2,13 +2,12 @@
 	{
 		"ItemClass"	"ItemButtonFloor"
 		"Type"		"EMBEDDED_BUTTONS"
-		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
 		"Editor"
 		{
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"Embedded Button"
+				"Name"			"Embedded Weighted Button"
 				"Model"
 				{
 					"ModelName"		"buttonweight.3ds"
@@ -16,8 +15,8 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Imbeded Button"
-					"Image"			"palette/Imbeded_button"
+					"Tooltip"		"Embedded Weighted Button"
+					"Image"			"palette/clean/embedded_weighted_button"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -38,8 +37,8 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Imbeded_cube_button"
-					"Image"			"palette/Imbeded_cube_button"
+					"Tooltip"		"Embedded Cube Button"
+					"Image"			"palette/clean/embedded_cube_button"
 					"Position"		"2 0 0"
 				}
 				"Sounds"
@@ -60,8 +59,8 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Imbeded_sphere_button"
-					"Image"			"palette/Imbeded_sphere_button"
+					"Tooltip"		"Embedded Sphere Button"
+					"Image"			"palette/clean/embedded_sphere_button"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
@@ -88,45 +87,45 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/p2editor/imbeded_button_normal_white.vmf"
+					"Name"				"instances/BEE2/clean/items/embedded_button_normal_white.vmf"
 					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/p2editor/imbeded_button_normal_black.vmf"
+					"Name"				"instances/BEE2/clean/items/embedded_button_normal_black.vmf"
 					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"2"
 				{
-					"Name"				"instances/BEE2/p2editor/imbeded_button_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"12"
-					"BrushSideCount"	"88"
+					"Name"				"instances/BEE2/clean/items/embedded_button_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"3"
 				{
-					"Name"				"instances/BEE2/p2editor/imbeded_button_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"12"
-					"BrushSideCount"	"88"
+					"Name"				"instances/BEE2/clean/items/embedded_button_cube_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"4"
 				{
-					"Name"				"instances/BEE2/p2editor/imbeded_button_sphere_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"18"
-					"BrushSideCount"	"152"
+					"Name"				"instances/BEE2/clean/items/embedded_button_sphere_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"5"
 				{
-					"Name"				"instances/BEE2/p2editor/imbeded_button_sphere_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"18"
-					"BrushSideCount"	"152"
+					"Name"				"instances/BEE2/clean/items/embedded_button_sphere_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 			}
 

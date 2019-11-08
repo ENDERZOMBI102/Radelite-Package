@@ -1,17 +1,24 @@
 "Properties"
 	{
 	"Authors" "Radelite, ENDERZOMBI102"
-	"Tags" "Portal 2;Geometry;Buttons"
-	"Description" "An underground button"
-	"infoURL" "none"
+	"Tags" "Portal 2;Buttons"
+	"Description"
+	{
+	"" "An Underground Button, to not allow the player to press the button."
+	"" ""
+	"" "* Weighted - Accepts Cubes and Spheres"
+	"" "* Cube - Only Accepts Cubes"
+	"" "* Sphere - Only Accepts Spheres"
+	}
+	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Embedded-Buttons"
 	"ent_count" "3"
-	"all_name" "Imbeded Buttons"
-	"all_icon" "palette/Imbeded_button.png"
+	"all_name" "Embedded Buttons"
+	"all_icon" "palette/clean/embedded_button.png"
 	"Icon"
 	{
-		"all" "Imbeded_button.png"
-		"0" "Imbeded_button.png"
-		"1" "Imbeded_cube_button.png"
-		"2" "Imbeded_sphere_button.png"
+		"all" "clean/embedded_button.png"
+		"0" "clean/embedded_weighted_button.png"
+		"1" "clean/embedded_cube_button.png"
+		"2" "clean/embedded_sphere_button.png"
 	}
 }
