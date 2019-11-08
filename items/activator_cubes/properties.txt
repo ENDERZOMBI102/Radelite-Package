@@ -1,14 +1,21 @@
 "Properties"
 	{
 	"Authors" "Radelite, ENDERZOMBI102"
-	"Tags" "Portal 2;Geometry;Buttons"
-	"Description" "One cube outputs when fizzled, another outputs when painted, the final cube is held in place and activats when painted"
-	"infoURL" "none"
+	"Tags" "Portal 2;Buttons"
+	"Description"
+	{	
+	"" "A pack of cubes that when something happens to them, they output a signal."
+	"" ""
+	"" "* The Weighted Type activates when fizzled."
+	"" "* The Cube Type activates when painted."
+	"" "* The Sphere Type activates when painted, but it's stuck to the ground."
+	}
+	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Activator-Cubes"
 	"ent_count" "4"
 	"Icon"
 	{
-		"0" "fizzled_activator.png"
-		"1" "painted_activator.png"
-		"2" "painted_activator_held.png"
+		"0" "clean/fizzled_activator.png"
+		"1" "clean/painted_activator.png"
+		"2" "clean/painted_activator_held.png"
 	}
 }

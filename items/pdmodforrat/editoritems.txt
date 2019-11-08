@@ -51,42 +51,42 @@
 			{
 				"0"
 				{
-					"Name"				"instances/p2editor/ratpd_white.vmf"
+					"Name"				"instances/p2editor_destroyed/ratpd_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"1"
 				{
-					"Name"				"instances/p2editor/ratpd_black.vmf"
+					"Name"				"instances/p2editor_destroyed/ratpd_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"2"
 				{
-					"Name"				"instances/p2editor/ratpd_white.vmf"
+					"Name"				"instances/p2editor_destroyed/ratpd_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"3"
 				{
-					"Name"				"instances/p2editor/ratpd_black.vmf"
+					"Name"				"instances/p2editor_destroyed/ratpd_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"4"
 				{
-					"Name"				"instances/p2editor/ratpd_white.vmf"
+					"Name"				"instances/p2editor_destroyed/ratpd_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"5"
 				{
-					"Name"				"instances/p2editor/ratpd_black.vmf"
+					"Name"				"instances/p2editor_destroyed/ratpd_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"

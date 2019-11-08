@@ -1,7 +1,5 @@
 	"Item"
 	{
-		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa, Flash4433"
-		"Author"		"Radelite, ENDERZOMBI102, Libbybapa, Flash4433"
 		"Type"			"ITEM_FIRE_PANEL"
 		"Editor"
 		{

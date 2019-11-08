@@ -1,22 +1,22 @@
 "Item"
 	{
-		"Type"			"ITEM_ACTIVATOR_CUBES"
-		"ItemClass"		"ItemButtonFloor"
+		"ItemClass"	"ItemButtonFloor"
+		"Type"		"EMBEDDED_BUTTONS"
 		"Editor"
 		{
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"Fizzled Activator Cube"
+				"Name"			"Embedded Weighted Button"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"buttonweight.3ds"
+					"TextureName"	"buttonweight.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Fizzled Activator Cube"
-					"Image"			"palette/clean/fizzled_activator.png"
+					"Tooltip"		"Embedded Weighted Button"
+					"Image"			"palette/clean/embedded_weighted_button"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -29,16 +29,16 @@
 			}
 			"SubType"
 			{
-				"Name"		"Painted Activator Cube"
+				"Name"		"Embedded Cube Button"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"buttoncube.3ds"
+					"TextureName"	"button_cube.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Painted Activator Cube"
-					"Image"			"palette/clean/painted_activator.png"
+					"Tooltip"		"Embedded Cube Button"
+					"Image"			"palette/clean/embedded_cube_button"
 					"Position"		"2 0 0"
 				}
 				"Sounds"
@@ -51,16 +51,16 @@
 			}
 			"SubType"
 			{
-				"Name"		"Painted Activator Cube Held"
+				"Name"		"Embedded Sphere Button"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"buttonball.3ds"
+					"TextureName"	"button_ball.png"
 				}
 				"Palette"
 				{
-					"Tooltip"		"Painted Activator Cube Held"
-					"Image"			"palette/clean/painted_activator_held.png"
+					"Tooltip"		"Embedded Sphere Button"
+					"Image"			"palette/clean/embedded_sphere_button"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
@@ -87,45 +87,45 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/fizzled_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"Name"				"instances/BEE2/clean/items/embedded_button_normal_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/items/fizzled_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"Name"				"instances/BEE2/clean/items/embedded_button_normal_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"2"
 				{
-					"Name"				"instances/BEE2/clean/items/painted_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"12"
-					"BrushSideCount"	"88"
+					"Name"				"instances/BEE2/clean/items/embedded_button_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"3"
 				{
-					"Name"				"instances/BEE2/clean/items/painted_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"12"
-					"BrushSideCount"	"88"
+					"Name"				"instances/BEE2/clean/items/embedded_button_cube_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"4"
 				{
-					"Name"				"instances/BEE2/clean/items/held_painted_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"18"
-					"BrushSideCount"	"152"
+					"Name"				"instances/BEE2/clean/items/embedded_button_sphere_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 				"5"
 				{
-					"Name"				"instances/BEE2/clean/items/held_painted_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"18"
-					"BrushSideCount"	"152"
+					"Name"				"instances/BEE2/clean/items/embedded_button_sphere_black.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
 				}
 			}
 
@@ -135,7 +135,7 @@
 				"CONNECTION_STANDARD"
 				{
 					"Activate"		"instance:button;OnPressed"
-					"Deactivate"	"instance:button;OnUnPressed"
+					"Deactivate"	"instance:button;OnUnpressed"
 				}
 			}
 			"OccupiedVoxels"
@@ -147,6 +147,13 @@
 					{
 						"Normal"	"0 0 1"
 					}
+				}
+			}
+                        "EmbeddedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
 				}
 			}
 			"ConnectionPoints"

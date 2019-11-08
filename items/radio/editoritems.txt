@@ -1,7 +1,5 @@
 "Item"
 	{
-		"Filter"	"Radelite,ENDERZOMBI102,Libbybapa"
-		"Author"    "Radelite,ENDERZOMBI102,Libbybapa"
 		"Type"		"ITEM_RADIO"
 		"ItemClass"	"ItemBase"
 		"Filter"	"Portal 2"

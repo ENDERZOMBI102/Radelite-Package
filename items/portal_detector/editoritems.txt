@@ -1,7 +1,5 @@
 	"Item"
-	{	
-		"Filter"		"Radelite, ENDERZOMBI102"
-		"Author"		"Radelite, ENDERZOMBI102"
+	{
 		"Type"			"ITEM_PORTAL_DETECTOR"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"

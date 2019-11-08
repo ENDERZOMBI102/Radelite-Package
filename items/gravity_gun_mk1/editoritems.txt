@@ -1,7 +1,5 @@
 "Item"
     {
-		"Filter"		"Radelite,Niin31,ENDERZOMBI102,Libbybapa"
-		"Author"		"Radelite,Niin31,ENDERZOMBI102,Libbybapa"
         "Type"     		"ITEM_GRAVITY_GUN"
         "Editor"
         {

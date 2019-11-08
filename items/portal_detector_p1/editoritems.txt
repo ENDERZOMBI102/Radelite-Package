@@ -1,7 +1,5 @@
 	"Item"
-	{	
-		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
-		"Author"		"Radelite, ENDERZOMBI102, Libbybapa"
+	{
 		"Type"			"ITEM_PORTAL_DETECTOR"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
@@ -17,8 +15,8 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"PORTAL DETECTOR"
-					"Image"		"palette/portal_detector_gray.png"
+					"Tooltip"	"Portal Detector"
+					"Image"		"palette/clean/portal_detector.png"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
@@ -29,7 +27,7 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"	"HANDLE_4_DIRECTIONS"
+			"MovementHandle"	"HANDLE_NONE"
 			"DesiredFacing"		"DESIRES_UP"
 		}
 		"Properties"
@@ -41,14 +39,14 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/p2editor/pd_white.vmf"
+					"Name"				"instances/BEE2/p1/items/pd_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/p2editor/pd_black.vmf"
+					"Name"				"instances/BEE2/p1/items/pd_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"41"
 					"BrushSideCount"	"286"

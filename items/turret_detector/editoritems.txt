@@ -1,7 +1,5 @@
 "Item"
-	{	
-		"Filter"		"Radelite, ENDERZOMBI102, Libbybapa"
-		"Author"		"Radelite, ENDERZOMBI102, Libbybapa"
+	{
 		"Type"			"ITEM_TURRET_DETECTOR"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"

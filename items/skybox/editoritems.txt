@@ -1,8 +1,6 @@
 "Item"
 	{
 		"Type"			 "ITEM_SKYBOX_AREA"
-		"Author"    	 "Radelite,ENDERZOMBI102,Libbybapa"
-		"Filter"		 "Radelite,ENDERZOMBI102,Libbybapa"
 		"Description"    "First skybox to be added in pti :D"
 		"Editor"
 		{

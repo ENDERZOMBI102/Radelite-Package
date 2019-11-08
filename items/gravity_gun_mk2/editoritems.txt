@@ -1,7 +1,5 @@
 "Item"
     {
-		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
-		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
         "Type"     		"ITEM_GRAVITY_GUN_MARK_2"
         "Editor"
         {

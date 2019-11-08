@@ -1,12 +1,17 @@
 "Properties"
 {
 "Authors" "Radelite, ENDERZOMBI102"
-"Tags" "Portal 2;Geometry"
-"Description" "Outputs when a portal is placed on this item."
-"infoURL" "none"
+"Tags" "Portal 2"
+"Description"
+{
+"" "Outputs when a Portal is placed on it."
+"" ""
+"" "* The Portal still works, it just gives an output if the Portal is there."
+}
+"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Portal-Detector"
 "ent_count" "3"
 "Icon"
 {
-"0" "portal_detector.png"
+"0" "clean/portal_detector.png"
 }
 }

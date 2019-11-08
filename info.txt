@@ -53,11 +53,8 @@
 		"Name" "Regular"
 		"Styles"
 			{
-				"BEE2_CLEAN_ORIGINAL" "portal_detector_p2"
-				"BEE2_CLEAN" "portal_detector_p2"
-				"BEE2_OVERGROWN" "portal_detector_p2"
-				"BEE2_BTS" "portal_detector_p2"
-				"ANY_STYLE" "portal_detector_p1"
+				"BEE2_PORTAL_1" "portal_detector_p1"
+				"ANY_STYLE" "portal_detector_p2"
 			}
 		}
 	}
@@ -74,7 +71,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "embeded_buttons"
+			"ANY_STYLE" "embedded_buttons"
 			}
 		}
 	}
