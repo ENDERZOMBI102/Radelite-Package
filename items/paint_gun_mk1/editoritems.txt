@@ -2,12 +2,12 @@
     {
 		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
 		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
-        "Type"     		"ITEM_Paint_gun"
+        "Type"     		"ITEM_PAINT_GUN"
         "Editor"
         {
             "SubType"
             {	
-                "Name"          		"Paint Gun MK.1"
+                "Name"          		"PAINT GUN MK1"
 				"Model"
 				{
 					"ModelName"		"switch.3ds"
@@ -15,8 +15,8 @@
 				}
                 "Palette"
                 {
-                    "Tooltip"      		"Paint Gun MK.1"
-                    "Image"         		"palette/Radelite/paintgun.png"
+                    "Tooltip"      			"Paint Gun Mk1"
+                    "Image"         		"palette/clean/paint_gun_mk1.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
                 "Sounds"
@@ -28,7 +28,7 @@
                 }
             }	
             "MovementHandle"    		"HANDLE_4_DIRECTIONS"
- 	    "InvalidSurface"			"CEILING WALL"
+			"InvalidSurface"			"CEILING WALL"
             "OccupiesVoxel"     		"0"
         }
         "Exporting"
@@ -37,17 +37,17 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/p2editor/Paint_gun.vmf"
-                    "EntityCount"       	"18"
-                    "BrushCount"        	"16"
-                    "BrushSideCount"    	"96"
+                    "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
+                    "EntityCount"       	"6"
+                    "BrushCount"        	"5"
+                    "BrushSideCount"    	"30"
                 }
             }
             "Offset"            		"64 64 64"
-            "TargetName"        		"sphere_cannon"
+            "TargetName"        		"paint_gun"
             "OccupiedVoxels"
             {
-                "Voxel"							// Cannon
+                "Voxel"							// Paint
                 {
                     "Pos"               	"0 0 0"
                     "CollideType"       	"COLLIDE_SOLID"
@@ -58,7 +58,7 @@
                         "Normal"    		"0 0 1"
                     }
                 }
-                "Voxel"							// Button
+                "Voxel"							// Gun
                 {
                     "Pos"              		 "1 0 0"
                     "CollideType"       	"COLLIDE_SOLID"

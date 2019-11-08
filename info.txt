@@ -61,23 +61,6 @@
 			}
 		}
 	}
-	
-"Item"
-	{
-	"ID" "ITEM_LIB_TRIG"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "lib_trig"
-			}
-		}
-	}
 
 "Item"
 	{
@@ -149,7 +132,7 @@
 	
 "Item"
 	{
-	"ID" "ITEM_Gravity_gun_MARK_2"
+	"ID" "ITEM_GRAVITY_GUN_MARK_2"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -166,7 +149,7 @@
 	
 "Item"
 	{
-	"ID" "ITEM_Paint_gun" 
+	"ID" "ITEM_PAINT_GUN" 
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -183,7 +166,7 @@
 	
 "Item"
 	{
-	"ID" "ITEM_Paint_gun2"
+	"ID" "ITEM_PAINT_GUN_MARK_2"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	

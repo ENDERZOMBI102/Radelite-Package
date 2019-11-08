@@ -2,21 +2,21 @@
     {
 		"Filter"		"Radelite,Niin31,ENDERZOMBI102,Libbybapa"
 		"Author"		"Radelite,Niin31,ENDERZOMBI102,Libbybapa"
-        "Type"     				"ITEM_GRAVITY_GUN"
+        "Type"     		"ITEM_GRAVITY_GUN"
         "Editor"
         {
             "SubType"
             {	
-                "Name"          		"GRAVITY GUN MK.1"
-		"Model"
-		{
-			"ModelName"		"switch.3ds"
-			"TextureName"		"buttonpedestal.png"
-		}
+                "Name"          		"GRAVITY GUN MK1"
+				"Model"
+				{
+					"ModelName"		"switch.3ds"
+					"TextureName"	"buttonpedestal.png"
+				}
                 "Palette"
                 {
-                    "Tooltip"      			"GRAVITY GUN MK.1"
-                    "Image"         		"palette/gravity_gun.png"
+                    "Tooltip"      			"Gravity Gun Mk1"
+                    "Image"         		"palette/clean/gravity_gun_mk1.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
                 "Sounds"
@@ -28,7 +28,7 @@
                 }
             }	
             "MovementHandle"    		"HANDLE_4_DIRECTIONS"
- 	    "InvalidSurface"			"CEILING WALL"
+			"InvalidSurface"			"CEILING WALL"
             "OccupiesVoxel"     		"0"
         }
         "Exporting"
@@ -37,10 +37,10 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/p2editor/Gravity_gun.vmf"
-                    "EntityCount"       	"18"
-                    "BrushCount"        	"16"
-                    "BrushSideCount"    	"96"
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"66"
                 }
             }
             "Offset"            		"64 64 64"

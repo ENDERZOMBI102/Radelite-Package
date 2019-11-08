@@ -2,21 +2,21 @@
     {
 		"Filter"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
 		"Author"		"Radelite,Linking-yellow,Niin31,ENDERZOMBI102,Libbybapa"
-        "Type"     		"ITEM_Gravity_gun_MARK_2"
+        "Type"     		"ITEM_GRAVITY_GUN_MARK_2"
         "Editor"
         {
             "SubType"
             {	
-                "Name"          		"Gravity Gun MK.2"
-		"Model"
-		{
-			"ModelName"		"switch.3ds"
-			"TextureName"		"buttonpedestal.png"
-		}
+                "Name"          		"GRAVITY GUN MK2"
+				"Model"
+				{
+					"ModelName"		"switch.3ds"
+					"TextureName"	"buttonpedestal.png"
+				}
                 "Palette"
                 {
-                    "Tooltip"      			"Gravity Gun MK.2"
-                    "Image"         		"palette/gravity_gun.png"
+                    "Tooltip"      			"Gravity Gun Mk2"
+                    "Image"         		"palette/clean/gravity_gun_mk2.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
                 "Sounds"
@@ -28,7 +28,7 @@
                 }
             }	
             "MovementHandle"    		"HANDLE_4_DIRECTIONS"
- 	    "InvalidSurface"			"CEILING WALL"
+			"InvalidSurface"			"CEILING WALL"
             "OccupiesVoxel"     		"0"
         }
         "Exporting"
@@ -37,17 +37,17 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/p2editor/Gravity_gun_mark_2.vmf"
-                    "EntityCount"       	"18"
-                    "BrushCount"        	"16"
-                    "BrushSideCount"    	"96"
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mark_2.vmf"
+                    "EntityCount"       	"20"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"72"
                 }
             }
             "Offset"            		"64 64 64"
-            "TargetName"        		"sphere_cannon"
+            "TargetName"        		"Gravity_gun"
             "OccupiedVoxels"
             {
-                "Voxel"							// Cannon
+                "Voxel"							// Gravity
                 {
                     "Pos"               	"0 0 0"
                     "CollideType"       	"COLLIDE_SOLID"
@@ -58,7 +58,7 @@
                         "Normal"    		"0 0 1"
                     }
                 }
-                "Voxel"							// Button
+                "Voxel"							// Gun
                 {
                     "Pos"              		 "1 0 0"
                     "CollideType"       	"COLLIDE_SOLID"
