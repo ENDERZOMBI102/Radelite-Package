@@ -88,44 +88,44 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/clean/items/fizzled_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"1"
 				{
 					"Name"				"instances/BEE2/clean/items/fizzled_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"2"
 				{
 					"Name"				"instances/BEE2/clean/items/painted_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"12"
-					"BrushSideCount"	"88"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"3"
 				{
 					"Name"				"instances/BEE2/clean/items/painted_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"12"
-					"BrushSideCount"	"88"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"4"
 				{
 					"Name"				"instances/BEE2/clean/items/held_painted_cube_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"18"
-					"BrushSideCount"	"152"
+					"EntityCount"		"3"
+					"BrushCount"		"6"
+					"BrushSideCount"	"36"
 				}
 				"5"
 				{
 					"Name"				"instances/BEE2/clean/items/held_painted_cube_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"18"
-					"BrushSideCount"	"152"
+					"EntityCount"		"3"
+					"BrushCount"		"6"
+					"BrushSideCount"	"36"
 				}
 			}
 

@@ -11,7 +11,7 @@
 	"" "* The Sphere Type activates when painted, but it's stuck to the ground."
 	}
 	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Activator-Cubes"
-	"ent_count" "4"
+	"ent_count" "3"
 	"Icon"
 	{
 		"0" "clean/fizzled_activator.png"

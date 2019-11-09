@@ -1,7 +1,6 @@
 "Item"
 	{
 		"Type"			 "ITEM_SKYBOX_AREA"
-		"Description"    "First skybox to be added in pti :D"
 		"Editor"
 		{
 			"SubType"
@@ -35,10 +34,10 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/p2editor_destroyed/skybox_area_128x128_1.vmf"
-					"EntityCount"		"5"
-					"BrushCount"		"9"
-					"BrushSideCount"	"54"
+					"Name"				"instances/BEE2/clean/items/skybox_area_128x128_1.vmf"
+					"EntityCount"		"12"
+					"BrushCount"		"17"
+					"BrushSideCount"	"102"
 				}
 			}
 
