@@ -31,9 +31,9 @@
 	"ent_count" "16"
 	"Icon"
 	{
-		"all" "living_panels.png"
-		"0"   "living_panel.png"
-		"1"   "living_panel_glass.png"
-		"2"   "living_panel_skeleton.png"
+		"all" "clean/living_panels.png"
+		"0"   "clean/living_panel.png"
+		"1"   "clean/living_panel_glass.png"
+		"2"   "clean/living_panel_skeleton.png"
 	}
 }

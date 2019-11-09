@@ -1,7 +1,7 @@
 "Properties"
 	{
-	"Authors" "Radelite, ENDERZOMBI102"
-	"Tags" "Portal 2;Geometry;Buttons"
+	"Authors" "Radelite, ENDERZOMBI102, Flash4433"
+	"Tags" "Portal 2;Geometry"
 	"Description"
 	{
 		"" "Most of the panel anims available in Hammer, all in one instance."
@@ -24,12 +24,12 @@
 		"" "There are 68 different animations provided. The animation is selected using the Timer value, the Start Open checkbox and the Autodrop checkbox."
 	}
 	"infoURL" "none"
-	"ent_count" "16"
+	"ent_count" "12"
 	"Icon"
 	{
-		"all" "living_panels.png"
-		"0"   "living_panel.png"
-		"1"   "living_panel_glass.png"
-		"2"   "living_panel_skeleton.png"
+		"all" "clean/living_panels.png"
+		"0"   "clean/living_panel.png"
+		"1"   "clean/living_panel_glass.png"
+		"2"   "clean/living_panel_skeleton.png"
 	}
 }

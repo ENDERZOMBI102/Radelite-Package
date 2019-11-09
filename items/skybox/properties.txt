@@ -7,6 +7,6 @@
 "ent_count" "12"
 "Icon"
 {
-"0" "skybox.png"
+"0" "clean/skybox.png"
 }
 }

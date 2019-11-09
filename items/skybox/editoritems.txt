@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"	"SkyBox 1x1"
-					"Image"		"palette/skybox.png"
+					"Image"		"palette/clean/skybox.png"
 					"Position"	"3 4 0"
 				}
 				"Sounds"

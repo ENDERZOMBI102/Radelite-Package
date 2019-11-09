@@ -16,7 +16,7 @@
 				"Palette"
 				{
 					"Tooltip"		"Living Panel Offset"
-					"Image"			"palette/living_panel.png"
+					"Image"			"palette/clean/living_panel.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -38,7 +38,7 @@
 				"Palette"
 				{
 					"Tooltip"		"Living Panel Offset (Glass)"
-					"Image"			"palette/living_panel_glass.png"
+					"Image"			"palette/clean/living_panel_glass.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -60,7 +60,7 @@
 				"Palette"
 				{
 					"Tooltip"		"Living Panel Offset (Skeleton)"
-					"Image"			"palette/living_panel_skeleton.png"
+					"Image"			"palette/clean/living_panel_skeleton.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -114,42 +114,42 @@
 			{
 				"0"
 				{
-					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_portalable.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_64x64_offset_portalable.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"5"
 					"BrushSideCount"	"34"
 				}
 				"1"
 				{
-					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_64x64_offset.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"5"
 					"BrushSideCount"	"34"
 				}
 				"2"
 				{
-					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_glass.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_64x64_offset_glass.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"5"
 					"BrushSideCount"	"34"
 				}
 				"3"
 				{
-					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_glass.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_64x64_offset_glass.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"5"
 					"BrushSideCount"	"34"
 				}
 				"4"
 				{
-					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_skeleton.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_64x64_offset_skeleton.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"5"
 					"BrushSideCount"	"34"
 				}
 				"5"
 				{
-					"Name"				"instances/bee2/p2editor/bisqwit_multifunction_panel_64x64_offset_skeleton.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_64x64_offset_skeleton.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"5"
 					"BrushSideCount"	"34"
