@@ -23,8 +23,8 @@
 		"" ""
 		"" "There are 68 different animations provided. The animation is selected using the Timer value, the Start Open checkbox and the Autodrop checkbox."
 	}
-	"infoURL" "none"
-	"ent_count" "16"
+	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Large-Living-Panel"
+	"ent_count" "21"
 	"Icon"
 	{
 		"all" "p1/living_panels.png"
