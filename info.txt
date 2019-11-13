@@ -231,7 +231,7 @@
 	
 	"Item"
 	{
-	"ID" "ITEM_LIVING_PANEL_CENTER"
+	"ID" "ITEM_LIVING_PANEL"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	

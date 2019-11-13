@@ -1,6 +1,6 @@
 	"Item"
 	{
-		"Type"		"ITEM_LIVING_PANEL_CENTER"
+		"Type"		"ITEM_LIVING_PANEL"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
@@ -71,8 +71,7 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"		"HANDLE_5_POSITIONS"
-			"CanAnchorOnGoo"		"1"
+			"MovementHandle"		"HANDLE_8_POSITIONS"
 		}
 		"Properties"
 		{
