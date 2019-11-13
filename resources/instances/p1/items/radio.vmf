@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8037"
-	"mapversion" "16"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -64,7 +64,7 @@ entity
 	"rendermode" "0"
 	"SetBodyGroup" "0"
 	"shadowdepthnocache" "0"
-	"skin" "0"
+	"skin" "3"
 	"solid" "6"
 	"spawnflags" "0"
 	"SuppressAnimSounds" "0"
@@ -131,7 +131,7 @@ entity
 {
 	"id" "34"
 	"classname" "prop_dynamic_override"
-	"angles" "0 304.5 0"
+	"angles" "0 157 0"
 	"AnimateEveryFrame" "0"
 	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
@@ -151,7 +151,7 @@ entity
 	"MinAnimTime" "5"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/props_office/coffee_mug_05.mdl"
+	"model" "models/bee2/props_p1/coffee_mug.mdl"
 	"RandomAnimation" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -163,7 +163,7 @@ entity
 	"solid" "6"
 	"spawnflags" "0"
 	"SuppressAnimSounds" "0"
-	"origin" "-13 -10 -37.4"
+	"origin" "-11 -11 -35"
 	editor
 	{
 		"color" "220 30 220"
