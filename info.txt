@@ -1,6 +1,6 @@
 "ID" "Radelite_package"
 "Name" "Radelite's package"
-"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported to you by ENDERZOMBI102, Libbybapa and Flash4433!"
+"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported to you by ENDERZOMBI102, Libbybapa, Flash4433 and FeZzBurn!"
 "Prerequisites"
 {
 	"Package" "BEE2_CLEAN_STYLE"
@@ -190,7 +190,10 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "radio"
+			"BEE2_CLEAN" "radio_clean"
+			"BEE2_OVERGROWN" "radio_over"
+			"BEE2_PORTAL_1" "radio_p1"
+			"ANY_STYLE" "radio_clean"
 			}
 		}
 	}
