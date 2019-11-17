@@ -217,7 +217,7 @@
 	
 	"Item"
 	{
-	"ID" "ITEM_LIVING_PANEL_LARGE_CENTER"
+	"ID" "ITEM_LIVING_PANEL_LARGE"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -227,7 +227,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "living_panel_large_center"
+			"ANY_STYLE" "living_panel_large"
 			}
 		}
 	}
@@ -244,24 +244,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "living_panel_center"
-			}
-		}
-	}
-	
-	"Item"
-	{
-	"ID" "ITEM_LIVING_PANEL_OFFSET"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "living_panel_offset"
+			"ANY_STYLE" "living_panel"
 			}
 		}
 	}

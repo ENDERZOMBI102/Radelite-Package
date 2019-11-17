@@ -1,6 +1,6 @@
 "Item"
 	{
-		"Type"		"ITEM_LIVING_PANEL_LARGE_CENTER"
+		"Type"		"ITEM_LIVING_PANEL_LARGE"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
