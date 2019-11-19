@@ -1,6 +1,6 @@
 "Item"
 	{
-		"Type"			"ITEM_ACTIVATOR_CUBES"
+		"Type"		"ITEM_ACTIVATOR_CUBES"
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
@@ -16,15 +16,15 @@
 				"Palette"
 				{
 					"Tooltip"		"Fizzled Activator Cube"
-					"Image"			"palette/clean/fizzled_activator.png"
+					"Image"		"palette/clean/fizzled_activator.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"					"P2Editor.PlaceButton"
+					"SOUND_CREATED"				"P2Editor.PlaceButton"
 					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
 					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"					"P2Editor.RemoveButton"
+					"SOUND_DELETED"				"P2Editor.RemoveButton"
 				}
 			}
 			"SubType"
@@ -38,15 +38,15 @@
 				"Palette"
 				{
 					"Tooltip"		"Painted Activator Cube"
-					"Image"			"palette/clean/painted_activator.png"
+					"Image"		"palette/clean/painted_activator.png"
 					"Position"		"2 0 0"
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"					"P2Editor.PlaceButton"
+					"SOUND_CREATED"				"P2Editor.PlaceButton"
 					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
 					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"					"P2Editor.RemoveButton"
+					"SOUND_DELETED"				"P2Editor.RemoveButton"
 				}
 			}
 			"SubType"
@@ -60,15 +60,15 @@
 				"Palette"
 				{
 					"Tooltip"		"Painted Activator Cube Held"
-					"Image"			"palette/clean/painted_activator_held.png"
+					"Image"		"palette/clean/painted_activator_held.png"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"					"P2Editor.PlaceButton"
+					"SOUND_CREATED"				"P2Editor.PlaceButton"
 					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
 					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"					"P2Editor.RemoveButton"
+					"SOUND_DELETED"				"P2Editor.RemoveButton"
 				}
 			}
 			"MovementHandle"	"HANDLE_NONE"
@@ -78,7 +78,7 @@
 			"ButtonType"
 			{
 				"DefaultValue"	"0"
-				"Index"			"0"
+				"Index"		"0"
 			}
 		}
 		"Exporting"
@@ -87,45 +87,45 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/fizzled_cube_white.vmf"
+				"Name"				"instances/BEE2/clean/items/fizzled_cube_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"BrushSideCount"		"0"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/items/fizzled_cube_black.vmf"
+				"Name"				"instances/BEE2/clean/items/fizzled_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"BrushSideCount"		"0"
 				}
 				"2"
 				{
-					"Name"				"instances/BEE2/clean/items/painted_cube_white.vmf"
+				"Name"				"instances/BEE2/clean/items/painted_cube_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"BrushSideCount"		"0"
 				}
 				"3"
 				{
-					"Name"				"instances/BEE2/clean/items/painted_cube_black.vmf"
+				"Name"				"instances/BEE2/clean/items/painted_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"BrushSideCount"		"0"
 				}
 				"4"
 				{
-					"Name"				"instances/BEE2/clean/items/held_painted_cube_white.vmf"
+				"Name"				"instances/BEE2/clean/items/held_painted_cube_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"6"
-					"BrushSideCount"	"36"
+					"BrushSideCount"		"36"
 				}
 				"5"
 				{
-					"Name"				"instances/BEE2/clean/items/held_painted_cube_black.vmf"
+				"Name"				"instances/BEE2/clean/items/held_painted_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"6"
-					"BrushSideCount"	"36"
+					"BrushSideCount"		"36"
 				}
 			}
 
