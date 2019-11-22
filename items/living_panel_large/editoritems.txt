@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Large Living Panel"
+					"Tooltip"	"LARGE LIVING PANEL"
 					"Image"		"palette/clean/living_panel.png"
 					"Position"	"1 0 0"
 				}
@@ -37,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Large Living Panel (Glass)"
+					"Tooltip"	"LARGE LIVING PANEL (GLASS)"
 					"Image"		"palette/clean/living_panel_glass.png"
 					"Position"	"1 0 0"
 				}
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Large Living Panel (P1 Wall)"
+					"Tooltip"	"LARGE LIVING PANEL (P1 WALL)"
 					"Image"		"palette/p1/living_panel.png"
 					"Position"	"1 0 0"
 				}

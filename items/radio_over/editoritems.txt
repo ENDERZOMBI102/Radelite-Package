@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Radio"
+					"Tooltip"	"RADIO"
 					"Image"		"palette/clean/radio.png"
 					"Position"	"1 6 0"
 				}

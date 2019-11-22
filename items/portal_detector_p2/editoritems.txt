@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Portal Detector"
+					"Tooltip"	"PORTAL DETECTOR"
 					"Image"		"palette/clean/portal_detector.png"
 					"Position"		"3 0 0"
 				}

@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Fizzled Activator Cube"
+					"Tooltip"		"FIZZLED ACTIVATOR CUBE"
 					"Image"		"palette/clean/fizzled_activator.png"
 					"Position"		"1 0 0"
 				}
@@ -37,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Painted Activator Cube"
+					"Tooltip"		"PAINTED ACTIVATOR CUBE"
 					"Image"		"palette/clean/painted_activator.png"
 					"Position"		"2 0 0"
 				}
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Painted Activator Cube Held"
+					"Tooltip"		"PAINTED ACTIVATOR CUBE HELD"
 					"Image"		"palette/clean/painted_activator_held.png"
 					"Position"		"3 0 0"
 				}

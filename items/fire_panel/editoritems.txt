@@ -13,7 +13,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Fire Panel"
+					"Tooltip"		"FIRE PANEL"
 					"Image"			"palette/clean/env_fire.png"
 					"Position"		"2 2 0"
 				}

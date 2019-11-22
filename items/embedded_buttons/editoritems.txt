@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Embedded Weighted Button"
+					"Tooltip"		"EMBEDDED WEIGHTED BUTTON"
 					"Image"			"palette/clean/embedded_weighted_button"
 					"Position"		"1 0 0"
 				}
@@ -37,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Embedded Cube Button"
+					"Tooltip"		"EMBEDDED CUBE BUTTON"
 					"Image"			"palette/clean/embedded_cube_button"
 					"Position"		"2 0 0"
 				}
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Embedded Sphere Button"
+					"Tooltip"		"EMBEDDED SPHERE BUTTON"
 					"Image"			"palette/clean/embedded_sphere_button"
 					"Position"		"3 0 0"
 				}

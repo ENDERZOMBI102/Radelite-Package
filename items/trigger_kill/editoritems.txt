@@ -14,7 +14,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Trigger Kill"
+					"Tooltip"	"TRIGGER KILL"
 					"Image"		"palette/clean/trigger_kill.png"
 					"Position"	"1 6 0"
 				}

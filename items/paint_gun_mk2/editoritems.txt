@@ -13,7 +13,7 @@
 				}
                 "Palette"
                 {
-                    "Tooltip"      			"Paint Gun Mk2"
+                    "Tooltip"      			"PAINT GUN MK2"
                     "Image"         		"palette/clean/paint_gun_mk2.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }

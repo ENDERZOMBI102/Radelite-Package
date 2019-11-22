@@ -13,7 +13,7 @@
 				}
                 "Palette"
                 {
-                    "Tooltip"      			"Gravity Gun Mk1"
+                    "Tooltip"      			"GRAVITY GUN MK1"
                     "Image"         		"palette/clean/gravity_gun_mk1.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }

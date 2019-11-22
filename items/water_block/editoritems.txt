@@ -13,7 +13,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Water Block"
+					"Tooltip"		"WATER BLOCK"
 					"Image"			"palette/clean/water_block.png"
 					"Position"		"2 2 0"
 				}

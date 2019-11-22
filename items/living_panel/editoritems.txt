@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living Panel"
+					"Tooltip"	"LIVING PANEL"
 					"Image"		"palette/clean/living_panel.png"
 					"Position"	"0 0 0"
 				}
@@ -37,7 +37,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living Panel (Glass)"
+					"Tooltip"	"LIVING PANEL (GLASS)"
 					"Image"		"palette/clean/living_panel_glass.png"
 					"Position"	"0 0 0"
 				}
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"	"Living Panel (Skeleton)"
+					"Tooltip"	"LIVING PANEL (SKELETON)"
 					"Image"		"palette/clean/living_panel_skeleton.png"
 					"Position"	"0 0 0"
 				}
