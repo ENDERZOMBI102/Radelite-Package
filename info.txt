@@ -12,6 +12,7 @@
 	"ID" "ITEM_FIRE_PANEL"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
+	"unstyled"    "1"
 	
 	"Version"
 		{
@@ -215,7 +216,7 @@
 		}
 	}
 	
-	"Item"
+"Item"
 	{
 	"ID" "ITEM_LIVING_PANEL_LARGE"
 	"AllDescLast" "0"
@@ -232,7 +233,7 @@
 		}
 	}
 	
-	"Item"
+"Item"
 	{
 	"ID" "ITEM_LIVING_PANEL"
 	"AllDescLast" "0"
@@ -249,7 +250,7 @@
 		}
 	}
 
-	"Item"
+"Item"
 	{
 	"ID" "ITEM_TRIGGER_KILL"
 	"AllDescLast" "0"

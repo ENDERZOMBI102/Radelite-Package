@@ -37,9 +37,9 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/clean/items/fire_panel.vmf"
-					"EntityCount"		"7"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+					"EntityCount"		"5"
+					"BrushCount"		"1"
+					"BrushSideCount"	"6"
 				}
 			}
 
