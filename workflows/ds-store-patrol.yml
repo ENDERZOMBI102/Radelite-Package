@@ -1,0 +1,16 @@
+name: DS_Store Patrol
+
+on: [push, pull_request]
+
+jobs:
+  example-workflow:
+    name: Example for DS_Store Patrol
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository contents
+      uses: actions/checkout@v1
+
+    - name: Checking for .DS_Store files
+      uses: Maxelweb/ds-store-patrol@v1
