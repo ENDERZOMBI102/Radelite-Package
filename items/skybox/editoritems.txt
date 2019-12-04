@@ -3,7 +3,6 @@
 		"Type"			 "ITEM_SKYBOX_AREA"
 		"Editor"
 		{
-			"SubTypeProperty"		"CubeType"
 			"SubType"
 			{
 				"Name"		"SkyBox 1x1"
@@ -26,104 +25,8 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"SubType"
-			{
-				"Name"		"SkyBox 1x1 - Earth"
-				"Model"
-				{
-					"ModelName"		"observation_office_1x1.3ds"
-					"TextureName"		"observationroom.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"SKYBOX 1x1 - EARTH"
-					"Image"		"palette/clean/skybox.png"
-					"Position"	"3 4 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-				}
-			}
-			"SubType"
-			{
-				"Name"		"SkyBox 1x1 - Moon"
-				"Model"
-				{
-					"ModelName"		"observation_office_1x1.3ds"
-					"TextureName"		"observationroom.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"SKYBOX 1x1 - MOON"
-					"Image"		"palette/clean/skybox.png"
-					"Position"	"3 4 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-				}
-			}
-			"SubType"
-			{
-				"Name"		"SkyBox 1x1 - Stars"
-				"Model"
-				{
-					"ModelName"		"observation_office_1x1.3ds"
-					"TextureName"		"observationroom.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"SKYBOX 1x1 - STARS"
-					"Image"		"palette/clean/skybox.png"
-					"Position"	"3 4 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-				}
-			}
-			"SubType"
-			{
-				"Name"		"SkyBox 1x1 - Stars2"
-				"Model"
-				{
-					"ModelName"		"observation_office_1x1.3ds"
-					"TextureName"		"observationroom.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"SKYBOX 1x1 - STARS2"
-					"Image"		"palette/clean/skybox.png"
-					"Position"	"3 4 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-				}
-			}
 			"MovementHandle"		"HANDLE_NONE"
 			"InvalidSurface"		"FLOOR"
-		}
-		"Properties"
-		{
-			"CubeType"
-			{
-				"DefaultValue"	"0"
-				"Index"		"0"
-			}
 		}
 		"Exporting"
 		{
@@ -131,73 +34,10 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"1"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"2"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_earth_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"3"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_earth_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"4"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_moon_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"5"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_moon_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"6"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_stars_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"7"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_stars_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"8"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_stars2_white.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
-				}
-				"9"
-				{
-					"Name"				"instances/BEE2/clean/items/skybox/skybox_area_128x128_stars2_black.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"13"
-					"BrushSideCount"	"78"
+					"Name"				"instances/BEE2/clean/items/skybox_area_128x128_1.vmf"
+					"EntityCount"		"12"
+					"BrushCount"		"17"
+					"BrushSideCount"	"102"
 				}
 			}
 

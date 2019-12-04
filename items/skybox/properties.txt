@@ -2,20 +2,9 @@
 {
 "Authors" "Radelite, ENDERZOMBI102, Flash4433"
 "Tags" "Portal 2"
-"Description"
-{
-	"" "An alternative version of an Obs Room."
-	"" ""
-	"" "Make sure to use this item correctly, by making it have enough space on its back, so the skybox is representaded correctly."
-	"" ""
-	"" "* The Standard Type uses the default skybox."
-	"" "* The Companion Type uses the skybox that shows Earth, when you're in Space."
-	"" "* The Reflection Type uses the skybox that shows the Moon, that appears before defeating Wheatley."
-	"" "* The Sphere Type uses the skybox that appears in the Main Menu after finishing the game."
-	"" "* The Franken Type uses a skybox with lots of stars."
-}
+"Description" "An alternative version of an Obs Room."
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/SkyBox"
-"ent_count" "4"
+"ent_count" "12"
 "Icon"
 {
 "0" "clean/skybox.png"
