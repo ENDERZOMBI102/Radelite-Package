@@ -29,6 +29,11 @@
 		}
 		"Properties"
 		{
+			"ConnectionCount"
+			{
+				"DefaultValue"	"0"
+				"Index"		"1"
+			}
 		}
 		"Exporting"
 		{
@@ -44,6 +49,14 @@
 			}
 
 			"TargetName"		"router"
+			"Inputs"
+			{
+				"CONNECTION_STANDARD"
+				{
+					"Activate"		"instance:counter;Add"
+					"Deactivate"		"instance:counter;Subtract"
+				}
+			}
 			"Offset"		"64 64 64"
 			"OccupiedVoxels"
 			{
