@@ -4,7 +4,7 @@
 		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
-			"SubTypeProperty"		"ButtonType"
+			"SubTypeProperty"		"CubeType"
 			"SubType"
 			{
 				"Name"			"Fizzled Activator Cube"
@@ -16,7 +16,7 @@
 				"Palette"
 				{
 					"Tooltip"		"FIZZLED ACTIVATOR CUBE"
-					"Image"		"palette/clean/fizzled_activator.png"
+					"Image"		    "palette/clean/fizzled_activator.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -38,7 +38,7 @@
 				"Palette"
 				{
 					"Tooltip"		"PAINTED ACTIVATOR CUBE"
-					"Image"		"palette/clean/painted_activator.png"
+					"Image"		    "palette/clean/painted_activator.png"
 					"Position"		"2 0 0"
 				}
 				"Sounds"
@@ -60,8 +60,52 @@
 				"Palette"
 				{
 					"Tooltip"		"PAINTED ACTIVATOR CUBE HELD"
-					"Image"		"palette/clean/painted_activator_held.png"
+					"Image"		    "palette/clean/painted_activator_held.png"
 					"Position"		"3 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"				"P2Editor.PlaceButton"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
+					"SOUND_DELETED"				"P2Editor.RemoveButton"
+				}
+			}
+            "SubType"
+			{
+				"Name"			"Dropped Activator Cube"
+				"Model"
+				{
+					"ModelName"		"cube.3ds"
+					"TextureName"	"cube.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"Dropped Activator Cube"
+					"Image"		    "palette/clean/held_activator.png"
+					"Position"		"1 0 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"				"P2Editor.PlaceButton"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
+					"SOUND_DELETED"				"P2Editor.RemoveButton"
+				}
+			}
+            "SubType"
+			{
+				"Name"			"Picked Dropped Activator Cube"
+				"Model"
+				{
+					"ModelName"		"cube.3ds"
+					"TextureName"	"cube.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"Picked Dropped Activator Cube"
+					"Image"		    "palette/clean/held_activator.png"
+					"Position"		"1 0 0"
 				}
 				"Sounds"
 				{
@@ -75,7 +119,7 @@
 		}
 		"Properties"
 		{
-			"ButtonType"
+			"CubeType"
 			{
 				"DefaultValue"	"0"
 				"Index"		"0"
@@ -87,45 +131,73 @@
 			{
 				"0"
 				{
-				"Name"				"instances/BEE2/clean/items/fizzled_cube_white.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/fizzled_cube_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"1"
 				{
-				"Name"				"instances/BEE2/clean/items/fizzled_cube_black.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/fizzled_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"2"
 				{
-				"Name"				"instances/BEE2/clean/items/painted_cube_white.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/painted_cube_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"3"
 				{
-				"Name"				"instances/BEE2/clean/items/painted_cube_black.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/painted_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
-					"BrushSideCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"4"
 				{
-				"Name"				"instances/BEE2/clean/items/held_painted_cube_white.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/pickedup_cube_white.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"6"
-					"BrushSideCount"		"36"
+					"BrushSideCount"	"36"
 				}
 				"5"
 				{
-				"Name"				"instances/BEE2/clean/items/held_painted_cube_black.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/pickedup_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"6"
-					"BrushSideCount"		"36"
+					"BrushSideCount"	"36"
+				}
+                "6"
+				{
+				    "Name"				"instances/BEE2/clean/items/activcubes/dropped_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+                "7"
+				{
+				    "Name"				"instances/BEE2/clean/items/activcubes/dropped_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+                "8"
+				{
+				    "Name"				"instances/BEE2/clean/items/activcubes/pickeddropped_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+                "9"
+				{
+				    "Name"				"instances/BEE2/clean/items/activcubes/pickeddropped_cube_white.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
 			}
 
