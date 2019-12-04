@@ -1,0 +1,22 @@
+"Properties"
+{
+"Authors" "Name of the autors separated by ,"
+"Tags" "Portal 2;Geometry (Tags divided by ;)"
+"Description"
+	{	
+	"" "A brief description for the item."
+	"" "" (Empty Line)
+	"" "* The Weighted Type activates when fizzled."
+	"" "* The Cube Type activates when painted."
+	"" "* The Sphere Type activates when painted, but it's stuck to the ground." (Lines that start with a dot)
+	}
+"infoURL" "none" (A url that leads to a wiki page, for example)
+"ent_count" "3" (The number of entities of this item. Consider PointEntities)
+"Icon"
+{
+"0" "clean/portal_detector.png"
+"1" "p1/portal_detector.png"
+"2" "over/portal_detector.png" (The icons used for each different type for the item, check out editoritems.txt)
+"all" "clean/portal_detectorall.png" (The icon that appears when you insert an item into the palette, to save space on the palette. It should represent every selectable item type.)
+}
+}

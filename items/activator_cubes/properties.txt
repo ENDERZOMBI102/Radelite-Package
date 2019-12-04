@@ -1,14 +1,16 @@
 "Properties"
 	{
-	"Authors" "Radelite, ENDERZOMBI102"
+	"Authors" "Radelite, ENDERZOMBI102, Flash4433"
 	"Tags" "Portal 2;Buttons"
 	"Description"
 	{	
 	"" "A pack of cubes that when something happens to them, they output a signal."
 	"" ""
-	"" "* The Weighted Type activates when fizzled."
-	"" "* The Cube Type activates when painted."
-	"" "* The Sphere Type activates when painted, but it's stuck to the ground."
+	"" "* The Standard Type activates when fizzled."
+	"" "* The Companion Type activates when painted."
+	"" "* The Reflection Type activates when picked up."
+	"" "* The Sphere Type activates when dropped."
+	"" "* The Franken Type activates when picked, but deactivates when dropped."
 	}
 	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Activator-Cubes"
 	"ent_count" "3"
@@ -16,6 +18,9 @@
 	{
 		"0" "clean/fizzled_activator.png"
 		"1" "clean/painted_activator.png"
-		"2" "clean/painted_activator_held.png"
+		"2" "clean/picked_activator.png"
+		"3" "clean/dropped_activator.png"
+		"4" "clean/pickeddropped_activator.png"
+		"all" "clean/activator_cubes.png"
 	}
 }

@@ -51,7 +51,7 @@
 			}
 			"SubType"
 			{
-				"Name"		"Painted Activator Cube Held"
+				"Name"		"PickedUp Activator Cube"
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
@@ -59,7 +59,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"PAINTED ACTIVATOR CUBE HELD"
+					"Tooltip"		"PICKEDUP ACTIVATOR CUBE"
 					"Image"		    "palette/clean/painted_activator_held.png"
 					"Position"		"3 0 0"
 				}
@@ -81,7 +81,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"Dropped Activator Cube"
+					"Tooltip"		"DROPPED ACTIVATOR CUBE"
 					"Image"		    "palette/clean/held_activator.png"
 					"Position"		"1 0 0"
 				}
@@ -95,7 +95,7 @@
 			}
             "SubType"
 			{
-				"Name"			"Picked Dropped Activator Cube"
+				"Name"			"PICKED DROPPED ACTIVATOR CUBE"
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
@@ -161,15 +161,15 @@
 				{
 				    "Name"				"instances/BEE2/clean/items/activcubes/pickedup_cube_white.vmf"
 					"EntityCount"		"3"
-					"BrushCount"		"6"
-					"BrushSideCount"	"36"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
 				"5"
 				{
 				    "Name"				"instances/BEE2/clean/items/activcubes/pickedup_cube_black.vmf"
 					"EntityCount"		"3"
-					"BrushCount"		"6"
-					"BrushSideCount"	"36"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
 				}
                 "6"
 				{
@@ -180,7 +180,7 @@
 				}
                 "7"
 				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/dropped_cube_white.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/dropped_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
@@ -194,7 +194,7 @@
 				}
                 "9"
 				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/pickeddropped_cube_white.vmf"
+				    "Name"				"instances/BEE2/clean/items/activcubes/pickeddropped_cube_black.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"

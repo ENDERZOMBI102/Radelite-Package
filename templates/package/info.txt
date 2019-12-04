@@ -1,0 +1,47 @@
+"ID" "A_UNIQUE_PACKAGE_ID"
+"Name" "Package Name, it will be displayed on the Manage Packages screen in BEE2"
+"Desc" "A brief description, it will be displayed on the Manage Packages screen in BEE2"
+"Prerequisites"
+{
+	"Package" "Tell BEE2 a package it should load with this package, if you use textures or items from other packages"
+	"Package" "BEE2_CLEAN_STYLE"
+	"Package" "BEE2_PORTAL_1"
+	"Package" "I'm not sure if these two are working, but we haven't got a issue about it"
+}
+
+"Item"
+{
+	"ID" "A_UNIQUE_ITEM_ID"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	"unstyled"    "1" (For these 3 you'll need to read the wiki page in BEE2 about info.txt)
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "The `nameoftheitem` folder inside items/"
+			}
+		}
+	}
+
+
+Example:
+"Item"
+	{
+	"ID" "ITEM_WATER_BLOCK"
+	"AllDescLast" "0"
+	"needsUnlock" "0"
+	
+	"Version"
+		{
+		"ID"   "VER_DEFAULT"
+		"Name" "Regular"
+		"Styles"
+			{
+			"ANY_STYLE" "water_block"
+			}
+		}
+	}
