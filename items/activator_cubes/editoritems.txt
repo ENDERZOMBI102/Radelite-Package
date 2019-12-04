@@ -32,8 +32,8 @@
 				"Name"		"Painted Activator Cube"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"companion.3ds"
+					"TextureName"	"companion.png"
 				}
 				"Palette"
 				{
@@ -76,8 +76,8 @@
 				"Name"			"Dropped Activator Cube"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"sphere.3ds"
+					"TextureName"	"sphere.png"
 				}
 				"Palette"
 				{
@@ -98,8 +98,8 @@
 				"Name"			"Picked Dropped Activator Cube"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"franken.3ds"
+					"TextureName"	"franken.png"
 				}
 				"Palette"
 				{

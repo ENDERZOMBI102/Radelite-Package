@@ -5,6 +5,7 @@
 	"Description"
 	{
 	"" "An Underground Button. The player itself can't press the button."
+	"" ""
 	"" "This way, the cubes need to be inserted precisely."
 	"" ""
 	"" "* Weighted - Accepts Cubes and Spheres"
