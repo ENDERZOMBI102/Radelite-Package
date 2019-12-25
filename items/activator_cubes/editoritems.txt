@@ -21,10 +21,23 @@
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"				"P2Editor.PlaceButton"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"				"P2Editor.RemoveButton"
+					"SOUND_CREATED"				"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"				"P2Editor.RemoveCube"
+				}
+				"Animations"
+				{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
 			"SubType"
@@ -32,8 +45,8 @@
 				"Name"		"Painted Activator Cube"
 				"Model"
 				{
-					"ModelName"		"companion.3ds"
-					"TextureName"	"companion.png"
+					"ModelName"		"cubecompanion.3ds"
+					"TextureName"	"cubecompanion.png"
 				}
 				"Palette"
 				{
@@ -43,10 +56,23 @@
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"				"P2Editor.PlaceButton"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"				"P2Editor.RemoveButton"
+					"SOUND_CREATED"				"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"				"P2Editor.RemoveCube"
+				}
+				"Animations"
+				{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
 			"SubType"
@@ -54,8 +80,8 @@
 				"Name"		"Picked Activator Cube"
 				"Model"
 				{
-					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"ModelName"		"cubelaser.3ds"
+					"TextureName"	"cubelaser.png"
 				}
 				"Palette"
 				{
@@ -65,10 +91,23 @@
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"				"P2Editor.PlaceButton"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"				"P2Editor.RemoveButton"
+					"SOUND_CREATED"				"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"				"P2Editor.RemoveCube"
+				}
+				"Animations"
+				{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
             "SubType"
@@ -76,8 +115,8 @@
 				"Name"			"Dropped Activator Cube"
 				"Model"
 				{
-					"ModelName"		"sphere.3ds"
-					"TextureName"	"sphere.png"
+					"ModelName"		"cubesphere.3ds"
+					"TextureName"	"cubesphere.png"
 				}
 				"Palette"
 				{
@@ -87,10 +126,23 @@
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"				"P2Editor.PlaceButton"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"				"P2Editor.RemoveButton"
+					"SOUND_CREATED"				"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"				"P2Editor.RemoveCube"
+				}
+				"Animations"
+				{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
             "SubType"
@@ -98,8 +150,8 @@
 				"Name"			"Picked Dropped Activator Cube"
 				"Model"
 				{
-					"ModelName"		"franken.3ds"
-					"TextureName"	"franken.png"
+					"ModelName"		"frankenturret.3ds"
+					"TextureName"	"frankenturret.png"
 				}
 				"Palette"
 				{
@@ -109,20 +161,36 @@
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"				"P2Editor.PlaceButton"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandButton"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseButton"
-					"SOUND_DELETED"				"P2Editor.RemoveButton"
+					"SOUND_CREATED"				"P2Editor.PlaceCube"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_DELETED"				"P2Editor.RemoveCube"
+				}
+				"Animations"
+				{
+				"ANIM_IDLE"							"0"
+				"ANIM_EDITING_ACTIVATE"				"2"
+				"ANIM_EDITING_DEACTIVATE"			"3"
+				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
+				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
+				"ANIM_FALLING_TO_GROUND"			"7"
+				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
+				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
-			"MovementHandle"	"HANDLE_NONE"
+			"MovementHandle"			"HANDLE_36_DIRECTIONS"
+			"InvalidSurface"			"CEILING WALL"
+			"CanAnchorOnBarriers"		"1"
+			"CanAnchorOnGoo"			"1"
 		}
 		"Properties"
 		{
 			"CubeType"
 			{
 				"DefaultValue"	"0"
-				"Index"		"0"
+				"Index"		"1"
 			}
 		}
 		"Exporting"
@@ -130,75 +198,17 @@
 			"Instances"
 			{
 				"0"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/fizzled_cube_white.vmf"
+					{
+				    "Name"				"instances/BEE2/clean/items/activcubes/fizzled_cube.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
-				}
-				"1"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/fizzled_cube_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-				"2"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/painted_cube_white.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-				"3"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/painted_cube_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-				"4"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/picked_cube_white.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-				"5"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/picked_cube_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-                "6"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/dropped_cube_white.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-                "7"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/dropped_cube_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-                "8"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/pickeddropped_cube_white.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
-                "9"
-				{
-				    "Name"				"instances/BEE2/clean/items/activcubes/pickeddropped_cube_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
-				}
+					}
+				"bee2_radelitefizzler" "instances/BEE2/clean/items/activcubes/fizzled_cube.vmf"
+				"bee2_radelitepaint" "instances/BEE2/clean/items/activcubes/painted_cube.vmf"
+				"bee2_radelitepick" "instances/BEE2/clean/items/activcubes/picked_cube.vmf"
+				"bee2_radelitedrop" "instances/BEE2/clean/items/activcubes/dropped_cube.vmf"
+				"bee2_radelitepickdrop" "instances/BEE2/clean/items/activcubes/pickeddropped_cube.vmf"
 			}
 
 			"TargetName"		"button"
