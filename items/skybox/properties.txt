@@ -3,7 +3,7 @@
 "Authors" "Radelite, ENDERZOMBI102, Flash4433"
 "Tags" "Portal 2"
 "Description" "An alternative version of an Obs Room."
-"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/SkyBox"
+"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/SkyBox-1x1"
 "ent_count" "12"
 "Icon"
 {

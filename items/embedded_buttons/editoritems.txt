@@ -1,7 +1,7 @@
 "Item"
 	{
 		"ItemClass"	"ItemButtonFloor"
-		"Type"		"EMBEDDED_BUTTONS"
+		"Type"		"ITEM_EMBEDDED_BUTTONS"
 		"Editor"
 		{
 			"SubTypeProperty"		"ButtonType"

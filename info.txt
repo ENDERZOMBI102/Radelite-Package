@@ -62,7 +62,7 @@
 
 "Item"
 	{
-	"ID" "EMBEDDED_BUTTONS"
+	"ID" "ITEM_EMBEDDED_BUTTONS"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
