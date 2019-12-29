@@ -25,7 +25,7 @@
 	}
 	"all_name"		"Living Panels"
 	"all_icon"		"palette/p1/living_panels.png"
-	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Large-Living-Panel"
+	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Living-Panel"
 	"ent_count" "21"
 	"Icon"
 	{
