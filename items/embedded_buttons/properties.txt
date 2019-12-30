@@ -4,7 +4,9 @@
 	"Tags" "Portal 2;Buttons"
 	"Description"
 	{
-	"" "An Underground Button, to not allow the player to press the button."
+	"" "An Underground Button. The player itself can't press the button."
+	"" ""
+	"" "This way, the cubes need to be inserted precisely."
 	"" ""
 	"" "* Weighted - Accepts Cubes and Spheres"
 	"" "* Cube - Only Accepts Cubes"
