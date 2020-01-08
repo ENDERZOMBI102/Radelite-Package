@@ -1,0 +1,431 @@
+versioninfo
+{
+"editorversion" "400"
+"editorbuild" "7378"
+"mapversion" "227"
+"formatversion" "100"
+"prefab" "0"
+}
+visgroups
+{
+visgroup
+{
+"name" "rot"
+"visgroupid" "29"
+"color" "92 253 98"
+}
+}
+world
+{
+"id" "2"
+"classname" "worldspawn"
+"mapversion" "227"
+"skyname" "sky_day01_01"
+solid
+{
+"id" "2882"
+side
+{
+"id" "2114"
+"plane" "(8 16 -72) (-8 16 -72) (-16 8 -72)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[-1 0 0 0] 0.25"
+"vaxis" "[0 -1 0 8] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2113"
+"plane" "(8 -16 -64) (-8 -16 -64) (-16 -8 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[1 0 0 0] 0.25"
+"vaxis" "[0 -1 0 8] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2112"
+"plane" "(8 -16 -72) (-8 -16 -72) (-8 -16 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[1 0 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2111"
+"plane" "(-8 -16 -72) (-16 -8 -72) (-16 -8 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[0.707107 -0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2110"
+"plane" "(-16 -8 -72) (-16 8 -72) (-16 8 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[0 -1 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2109"
+"plane" "(-16 8 -72) (-8 16 -72) (-8 16 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[-0.707107 -0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2108"
+"plane" "(-8 16 -72) (8 16 -72) (8 16 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[-1 0 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2107"
+"plane" "(8 16 -72) (16 8 -72) (16 8 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[-0.707107 0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2106"
+"plane" "(16 8 -72) (16 -8 -72) (16 -8 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[0 1 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2105"
+"plane" "(16 -8 -72) (8 -16 -72) (8 -16 -64)"
+"material" "TOOLS/TOOLSNODRAW"
+"uaxis" "[0.707107 0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+editor
+{
+"color" "0 198 223"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+}
+}
+editor
+{
+"color" "0 0 0"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 2]"
+"comments" ""
+}
+}
+entity
+{
+"id" "2927"
+"classname" "func_detail"
+solid
+{
+"id" "2974"
+side
+{
+"id" "2310"
+"plane" "(8 -8 16) (-8 -8 16) (-8 8 16)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[1 0 0 0] 0.25"
+"vaxis" "[0 -1 0 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2309"
+"plane" "(-8 -24 -64) (8 -24 -64) (24 -8 -64)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[-1 0 0 0] 0.25"
+"vaxis" "[0 -1 0 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2308"
+"plane" "(-24 8 0) (-24 -8 0) (-24 -8 -64)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[0 -1 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2307"
+"plane" "(24 -8 0) (24 8 0) (24 8 -64)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[0 1 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2306"
+"plane" "(8 24 0) (-8 24 0) (-8 24 -64)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[-1 0 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2305"
+"plane" "(-8 -24 0) (8 -24 0) (8 -24 -64)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[1 0 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2304"
+"plane" "(-8 24 0) (-16 16 8) (-24 8 0)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[-0.707107 -0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2303"
+"plane" "(24 8 0) (16 16 8) (8 24 0)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[-0.707107 0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2302"
+"plane" "(8 -24 0) (16 -16 8) (24 -8 0)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[0.707107 0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2301"
+"plane" "(-24 -8 0) (-16 -16 8) (-8 -24 0)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[0.707107 -0.707107 0 0] 0.25"
+"vaxis" "[0 0 -1 0] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2300"
+"plane" "(16 -16 8) (8 -24 0) (-8 -24 0)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[1 0 0 0] 0.25"
+"vaxis" "[0 -0.707107 -0.707107 45.2548] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2299"
+"plane" "(-16 16 8) (-8 24 0) (8 24 0)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[-1 0 0 0] 0.25"
+"vaxis" "[0 0.707107 -0.707107 45.2548] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2298"
+"plane" "(16 -16 8) (8 -8 16) (8 8 16)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[0 1 0 0] 0.25"
+"vaxis" "[0.707107 0 -0.707107 45.2548] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+side
+{
+"id" "2297"
+"plane" "(-16 16 8) (-8 8 16) (-8 -8 16)"
+"material" "TOOLS/TOOLSPLAYERCLIP"
+"uaxis" "[0 -1 0 0] 0.25"
+"vaxis" "[-0.707107 0 -0.707107 45.2548] 0.25"
+"rotation" "0.0"
+"lightmapscale" "16"
+"smoothing_groups" "0"
+}
+editor
+{
+"color" "0 180 0"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+}
+}
+editor
+{
+"color" "0 180 0"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 4500]"
+"comments" ""
+}
+}
+entity
+{
+"id" "1495"
+"angles" "0 0 0"
+"classname" "prop_dynamic"
+"defaultanim" "idle"
+"disablebonefollowers" "0"
+"disableflashlight" "0"
+"disablereceiveshadows" "0"
+"disableshadowdepth" "0"
+"disableshadows" "0"
+"disablex360" "0"
+"drawinfastreflection" "1"
+"explodedamage" "0"
+"exploderadius" "0"
+"fademaxdist" "0"
+"fademindist" "-1"
+"fadescale" "1"
+"holdanimation" "1"
+"maxanimtime" "10"
+"maxcpulevel" "0"
+"maxgpulevel" "0"
+"minanimtime" "5"
+"mincpulevel" "0"
+"mingpulevel" "0"
+"model" "models/props/pedestal_base_reference.mdl"
+"origin" "0 0 -64"
+"performancemode" "0"
+"pressuredelay" "0"
+"randomanimation" "0"
+"renderamt" "255"
+"rendercolor" "255 255 255"
+"renderfx" "0"
+"rendermode" "0"
+"setbodygroup" "0"
+"shadowdepthnocache" "0"
+"skin" "0"
+"solid" "6"
+"startdisabled" "0"
+"suppressanimsounds" "0"
+"targetname" "pedestal_base"
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+"comments" ""
+}
+}
+entity
+{
+"id" "1521"
+"angles" "0 180 0"
+"classname" "prop_dynamic"
+"defaultanim" "idle"
+"disablebonefollowers" "0"
+"disableflashlight" "0"
+"disablereceiveshadows" "0"
+"disableshadowdepth" "0"
+"disableshadows" "0"
+"disablex360" "0"
+"drawinfastreflection" "1"
+"explodedamage" "0"
+"exploderadius" "0"
+"fademaxdist" "0"
+"fademindist" "-1"
+"fadescale" "1"
+"holdanimation" "1"
+"maxanimtime" "10"
+"maxcpulevel" "0"
+"maxgpulevel" "0"
+"minanimtime" "5"
+"mincpulevel" "0"
+"mingpulevel" "0"
+"model" "models/bee2/props_ingame/pgun_pedestal.mdl"
+"origin" "0 0 -64"
+"parentname" "rotate"
+"performancemode" "0"
+"pressuredelay" "0"
+"randomanimation" "0"
+"renderamt" "255"
+"rendercolor" "255 255 255"
+"renderfx" "0"
+"rendermode" "0"
+"setbodygroup" "0"
+"shadowdepthnocache" "0"
+"skin" "0"
+"solid" "6"
+"spawnflags" "0"
+"startdisabled" "0"
+"suppressanimsounds" "0"
+"targetname" "pedestal"
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 0]"
+"comments" ""
+}
+}
