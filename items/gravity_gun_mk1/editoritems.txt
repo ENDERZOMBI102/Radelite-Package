@@ -42,20 +42,9 @@
             "TargetName"        		"Gravity_gun"
             "OccupiedVoxels"
             {
-                "Voxel"							// Gravity
+                "Voxel"
                 {
                     "Pos"               	"0 0 0"
-                    "CollideType"       	"COLLIDE_SOLID"
-                    "CollideAgainst"    	"COLLIDE_SOLID"
-
-                    "Surface"
-                    {
-                        "Normal"    		"0 0 1"
-                    }
-                }
-                "Voxel"							// Gun
-                {
-                    "Pos"              		 "1 0 0"
                     "CollideType"       	"COLLIDE_SOLID"
                     "CollideAgainst"    	"COLLIDE_SOLID"
 

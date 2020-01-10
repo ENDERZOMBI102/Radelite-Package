@@ -5,6 +5,7 @@
 {
 	"Package" "BEE2_CLEAN_STYLE"
 	"Package" "BEE2_PORTAL_1"
+	"Package" "BEE2_PORTALS"
 }
 
 "Item"
