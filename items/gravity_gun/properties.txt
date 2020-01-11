@@ -1,6 +1,6 @@
 "Properties"
 {
-"Authors" "Radelite, Niin31, ENDERZOMBI102"
+"Authors" "Radelite, Niin31, Linking-yellow, ENDERZOMBI102"
 "Tags" "Portal 2;Guns"
 "Description"
 {

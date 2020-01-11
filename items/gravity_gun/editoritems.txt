@@ -1,0 +1,170 @@
+"Item"
+    {
+        "Type"     		"ITEM_GRAVITY_GUN"
+        "Editor"
+        {
+			"SubTypeProperty"		"ButtonType"
+            "SubType"
+            {	
+                "Name"          		"Gravity Gun MK1"
+				"Model"
+				{
+					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
+				}
+                "Palette"
+                {
+                    "Tooltip"      			"GRAVITY GUN MK1"
+                    "Image"         		"palette/clean/gravity_gun_mk1.png"
+                    "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
+                }
+                "Sounds"
+                {
+                    "SOUND_CREATED"            "P2Editor.PlaceOther"
+                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
+                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+                    "SOUND_DELETED"            "P2Editor.RemoveOther"
+                }
+            }
+            "SubType"
+            {	
+                "Name"          		"Gravity Gun MK2"
+				"Model"
+				{
+					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
+				}
+                "Palette"
+                {
+                    "Tooltip"      			"GRAVITY GUN MK2"
+                    "Image"         		"palette/clean/gravity_gun_mk2.png"
+                    "Position"      		"3 1 0"	
+                }
+                "Sounds"
+                {
+                    "SOUND_CREATED"            "P2Editor.PlaceOther"
+                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
+                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+                    "SOUND_DELETED"            "P2Editor.RemoveOther"
+                }
+            }
+            "SubType"
+            {	
+                "Name"          		"Gravity Gun MK3"
+				"Model"
+				{
+					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
+				}
+                "Palette"
+                {
+                    "Tooltip"      			"GRAVITY GUN MK3"
+                    "Image"         		"palette/clean/gravity_gun_mk3.png"
+                    "Position"      		"3 1 0"	
+                }
+                "Sounds"
+                {
+                    "SOUND_CREATED"            "P2Editor.PlaceOther"
+                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
+                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+                    "SOUND_DELETED"            "P2Editor.RemoveOther"
+                }
+            }
+            "MovementHandle"    		"HANDLE_4_DIRECTIONS"
+        }
+		"Properties"
+		{
+			"ButtonType"
+			{
+				"DefaultValue"	"0"
+				"Index"			"0"
+			}
+		}
+        "Exporting"
+        {
+            "Instances"
+            {
+                "0"
+                {
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"66"
+                }
+				"1"
+                {
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"66"
+                }
+				"2"
+                {
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk2.vmf"
+                    "EntityCount"       	"20"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"72"
+                }
+				"3"
+                {
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk2.vmf"
+                    "EntityCount"       	"20"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"72"
+                }
+				"4"
+                {
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk3.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"66"
+                }
+				"5"
+                {
+                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk3.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"66"
+                }
+            }
+            "Offset"            		"64 64 64"
+            "TargetName"        		"Gravity_gun"
+            "OccupiedVoxels"
+		{
+			"Voxel"
+			{
+				"Pos"		"0 0 0"
+				"Surface"
+				{
+					"Pos"	"1 1 0"
+				}
+				"Surface"
+				{
+					"Pos"	"1 2 0"
+				}
+				"Surface"
+				{
+					"Pos"	"2 1 0"
+				}
+				"Surface"
+				{
+					"Pos"	"2 2 0"
+				}
+			}
+		}
+			"EmbeddedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+				}
+			}
+
+			"EmbedFace"
+			{
+				"Solid"
+				{
+					"Center"		"64 64 128"
+					"Dimensions"	"128 128 4"
+					"Grid"			"Grid_default"
+				}
+			}
+        }
+    }

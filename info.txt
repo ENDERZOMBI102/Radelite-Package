@@ -124,24 +124,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "gravity_gun_mk1"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_GRAVITY_GUN_MARK_2"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "gravity_gun_mk2"
+			"ANY_STYLE" "gravity_gun"
 			}
 		}
 	}
