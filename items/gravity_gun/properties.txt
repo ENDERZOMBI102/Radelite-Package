@@ -8,13 +8,23 @@
 "" ""
 "" "* Fire Blue Portal: Push"
 "" "* Fire Orange Portal: Pull"
-"" "* Don't use more than one pedestal per chamber."
-"" "It works with turrets, cubes and paint bombs."
+"" ""
+"" "Gravity Gun Mk2."
+"" ""
+"" "* Fire Blue Portal: Use Selected Action"
+"" "* Fire Orange Portal: Select Action"
+"" "* The MK2 can Push, Pull and Lift upwards."
+"" ""
+"" "* Don't use a Gravity Gun and a Paint Gun in the same chamber."
+"" "* It works with turrets, cubes, paint bombs and other physics objects like props."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Gravity-Gun"
 "ent_count" "10"
 "Icon"
 {
 "0" "clean/gravity_gun_mk1.png"
+"1" "clean/gravity_gun_mk2.png"
+"2" "clean/gravity_gun_mk3.png"
+"all" "clean/gravity_gun_mk1.png"
 }
 }
