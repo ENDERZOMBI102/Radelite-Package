@@ -5,6 +5,8 @@
 {
 	"Package" "BEE2_CLEAN_STYLE"
 	"Package" "BEE2_PORTAL_1"
+	"Package" "BEE2_PORTALS"
+	"Package" "VALVE_TEST_ELEM"
 }
 
 "Item"
@@ -123,24 +125,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "gravity_gun_mk1"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_GRAVITY_GUN_MARK_2"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "gravity_gun_mk2"
+			"ANY_STYLE" "gravity_gun"
 			}
 		}
 	}
@@ -157,24 +142,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE"  "paint_gun_mk1"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_PAINT_GUN_MARK_2"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
-	"Version"
-		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
-		"Styles"
-			{
-			"ANY_STYLE" "paint_gun_mk2"
+			"ANY_STYLE"  "paint_gun"
 			}
 		}
 	}

@@ -1,0 +1,79 @@
+versioninfo
+{
+"editorversion" "400"
+"editorbuild" "7552"
+"mapversion" "232"
+"formatversion" "100"
+"prefab" "0"
+}
+visgroups
+{
+}
+world
+{
+"id" "2"
+"classname" "worldspawn"
+"mapversion" "232"
+"skyname" "sky_day01_01"
+editor
+{
+"color" "0 0 0"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 2]"
+"comments" ""
+}
+}
+entity
+{
+"id" "7990"
+"classname" "func_instance_parms"
+"origin" "16 0 -16"
+"parm1" "$pickup_func string upgrade(1, 1)"
+"parm2" "$fire_blue string 1"
+"parm3" "$fire_orange string 1"
+editor
+{
+"color" "220 30 220"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 3000]"
+"comments" ""
+}
+}
+entity
+{
+"id" "1602"
+"angles" "0 180 0"
+"canfireportal1" "$fire_blue"
+"canfireportal2" "$fire_orange"
+"classname" "weapon_portalgun"
+"fademaxdist" "0"
+"fademindist" "-1"
+"fadescale" "1"
+"origin" "12 -1.04907e-006 -2"
+"parentname" "pedestal"
+"showingpotatos" "0"
+"spawnflags" "1"
+"startingteamnum" "1"
+"targetname" "gun"
+connections
+{
+"OnPlayerPickup" "timerKill01"
+"OnPlayerPickup" "doorOpen0.81"
+"OnPlayerPickup" "open_trigKill01"
+"OnPlayerPickup" "sprKill01"
+"OnPlayerPickup" "fxKill01"
+"OnPlayerPickup" "spr_frontKill01"
+"OnPlayerPickup" "@portalgunRunScriptCode$pickup_func01"
+"OnPlayerPickup" "pedestalFireUser401"
+}
+editor
+{
+"color" "0 0 200"
+"visgroupshown" "1"
+"visgroupautoshown" "1"
+"logicalpos" "[0 2500]"
+"comments" ""
+}
+}

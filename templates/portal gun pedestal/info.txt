@@ -1,0 +1,97 @@
+"ID"		"BEE2_PORTALS"
+"Name"		"Portal Spawners"
+"Desc"      "Items related to the player's Portal Gun. Includes Autoportals (wall-mounted portal spawners), and a Portal Gun pedestal."
+
+"Item"
+	{
+	"ID" "ITEM_AUTOPORTAL"
+	"All_conf"	"spawner.cfg"
+	"Description"
+		{
+		"" "Creates a portal on the wall when powered. Portals will not open until after the player enters the map."
+		"" ""
+		"" "* Having these in a map will prevent the player from firing the autoportal's type - place a orange autoportal to give the player a blue-only gun."
+		"" "* Blue Autoportals will be disabled permanently if the player picks up a blue-only or dual portal device, and similarly with Orange autoportals."
+		"" "* The rotation handle is on the \"floor\" side of the portal."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"    "spawner"
+			"BEE2_PORTAL_1"
+				{
+				"Base" "BEE2_CLEAN"
+				"Instances"
+					{
+					"0" "instances/BEE2/p1/items/BEE/autoportal_orange.vmf"
+					"1" "instances/BEE2/p1/items/BEE/autoportal_orange.vmf"
+					
+					"2" "instances/BEE2/p1/items/BEE/autoportal_blue.vmf"
+					"3" "instances/BEE2/p1/items/BEE/autoportal_blue.vmf"
+					
+					"4" "instances/BEE2/p1/items/BEE/autoportal_frame.vmf"
+					"5" "instances/BEE2/p1/items/BEE/autoportal_frame.vmf"
+					
+					"portal"  "instances/BEE2/p1/items/BEE/autoportal.vmf"
+					}
+				"Palette"
+					{
+					"0"
+						{
+						"Model" "bee_autoportal_oran_p1.3ds"
+						}
+					"1"
+						{
+						"Model" "bee_autoportal_blue_p1.3ds"
+						}
+					"2"
+						{
+						"Model" "bee_autoportal_frame_p1.3ds"
+						}
+					}
+				}
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_BEE2_PORTALGUN"
+	"All_conf"	"pedestal"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"		"pedestal"
+			}
+		}
+	}
+	
+"BrushTemplate"
+	{
+	"ID"    "BEE_PGUN_BASE"
+	"file"  "pgun_base.vmf"
+	}
+
+"Signage"
+	{
+	"ID" "SIGN_AUTOPORTAL"
+	"Name" "Autoportal"
+	"Styles"
+		{
+		"BEE2_CLEAN"
+			{
+			"world"   "BEE2/signage/signage_autoportal"
+			"overlay" "BEE2/signage/signage_autoportal"
+			"icon"    "items/clean/BEE/signage/autoportal.png"
+			}
+		"BEE2_1980s"  "BEE2_CLEAN"
+		"BEE2_1970s"
+			{
+			"overlay" "BEE2/70s/signage_autoportal"
+			"icon"    "items/70s/BEE/signage/autoportal.png"
+			}
+		}
+	}
+
