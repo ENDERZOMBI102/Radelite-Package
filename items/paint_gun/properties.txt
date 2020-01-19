@@ -13,13 +13,13 @@
 "" ""
 "" "* Fire Blue Portal: Shoot Selected Gel"
 "" "* Fire Orange Portal: Change Gel Type"
-"" "*(Repulsion Gel, Propulsion Gel and Cleansing Gel)"
+"" "* (Repulsion Gel, Propulsion Gel and Cleansing Gel)"
 "" ""
 "" "Paint Gun Mk3."
 "" ""
 "" "* Fire Blue Portal: Shoot Selected Gel"
 "" "* Fire Orange Portal: Change Gel Type"
-"" "*(Repulsion Gel, Propulsion Gel and Reflection Gel)"
+"" "* (Repulsion Gel, Propulsion Gel and Reflection Gel)"
 "" ""
 "" "* Don't use more than one gun pedestal per chamber."
 }
@@ -27,9 +27,9 @@
 "ent_count" "7 (MK1)\n13 (MK2, MK3)"
 "Icon"
 {
+"all" "clean/paint_gun_mk1.png"
 "0" "clean/paint_gun_mk1.png"
 "1" "clean/paint_gun_mk2.png"
 "2" "clean/paint_gun_mk3.png"
-"all" "clean/paint_gun_mk1.png"
 }
 }

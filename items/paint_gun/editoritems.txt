@@ -1,6 +1,7 @@
 "Item"
     {
         "Type"     		"ITEM_PAINT_GUN"
+		"ItemClass"		"ItemButtonFloor"
         "Editor"
         {
 			"SubTypeProperty"		"ButtonType"

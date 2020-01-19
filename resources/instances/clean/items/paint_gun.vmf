@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "40"
+	"mapversion" "53"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "53"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1212,7 +1212,7 @@ entity
 	"targetname" "brushtoplayer"
 	"TargetReference" "gunbrush"
 	"TargetScale" "1"
-	"origin" "6.95759 -79.9255 0"
+	"origin" "6.95759 -79.9255 -2.38419e-007"
 	editor
 	{
 		"color" "220 30 220"
@@ -1289,8 +1289,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-61.0872 -66.7572 111.639]"
-		"look" "[-57.9834 -62.9168 107.203]"
+		"position" "[5.77456 -38.6122 -52.369]"
+		"look" "[5.03346 -32.3791 -54.5291]"
 	}
 }
 cordons
