@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5685"
-	"mapversion" "17"
+	"editorbuild" "8419"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,19 +20,113 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "123"
+	"classname" "logic_branch"
+	"InitialValue" "$start_reversed"
+	"targetname" "reversed_check"
+	connections
+	{
+		"OnTrue" "trigger_hurtSetParent!player0.05-1"
+	}
+	"origin" "-96 104 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "174"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "counterAdd10-1"
+		"OnProxyRelay" "counterSubtract10-1"
+	}
+	"origin" "104 -28 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "176"
+	"classname" "math_counter"
+	"max" "$connectioncount"
+	"targetname" "counter"
+	connections
+	{
+		"OnHitMax" "deployed_checkToggleTest0-1"
+		"OnChangedFromMax" "deployed_checkToggleTest0-1"
+	}
+	"origin" "96 56 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "49"
+	"classname" "func_instance_parms"
+	"parm1" "$connectioncount integer 0"
+	"parm3" "$start_reversed integer 0"
+	"parm4" "$start_deployed integer 1"
+	"origin" "-112 104 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "69"
+	"classname" "logic_branch"
+	"InitialValue" "$start_deployed"
+	"targetname" "deployed_check"
+	connections
+	{
+		"OnFalse" "trigger_hurtDisable0-1"
+		"OnTrue" "trigger_hurtEnable0-1"
+	}
+	"origin" "-32 32 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 hidden
 {
@@ -43,10 +137,6 @@ hidden
 		"spawnflags" "0"
 		"StartDisabled" "0"
 		"targetname" "deactivate"
-		connections
-		{
-			"OnTrigger" "proxyProxyRelay0-1"
-		}
 		"origin" "0 16 4.76837e-007"
 		editor
 		{
@@ -70,10 +160,7 @@ entity
 	"origin" "0 0 0"
 	"spawnflags" "4097"
 	"StartDisabled" "0"
-	connections
-	{
-		"OnStartTouch" "proxyProxyRelay0-1"
-	}
+	"targetname" "trigger_hurt"
 	solid
 	{
 		"id" "22"
