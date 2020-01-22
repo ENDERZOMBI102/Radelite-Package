@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8037"
-	"mapversion" "25"
+	"editorbuild" "8419"
+	"mapversion" "28"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,33 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "28"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "188"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "activator"
+	connections
+	{
+		"OnTrigger" "proxyProxyRelay0-1"
+	}
+	"origin" "0 0 -88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -45,34 +65,11 @@ entity
 	"SkinType" "0"
 	connections
 	{
-		"OnPlayerPickup" "buttonPressIn0-1"
-		"OnOrangePickUp" "buttonPressIn0-1"
-		"OnBluePickUp" "buttonPressIn0-1"
+		"OnBluePickUp" "activatorTrigger0-1"
+		"OnOrangePickUp" "activatorTrigger0-1"
+		"OnPlayerPickup" "activatorTrigger0-1"
 	}
 	"origin" "-0.517857 0 -64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "51"
-	"classname" "prop_floor_button"
-	"angles" "0 0 -180"
-	"model" "models/props/portal_button.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"targetname" "button"
-	connections
-	{
-		"OnPressed" "proxyProxyRelay0-1"
-		"OnUnPressed" "proxyProxyRelay0-1"
-	}
-	"origin" "0 0 -112"
 	editor
 	{
 		"color" "220 30 220"
