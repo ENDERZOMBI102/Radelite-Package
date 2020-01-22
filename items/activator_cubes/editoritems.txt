@@ -1,7 +1,6 @@
 "Item"
 	{
 		"Type"		"ITEM_ACTIVATOR_CUBES"
-		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
 			"SubTypeProperty"		"CubeType"
