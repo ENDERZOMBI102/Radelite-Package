@@ -4,9 +4,12 @@
 "Tags" "Portal 2"
 "Description"
 {
-"" "Invisible block that kills the player walked into."
+"" "Invisible block that kills the player when walked into."
+"" "When the player dies, it looks like he fell."
 "" ""
-"" "* It's Damage Type is FALL."
+"" "* Start Open - Instead of dying, it finishes the map with a fade out. Useful if you want some sort of cinematic ending."
+"" ""
+"" "* Start Reversed - The invisible block will teleport to the player, so it kills him when it receives an input."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Trigger-Kill"
 "ent_count" "1"

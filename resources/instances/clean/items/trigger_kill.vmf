@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "19"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -36,15 +36,35 @@ world
 }
 entity
 {
+	"id" "295"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "reversed_check2"
+	connections
+	{
+		"OnTrigger" "trigger_hurtSetParent!player01"
+	}
+	"origin" "48 40 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "123"
 	"classname" "logic_branch"
 	"InitialValue" "$start_reversed"
 	"targetname" "reversed_check"
 	connections
 	{
-		"OnTrue" "trigger_hurtSetParent!player0.05-1"
+		"OnTrue" "reversed_check2Enable0.05-1"
 	}
-	"origin" "-96 104 0"
+	"origin" "48 40 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -63,7 +83,7 @@ entity
 		"OnProxyRelay" "counterAdd10-1"
 		"OnProxyRelay" "counterSubtract10-1"
 	}
-	"origin" "104 -28 -8"
+	"origin" "-48 40 -8"
 	editor
 	{
 		"color" "220 30 220"
@@ -83,7 +103,7 @@ entity
 		"OnHitMax" "deployed_checkToggleTest0-1"
 		"OnChangedFromMax" "deployed_checkToggleTest0-1"
 	}
-	"origin" "96 56 8"
+	"origin" "48 0 8"
 	editor
 	{
 		"color" "220 30 220"
@@ -97,9 +117,11 @@ entity
 	"id" "49"
 	"classname" "func_instance_parms"
 	"parm1" "$connectioncount integer 0"
+	"parm2" "$start_enabled integer 1"
 	"parm3" "$start_reversed integer 0"
-	"parm4" "$start_deployed integer 1"
-	"origin" "-112 104 0"
+	"parm4" "$start_open integer 0"
+	"parm5" "$start_deployed string"
+	"origin" "-48 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -112,14 +134,13 @@ entity
 {
 	"id" "69"
 	"classname" "logic_branch"
-	"InitialValue" "$start_deployed"
-	"targetname" "deployed_check"
+	"InitialValue" "$start_enabled"
+	"targetname" "enabled_check"
 	connections
 	{
-		"OnFalse" "trigger_hurtDisable0-1"
 		"OnTrue" "trigger_hurtEnable0-1"
 	}
-	"origin" "-32 32 0"
+	"origin" "-48 -48 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -159,7 +180,7 @@ entity
 	"nodmgforce" "0"
 	"origin" "0 0 0"
 	"spawnflags" "4097"
-	"StartDisabled" "0"
+	"StartDisabled" "1"
 	"targetname" "trigger_hurt"
 	solid
 	{
