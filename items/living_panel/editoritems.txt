@@ -85,7 +85,6 @@
 				"DefaultValue"	"0"
 				"Index"		"1"
 			}
-
 			"StartDeployed"
 			{
 				"DefaultValue"	"1"
