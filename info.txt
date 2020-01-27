@@ -220,7 +220,7 @@
 
 "Item"
 	{
-	"ID" "ITEM_TRIGGER_KILL"
+	"ID" "ITEM_INSTANT_KILL"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
@@ -230,7 +230,7 @@
 		"Name" "Regular"
 		"Styles"
 			{
-			"ANY_STYLE" "trigger_kill"
+			"ANY_STYLE" "instant_kill"
 			}
 		}
 	}

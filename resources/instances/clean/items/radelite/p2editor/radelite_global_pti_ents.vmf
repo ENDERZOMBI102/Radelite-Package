@@ -1,0 +1,181 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "36"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "36"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "183"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "@relay_play_pti_audioTrigger0-1"
+		"OnMapSpawn" "@relay_spawn_3Trigger1.5-1"
+		"OnMapSpawn" "@relay_spawn_4Trigger4-1"
+	}
+	"origin" "-55.8479 87 10.0595"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "189"
+	"classname" "func_instance_parms"
+	"parm1" "$disable_pti_audio integer 1"
+	"origin" "-0.779308 87 36.3592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "199"
+	"classname" "logic_relay"
+	"disable_pti_audio" "$disable_pti_audio"
+	"spawnflags" "0"
+	"StartDisabled" "$disable_pti_audio"
+	"targetname" "@relay_play_pti_audio"
+	connections
+	{
+		"OnTrigger" "@gladosRunScriptCodeDLC2_PlayEntryVO()0-1"
+	}
+	"origin" "-61.9943 87 -28.2369"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "175"
+	"classname" "logic_relay"
+	"targetname" "@relay_pti_level_end"
+	connections
+	{
+		"OnTrigger" "@playtestStopRecording0-1"
+		"OnTrigger" "@voteRunScriptCodecallvote()0-1"
+	}
+	"origin" "-5.62708 87 13.4916"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "153"
+	"classname" "logic_auto"
+	"spawnflags" "0"
+	connections
+	{
+		"OnMapSpawn" "@playtestStartRecording0-1"
+		"OnLoadGame" "@playtestStartRecording0-1"
+	}
+	"origin" "30.7262 87 26.2214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "59"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"spawnflags" "0"
+	"targetname" "@vote"
+	"vscripts" "transitions/voting_dialog.nut"
+	"origin" "64 0 0"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "148"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "@relay_pti_level_endTrigger0-1"
+	}
+	"origin" "32 48 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "43"
+	"classname" "playtest_manager"
+	"targetname" "@playtest"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

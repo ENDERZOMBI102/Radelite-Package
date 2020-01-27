@@ -1,0 +1,21 @@
+"Properties"
+{
+"Authors" "Radelite, Flash4433"
+"Tags" "Portal 2"
+"Description"
+{
+"" "An invisible item that, if it receives an **input**, it will **insta-kill** the player. When the player dies, it looks like he fell."
+"" ""
+"" "* **Start Reversed** - Instead of dying, it finishes the map with a fade out. Useful if you want some sort of cinematic ending."
+"" ""
+"" "* This item is an upgrade to Radelite's Trigger Kill. Now it doesn't have a trigger, since there's already triggers in BEEMod. So, you can add different types of inputs to it. I still suggest just using an **laserfield**."
+}
+"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Instant-Kill"
+"ent_count" "4 (Kill)\n5 (Win)"
+"Icon"
+{
+"all" "clean/instant_killwin.png"
+"0" "clean/instant_kill.png"
+"1" "clean/instant_win.png"
+}
+}
