@@ -179,7 +179,7 @@
 				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
-			"MovementHandle"			"HANDLE_36_DIRECTIONS"
+			"MovementHandle"			"HANDLE_NONE"
 			"InvalidSurface"			"CEILING WALL"
 			"CanAnchorOnBarriers"		"1"
 			"CanAnchorOnGoo"			"1"
