@@ -10,7 +10,6 @@
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
-					"TextureName"		"cube.png"
 				}
 				"Palette"
 				{
@@ -45,7 +44,6 @@
 				"Model"
 				{
 					"ModelName"		"cubecompanion.3ds"
-					"TextureName"		"cubecompanion.png"
 				}
 				"Palette"
 				{
@@ -80,7 +78,6 @@
 				"Model"
 				{
 					"ModelName"	"cubelaser.3ds"
-					"TextureName"	"cubelaser.png"
 				}
 				"Palette"
 				{
@@ -115,7 +112,6 @@
 				"Model"
 				{
 					"ModelName"	"cubesphere.3ds"
-					"TextureName"	"cubesphere.png"
 				}
 				"Palette"
 				{
@@ -150,7 +146,6 @@
 				"Model"
 				{
 					"ModelName"		"frankenturret.3ds"
-					"TextureName"		"frankenturret.png"
 				}
 				"Palette"
 				{
