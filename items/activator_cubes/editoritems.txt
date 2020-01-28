@@ -14,14 +14,14 @@
 				"Palette"
 				{
 					"Tooltip"		"FIZZLED ACTIVATOR CUBE"
-					"Image"		    	"palette/clean/fizzled_activator.png"
+					"Image"		    "palette/clean/fizzled_activator.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
 				{
 					"SOUND_CREATED"				"P2Editor.PlaceCube"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
+					"SOUND_EDITING_ACTIVATE"	"P2Editor.ExpandCube"
+					"SOUND_EDITING_DEACTIVATE"	"P2Editor.CollapseCube"
 					"SOUND_DELETED"				"P2Editor.RemoveCube"
 				}
 				"Animations"
