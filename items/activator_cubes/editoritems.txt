@@ -10,12 +10,12 @@
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
-					"TextureName"	"cube.png"
+					"TextureName"		"cube.png"
 				}
 				"Palette"
 				{
 					"Tooltip"		"FIZZLED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/fizzled_activator.png"
+					"Image"		    	"palette/clean/fizzled_activator.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -27,14 +27,14 @@
 				}
 				"Animations"
 				{
-				"ANIM_IDLE"							"0"
-				"ANIM_EDITING_ACTIVATE"				"2"
-				"ANIM_EDITING_DEACTIVATE"			"3"
-				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_IDLE"				"0"
+				"ANIM_EDITING_ACTIVATE"			"2"
+				"ANIM_EDITING_DEACTIVATE"		"3"
+				"ANIM_FALLING_IDLE"			"1"
 				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
 				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
-				"ANIM_FALLING_TO_GROUND"			"7"
-				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND"		"7"
+				"ANIM_GROUND_TO_FALLING"		"9"
 				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
 				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
@@ -45,12 +45,12 @@
 				"Model"
 				{
 					"ModelName"		"cubecompanion.3ds"
-					"TextureName"	"cubecompanion.png"
+					"TextureName"		"cubecompanion.png"
 				}
 				"Palette"
 				{
 					"Tooltip"		"PAINTED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/painted_activator.png"
+					"Image"		   	"palette/clean/painted_activator.png"
 					"Position"		"2 0 0"
 				}
 				"Sounds"
@@ -62,14 +62,14 @@
 				}
 				"Animations"
 				{
-				"ANIM_IDLE"							"0"
-				"ANIM_EDITING_ACTIVATE"				"2"
-				"ANIM_EDITING_DEACTIVATE"			"3"
-				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_IDLE"				"0"
+				"ANIM_EDITING_ACTIVATE"			"2"
+				"ANIM_EDITING_DEACTIVATE"		"3"
+				"ANIM_FALLING_IDLE"			"1"
 				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
 				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
-				"ANIM_FALLING_TO_GROUND"			"7"
-				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND"		"7"
+				"ANIM_GROUND_TO_FALLING"		"9"
 				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
 				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
@@ -79,13 +79,13 @@
 				"Name"		"Picked Activator Cube"
 				"Model"
 				{
-					"ModelName"		"cubelaser.3ds"
+					"ModelName"	"cubelaser.3ds"
 					"TextureName"	"cubelaser.png"
 				}
 				"Palette"
 				{
 					"Tooltip"		"PICKED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/picked_activator.png"
+					"Image"		    	"palette/clean/picked_activator.png"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
@@ -97,14 +97,14 @@
 				}
 				"Animations"
 				{
-				"ANIM_IDLE"							"0"
-				"ANIM_EDITING_ACTIVATE"				"2"
-				"ANIM_EDITING_DEACTIVATE"			"3"
-				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_IDLE"				"0"
+				"ANIM_EDITING_ACTIVATE"			"2"
+				"ANIM_EDITING_DEACTIVATE"		"3"
+				"ANIM_FALLING_IDLE"			"1"
 				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
 				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
-				"ANIM_FALLING_TO_GROUND"			"7"
-				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND"		"7"
+				"ANIM_GROUND_TO_FALLING"		"9"
 				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
 				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
@@ -114,13 +114,13 @@
 				"Name"			"Dropped Activator Cube"
 				"Model"
 				{
-					"ModelName"		"cubesphere.3ds"
+					"ModelName"	"cubesphere.3ds"
 					"TextureName"	"cubesphere.png"
 				}
 				"Palette"
 				{
 					"Tooltip"		"DROPPED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/dropped_activator.png"
+					"Image"		    	"palette/clean/dropped_activator.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -132,14 +132,14 @@
 				}
 				"Animations"
 				{
-				"ANIM_IDLE"							"0"
-				"ANIM_EDITING_ACTIVATE"				"2"
-				"ANIM_EDITING_DEACTIVATE"			"3"
-				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_IDLE"				"0"
+				"ANIM_EDITING_ACTIVATE"			"2"
+				"ANIM_EDITING_DEACTIVATE"		"3"
+				"ANIM_FALLING_IDLE"			"1"
 				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
 				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
-				"ANIM_FALLING_TO_GROUND"			"7"
-				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND"		"7"
+				"ANIM_GROUND_TO_FALLING"		"9"
 				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
 				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
@@ -150,12 +150,12 @@
 				"Model"
 				{
 					"ModelName"		"frankenturret.3ds"
-					"TextureName"	"frankenturret.png"
+					"TextureName"		"frankenturret.png"
 				}
 				"Palette"
 				{
 					"Tooltip"		"PICKED DROPPED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/pickeddropped_activator.png"
+					"Image"		   	"palette/clean/pickeddropped_activator.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -167,21 +167,21 @@
 				}
 				"Animations"
 				{
-				"ANIM_IDLE"							"0"
-				"ANIM_EDITING_ACTIVATE"				"2"
-				"ANIM_EDITING_DEACTIVATE"			"3"
-				"ANIM_FALLING_IDLE"					"1"
+				"ANIM_IDLE"				"0"
+				"ANIM_EDITING_ACTIVATE"			"2"
+				"ANIM_EDITING_DEACTIVATE"		"3"
+				"ANIM_FALLING_IDLE"			"1"
 				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
 				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
-				"ANIM_FALLING_TO_GROUND"			"7"
-				"ANIM_GROUND_TO_FALLING"			"9"
+				"ANIM_FALLING_TO_GROUND"		"7"
+				"ANIM_GROUND_TO_FALLING"		"9"
 				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
 				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
 			"MovementHandle"			"HANDLE_NONE"
 			"InvalidSurface"			"CEILING WALL"
-			"CanAnchorOnBarriers"		"1"
+			"CanAnchorOnBarriers"			"1"
 			"CanAnchorOnGoo"			"1"
 		}
 		"Properties"
@@ -191,18 +191,33 @@
 				"DefaultValue"	"0"
 				"Index"		"1"
 			}
+			"DropperEnabled"
+			{
+				"DefaultValue"	"1"
+				"Index"		"4"
+			}
+			"AutoRespawn"
+			{
+				"DefaultValue"  "1"
+				"Index"         "2"
+			}
+			"AutoDrop"
+			{
+				"DefaultValue"  "1"
+				"Index"         "3"
+			}
 		}
 		"Exporting"
 		{
 			"Instances"
 			{
 				"0"
-					{
+				{
 				    "Name"				"instances/BEE2/clean/items/activcubes/fizzled_cube.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
-					}
+				}
 				"bee2_radelitefizzler" "instances/BEE2/clean/items/activcubes/fizzled_cube.vmf"
 				"bee2_radelitepaint" "instances/BEE2/clean/items/activcubes/painted_cube.vmf"
 				"bee2_radelitepick" "instances/BEE2/clean/items/activcubes/picked_cube.vmf"
@@ -215,7 +230,7 @@
 			{
 				"CONNECTION_STANDARD"
 				{
-					"Activate"		"instance:button;OnPressed"
+					"Activate"	"instance:button;OnPressed"
 					"Deactivate"	"instance:button;OnUnPressed"
 				}
 			}
@@ -237,14 +252,14 @@
 				{
 					"Dir"				"1 0 0"
 					"Pos"				"-1 3 0"
-					"SignageOffset"		"-2 2 0"
+					"SignageOffset"			"-2 2 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
 					"Dir"				"1 0 0"
 					"Pos"				"-1 4 0"
-					"SignageOffset"		"-2 5 0"
+					"SignageOffset"			"-2 5 0"
 					"Priority"  "0"
 				}
 
@@ -253,14 +268,14 @@
 				{
 					"Dir"				"-1 0 0"
 					"Pos"				"8 3 0"
-					"SignageOffset"		"9 2 0"
+					"SignageOffset"			"9 2 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
 					"Dir"				"-1 0 0"
 					"Pos"				"8 4 0"
-					"SignageOffset"		"9 5 0"
+					"SignageOffset"			"9 5 0"
 					"Priority"  "0"
 				}
 
@@ -269,14 +284,14 @@
 				{
 					"Dir"				"0 1 0"
 					"Pos"				"3 -1 0"
-					"SignageOffset"		"2 -2 0"
+					"SignageOffset"			"2 -2 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
 					"Dir"				"0 1 0"
 					"Pos"				"4 -1 0"
-					"SignageOffset"		"5 -2 0"
+					"SignageOffset"			"5 -2 0"
 					"Priority"  "0"
 				}
 
@@ -285,14 +300,14 @@
 				{
 					"Dir"				"0 -1 0"
 					"Pos"				"3 8 0"
-					"SignageOffset"		"2 9 0"
+					"SignageOffset"			"2 9 0"
 					"Priority"  "0"
 				}
 				"Point"
 				{
 					"Dir"				"0 -1 0"
 					"Pos"				"4 8 0"
-					"SignageOffset"		"5 9 0"
+					"SignageOffset"			"5 9 0"
 					"Priority"  "0"
 				}
 			}
