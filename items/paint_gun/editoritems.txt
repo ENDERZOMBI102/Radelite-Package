@@ -41,7 +41,7 @@
 			}
 			"AngledPanelAnimation"
 			{
-				"DefaultValue"	"0"
+				"DefaultValue"	"ramp_30_degree_open"
 				"Index"			"2"
 			}
 			"StartOpen"
@@ -51,7 +51,7 @@
 			}
 			"CubeType"
 			{
-				"DefaultValue"	"0"
+				"DefaultValue"	"1"
 				"Index"			"4"
 			}
 			"StartReversed"
