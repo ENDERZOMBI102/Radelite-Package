@@ -32,32 +32,32 @@
 			"StartLocked"
 			{
 				"DefaultValue"	"1"
-				"Index"			"0"
+				"Index"			"1"
 			}
 			"AngledPanelType"
 			{
 				"DefaultValue"	"0"
-				"Index"			"1"
+				"Index"			"2"
 			}
 			"AngledPanelAnimation"
 			{
-				"DefaultValue"	"ramp_30_degree_open"
-				"Index"			"2"
+				"DefaultValue"	"ramp_90_degree_open"
+				"Index"			"3"
 			}
 			"StartOpen"
 			{
 				"DefaultValue"	"1"
-				"Index"			"3"
+				"Index"			"4"
 			}
 			"CubeType"
 			{
 				"DefaultValue"	"1"
-				"Index"			"4"
+				"Index"			"5"
 			}
 			"StartReversed"
 			{
 				"DefaultValue"	"0"
-				"Index"			"5"
+				"Index"			"6"
 			}
 		}
         "Exporting"
