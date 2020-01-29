@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "53"
+	"mapversion" "54"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "53"
+	"mapversion" "54"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,6 +758,44 @@ world
 }
 entity
 {
+	"id" "400"
+	"classname" "logic_branch"
+	"InitialValue" "$start_locked"
+	connections
+	{
+		"OnTrue" "PaintuiAddOutputPressedAttack Paint:Start:0:0.01:-10-1"
+		"OnTrue" "PaintuiAddOutputPressedAttack Paint:ChangeType:$painttype_attack:0:10-1"
+	}
+	"origin" "-120 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "429"
+	"classname" "logic_branch"
+	"InitialValue" "$start_open"
+	connections
+	{
+		"OnTrue" "PaintuiAddOutputPressedAttack2 Paint:Start:0:0.01:-10-1"
+		"OnTrue" "PaintuiAddOutputPressedAttack2 Paint:ChangeType:$painttype_attack2:0:10-1"
+	}
+	"origin" "-120 -16 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "257"
 	"classname" "trigger_once"
 	"origin" "0 0 16"
@@ -1085,7 +1123,7 @@ entity
 	"id" "173"
 	"classname" "player_weaponstrip"
 	"targetname" "weapon strip"
-	"origin" "32.0631 -93.0315 49.9703"
+	"origin" "72 16 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1206,13 +1244,13 @@ entity
 	"id" "68"
 	"classname" "logic_measure_movement"
 	"MeasureReference" "Gunbrush"
-	"MeasureTarget" "!player"
+	"MeasureTarget" "$paintgunplayer"
 	"MeasureType" "1"
 	"Target" "paint"
 	"targetname" "brushtoplayer"
-	"TargetReference" "gunbrush"
+	"TargetReference" "Gunbrush"
 	"TargetScale" "1"
-	"origin" "6.95759 -79.9255 -2.38419e-007"
+	"origin" "72 -16 -2.38419e-007"
 	editor
 	{
 		"color" "220 30 220"
@@ -1230,14 +1268,10 @@ entity
 	"targetname" "Paintui"
 	connections
 	{
-		"PressedAttack" "PaintStart0.01-1"
 		"UnpressedAttack2" "PaintStop0-1"
 		"UnpressedAttack" "PaintStop0-1"
-		"PressedAttack2" "PaintChangePaintType20-1"
-		"PressedAttack2" "PaintStart0.01-1"
-		"PressedAttack" "PaintChangePaintType00-1"
 	}
-	"origin" "30.0923 -34.1704 1"
+	"origin" "72 48 1"
 	editor
 	{
 		"color" "220 30 220"
@@ -1275,7 +1309,7 @@ entity
 	"start_radius_max" "0.7"
 	"start_radius_min" "0.5"
 	"targetname" "Paint"
-	"origin" "-44.6 -31.4439 39.9302"
+	"origin" "72 -48 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1289,8 +1323,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5.77456 -38.6122 -52.369]"
-		"look" "[5.03346 -32.3791 -54.5291]"
+		"position" "[90.7062 7.99321 12.0896]"
+		"look" "[85.11 4.66176 10.8047]"
 	}
 }
 cordons

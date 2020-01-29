@@ -4,32 +4,56 @@
 "Tags" "Portal 2;Guns"
 "Description"
 {
-"" "Paint Gun Mk1."
+"" "Consider Fire Blue Portal as `attack` and Fire Orange Portal as `attack2`.
 "" ""
-"" "* Fire Blue Portal: Repulsion Gel"
-"" "* Fire Orange Portal: Propulsion Gel"
+"" "* Start Locked enables `attack`, checked by default."
+"" "* Start Open enables `attack2`, checked by default."
+"" "* Start Reversed makes the gun work for P-Body. Uncheck for AtLAS, check for P-Body. Useless in SP."
 "" ""
-"" "Paint Gun Mk2."
+"" "Angle allows you to choose the gel for `attack`."
+"" "* 30 - Jump Gel"
+"" "* 45 - Speed Gel"
+"" "* 60 - Portal Gel"
+"" "* 90 - Reflection Gel"
 "" ""
-"" "* Fire Blue Portal: Shoot Selected Gel"
-"" "* Fire Orange Portal: Change Gel Type"
-"" "* (Repulsion Gel, Propulsion Gel and Cleansing Gel)"
+"" "Cube Type allows you to choose the gel for `attack2`."
+"" "* Standard - Jump Gel"
+"" "* Companion - Speed Gel"
+"" "* Sphere - Portal Gel"
+"" "* Reflective - Cleansing Gel"
+"" "* FrankenTurret- Reflection Gel"
 "" ""
-"" "Paint Gun Mk3."
-"" ""
-"" "* Fire Blue Portal: Shoot Selected Gel"
-"" "* Fire Orange Portal: Change Gel Type"
-"" "* (Repulsion Gel, Propulsion Gel and Reflection Gel)"
-"" ""
-"" "* Don't use more than one gun pedestal per chamber."
+"" "* Don't use more than one gun pedestal per chamber, as their effects will stack up."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Paint-Gun"
-"ent_count" "7 (MK1)\n13 (MK2, MK3)"
+"ent_count" "8"
 "Icon"
 {
-"all" "clean/paint_gun_mk1.png"
-"0" "clean/paint_gun_mk1.png"
-"1" "clean/paint_gun_mk2.png"
-"2" "clean/paint_gun_mk3.png"
+"0" "clean/paint_gun.png"
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
