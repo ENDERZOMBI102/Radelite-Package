@@ -49,11 +49,11 @@
 				"DefaultValue"	"1"
 				"Index"			"4"
 			}
-			"CubeType"
-			{
-				"DefaultValue"	"1"
-				"Index"			"5"
-			}
+			//"CubeType"
+			//{
+			//	"DefaultValue"	"1"
+			//	"Index"			"5"
+			//}
 			"StartReversed"
 			{
 				"DefaultValue"	"0"
