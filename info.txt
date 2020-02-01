@@ -1,6 +1,6 @@
 "ID" "Radelite_package"
 "Name" "Radelite's package"
-"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported to you by ENDERZOMBI102, Libbybapa, Flash4433 and FeZzBurn!"
+"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported by ENDERZOMBI102, Libbybapa, Flash4433 and FeZzBurn!"
 "Prerequisites"
 {
 	"Package" "BEE2_CLEAN_STYLE"
@@ -12,14 +12,9 @@
 "Item"
 {
 	"ID" "ITEM_FIRE_PANEL"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
 	"unstyled"    "1"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "fire_panel"
@@ -31,12 +26,9 @@
 	{
 	"ID" "ITEM_WATER_BLOCK"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
+	"unstyled"    "1"
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "water_block"
@@ -48,12 +40,8 @@
 	{
 	"ID" "ITEM_PORTAL_DETECTOR"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 				"BEE2_PORTAL_1" "portal_detector_p1"
@@ -66,12 +54,8 @@
 	{
 	"ID" "ITEM_EMBEDDED_BUTTONS"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "embedded_buttons"
@@ -83,12 +67,8 @@
 	{
 	"ID" "ITEM_ACTIVATOR_CUBES"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "activator_cubes"
@@ -100,12 +80,8 @@
 	{
 	"ID" "ITEM_TURRET_DETECTOR"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "turret_detector"
@@ -117,12 +93,8 @@
 	{
 	"ID" "ITEM_GRAVITY_GUN"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "gravity_gun"
@@ -134,12 +106,8 @@
 	{
 	"ID" "ITEM_PAINT_GUN" 
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE"  "paint_gun"
@@ -151,12 +119,8 @@
 	{
 	"ID" "ITEM_RADIO"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"BEE2_CLEAN" "radio_clean"
@@ -171,12 +135,8 @@
 	{
 	"ID" "ITEM_SKYBOX_AREA"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "skybox"
@@ -188,12 +148,8 @@
 	{
 	"ID" "ITEM_LIVING_PANEL_LARGE"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "living_panel_large"
@@ -205,12 +161,8 @@
 	{
 	"ID" "ITEM_LIVING_PANEL"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "living_panel"
@@ -222,12 +174,9 @@
 	{
 	"ID" "ITEM_INSTANT_KILL"
 	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
+	"unstyled"    "1"
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "instant_kill"
