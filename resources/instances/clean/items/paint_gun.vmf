@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "55"
+	"mapversion" "58"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "55"
+	"mapversion" "58"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,25 +758,6 @@ world
 }
 entity
 {
-	"id" "400"
-	"classname" "logic_branch"
-	"InitialValue" "$start_locked"
-	connections
-	{
-		"OnTrue" "PaintuiAddOutputPressedAttack Paint:Start:0:0.01:-10-1"
-		"OnTrue" "PaintuiAddOutputPressedAttack Paint:ChangeType:$painttype_attack:0:10-1"
-	}
-	"origin" "-120 0 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "429"
 	"classname" "logic_branch"
 	"InitialValue" "$start_open"
@@ -785,7 +766,7 @@ entity
 		"OnTrue" "PaintuiAddOutputPressedAttack2 Paint:Start:0:0.01:-10-1"
 		"OnTrue" "PaintuiAddOutputPressedAttack2 Paint:ChangeType:$painttype_attack2:0:10-1"
 	}
-	"origin" "-120 -16 0"
+	"origin" "-72 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1270,6 +1251,8 @@ entity
 	{
 		"UnpressedAttack2" "PaintStop0-1"
 		"UnpressedAttack" "PaintStop0-1"
+		"PressedAttack" "$targetpaintChangePaintType$painttype_attack0-1"
+		"PressedAttack" "$targetpaintStart0.01-1"
 	}
 	"origin" "72 48 1"
 	editor
@@ -1323,8 +1306,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[90.7062 7.99321 12.0896]"
-		"look" "[85.11 4.66176 10.8047]"
+		"position" "[21.8668 41.3976 3.79077]"
+		"look" "[16.2706 38.0661 2.50587]"
 	}
 }
 cordons

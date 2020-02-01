@@ -9,7 +9,6 @@
 				"Model"
 				{
 					"ModelName"		"destination_target_outline.3ds"
-					"TextureName"	"arm_4panel.png"
 				}
 				"Palette"
 				{

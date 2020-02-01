@@ -1,7 +1,7 @@
 "Item"
     {
         "Type"     		"ITEM_PAINT_GUN"
-		"ItemClass"		"ItemBase"
+		"ItemClass"		"ItemButtonFloor"
         "Editor"
         {
             "SubType"
@@ -32,32 +32,27 @@
 			"StartLocked"
 			{
 				"DefaultValue"	"1"
-				"Index"			"1"
+				"Index"			"0"
 			}
-			"AngledPanelType"
+			"ButtonType"
 			{
 				"DefaultValue"	"0"
-				"Index"			"2"
-			}
-			"AngledPanelAnimation"
-			{
-				"DefaultValue"	"ramp_90_degree_open"
-				"Index"			"3"
+				"Index"			"1"
 			}
 			"StartOpen"
 			{
 				"DefaultValue"	"1"
-				"Index"			"4"
+				"Index"			"2"
 			}
-			//"CubeType"
-			//{
-			//	"DefaultValue"	"1"
-			//	"Index"			"5"
-			//}
+			"CubeType"
+			{
+				"DefaultValue"	"1"
+				"Index"			"3"
+			}
 			"StartReversed"
 			{
 				"DefaultValue"	"0"
-				"Index"			"6"
+				"Index"			"4"
 			}
 		}
         "Exporting"
@@ -65,6 +60,41 @@
             "Instances"
             {
                 "0"
+                {
+                    "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
+                }
+				"1"
+                {
+                    "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
+                }
+				"2"
+                {
+                    "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
+                }
+				"3"
+                {
+                    "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
+                }
+				"4"
+                {
+                    "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
+                }
+				"5"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
