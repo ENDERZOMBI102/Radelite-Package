@@ -45,6 +45,8 @@
 		"Styles"
 			{
 				"BEE2_PORTAL_1" "portal_detector_p1"
+                "BEE2_CLEAN" "portal_detector_p2"
+                "BEE2_CLEAN_ORIGINAL" "portal_detector_p2"
 				"ANY_STYLE" "portal_detector_p2"
 			}
 		}
