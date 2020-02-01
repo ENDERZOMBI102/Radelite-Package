@@ -32,6 +32,11 @@
 		}
 		"Properties"
 		{
+		"StartOpen"
+			{
+			"DefaultValue" "0"
+			"Index" "1"
+			}
 		}
 		"Exporting"
 		{
