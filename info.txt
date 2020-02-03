@@ -9,8 +9,23 @@
 	"Package" "VALVE_TEST_ELEM"
 }
 
+"ID" "LIBBY_TRIGGERS"
+"Name" "Cube triggers"
+"Desc" "Custom item."
 "Item"
-{
+	{
+	"ID" "ITEM_LIB_TRIG"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY STYLE" "lib_trig"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_FIRE_PANEL"
 	"unstyled"    "1"
 	"Version"
