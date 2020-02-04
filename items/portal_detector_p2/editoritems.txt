@@ -11,7 +11,6 @@
 				"Model"
 				{
 					"ModelName"		"panel_pushout.3ds"
-					"TextureName"	"panel.png"
 				}
 				"Palette"
 				{
