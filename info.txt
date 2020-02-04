@@ -9,12 +9,9 @@
 	"Package" "VALVE_TEST_ELEM"
 }
 
-"ID" "LIBBY_TRIGGERS"
-"Name" "Cube triggers"
-"Desc" "Custom item."
 "Item"
 	{
-	"ID" "ITEM_LIB_TRIG"
+	"ID" "ITEM_RADELITE_LIB_TRIG"
 	"Version"
 		{
 		"Styles"
