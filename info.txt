@@ -11,19 +11,6 @@
 
 "Item"
 {
-	"ID" "ITEM_RADELITE_LIB_TRIG"
-	"unstyled"    "1"
-	"Version"
-		{
-		"Styles"
-			{
-			"ANY_STYLE" "lib_trig"
-			}
-		}
-	}
-
-"Item"
-{
 	"ID" "ITEM_FIRE_PANEL"
 	"unstyled"    "1"
 	"Version"
