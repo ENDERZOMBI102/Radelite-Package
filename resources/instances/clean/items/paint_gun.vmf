@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "60"
+	"mapversion" "62"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "60"
+	"mapversion" "62"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -762,113 +762,17 @@ entity
 	"classname" "func_instance_parms"
 	"parm1" "$paintgunplayer string !player"
 	"parm2" "$targetpaint string noll"
-	"parm3" "$targetpaint2 string noll"
+	"parm3" "$targetpaintb string noll"
 	"parm4" "$painttype_attack integer 0"
-	"parm5" "$painttype_attack2 integer 2"
+	"parm5" "$painttype_attackb integer 2"
 	"spawnflags" "0"
-	"origin" "-80 0 0"
+	"origin" "32 -32 0"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "257"
-	"classname" "trigger_once"
-	"origin" "0 0 16"
-	"spawnflags" "4097"
-	"startdisabled" "0"
-	"targetname" "open_trig"
-	connections
-	{
-		"OnTrigger" "pedestalSetAnimationopen0-1"
-	}
-	solid
-	{
-		"id" "258"
-		side
-		{
-			"id" "136"
-			"plane" "(-96 -96 128) (-96 96 128) (96 96 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "135"
-			"plane" "(-96 96 -96) (-96 -96 -96) (96 -96 -96)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "134"
-			"plane" "(96 96 -96) (96 -96 -96) (96 -96 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "133"
-			"plane" "(-96 -96 -96) (-96 96 -96) (-96 96 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "132"
-			"plane" "(96 -96 -96) (-96 -96 -96) (-96 -96 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "131"
-			"plane" "(-96 96 -96) (96 96 -96) (96 96 128)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -985,7 +889,6 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ShowingPotatos" "0"
-	"skin" "1"
 	"spawnflags" "1"
 	"targetname" "Portal_Gun"
 	connections
@@ -1014,6 +917,7 @@ entity
 	connections
 	{
 		"OnTrigger" "weapon stripStrip0-1"
+		"OnTrigger" "pedestalSetAnimationopen0-1"
 	}
 	solid
 	{
@@ -1104,7 +1008,7 @@ entity
 	"id" "173"
 	"classname" "player_weaponstrip"
 	"targetname" "weapon strip"
-	"origin" "72 16 0"
+	"origin" "24 24 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1231,7 +1135,7 @@ entity
 	"targetname" "brushtoplayer"
 	"TargetReference" "Gunbrush"
 	"TargetScale" "1"
-	"origin" "72 -16 -2.38419e-007"
+	"origin" "-32 -32 -2.38419e-007"
 	editor
 	{
 		"color" "220 30 220"
@@ -1252,11 +1156,11 @@ entity
 		"UnpressedAttack2" "PaintStop0-1"
 		"UnpressedAttack" "PaintStop0-1"
 		"PressedAttack" "$targetpaintChangePaintType$painttype_attack0-1"
-		"PressedAttack" "$targetpaint2Start0.01-1"
+		"PressedAttack" "$targetpaintbStart0.01-1"
 		"PressedAttack" "$targetpaintStart0.01-1"
-		"PressedAttack" "$targetpaint2ChangePaintType$painttype_attack20-1"
+		"PressedAttack" "$targetpaintbChangePaintType$painttype_attackb0-1"
 	}
-	"origin" "72 48 1"
+	"origin" "-32 32 1"
 	editor
 	{
 		"color" "220 30 220"
@@ -1294,7 +1198,7 @@ entity
 	"start_radius_max" "0.7"
 	"start_radius_min" "0.5"
 	"targetname" "Paint"
-	"origin" "72 -48 0"
+	"origin" "-8 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1308,8 +1212,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-24.5491 -29.4176 21.0968]"
-		"look" "[-20.2749 -26.8632 16.7069]"
+		"position" "[-20.1373 -4.64471 5.67287]"
+		"look" "[-13.9229 -3.76085 3.5128]"
 	}
 }
 cordons

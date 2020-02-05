@@ -63,43 +63,43 @@
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"1"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"2"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"3"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"4"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"5"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
                     "EntityCount"       	"8"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
             }
             "Offset"            		"64 64 64"
