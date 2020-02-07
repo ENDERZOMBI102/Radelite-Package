@@ -11,7 +11,6 @@
 				"Model"
 				{
 					"ModelName"		"panel_pushout.3ds"
-					"TextureName"	"panel.png"
 				}
 				"Palette"
 				{
@@ -32,6 +31,11 @@
 		}
 		"Properties"
 		{
+		"StartOpen"
+			{
+			"DefaultValue" "0"
+			"Index" "1"
+			}
 		}
 		"Exporting"
 		{

@@ -11,7 +11,9 @@
 		"" "* Trigger once activates permanently."
 		"" "* Trigger multiple activates every time a cube touches it."
 		"" "* Connection Autosave will autosave when all connections are active simultaneously."
-		"" "Thanks to libbybapa for the ''revisited'' version of the cube triggers!"
+		"" ""
+		"" ""
+		"" "Thank you to Libbybapa for the new versions of the Cube Triggers! Check out his other packages too."
 	}
 	"all_name" "CUBE TRIGGERS"
 	"all_icon" "palette/clean/cube_trigger_all.png"

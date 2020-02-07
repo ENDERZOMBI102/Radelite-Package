@@ -10,7 +10,19 @@
 }
 
 "Item"
-{
+	{
+	"ID" "ITEM_RADELITE_LIB_TRIG"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY STYLE" "lib_trig"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_FIRE_PANEL"
 	"unstyled"    "1"
 	"Version"
@@ -45,6 +57,8 @@
 		"Styles"
 			{
 				"BEE2_PORTAL_1" "portal_detector_p1"
+                "BEE2_CLEAN" "portal_detector_p2"
+                "BEE2_CLEAN_ORIGINAL" "portal_detector_p2"
 				"ANY_STYLE" "portal_detector_p2"
 			}
 		}
