@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
@@ -767,7 +767,7 @@ entity
 		"OnTrue" "PaintChangePaintType$painta0-1"
 		"OnTrue" "PaintStart0.1-1"
 	}
-	"origin" "-12 64 0"
+	"origin" "-16 64 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -787,7 +787,7 @@ entity
 		"OnTrue" "PaintChangePaintType$paintb0-1"
 		"OnTrue" "PaintStart0.1-1"
 	}
-	"origin" "4 64 0"
+	"origin" "0 64 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -806,7 +806,7 @@ entity
 	"parm6" "$start_locked boolean"
 	"parm7" "$start_open boolean"
 	"spawnflags" "0"
-	"origin" "-12 80 0"
+	"origin" "-16 80 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1048,7 +1048,7 @@ entity
 	"id" "173"
 	"classname" "player_weaponstrip"
 	"targetname" "weapon strip"
-	"origin" "28 72 0"
+	"origin" "24 72 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1175,7 +1175,7 @@ entity
 	"targetname" "brushtoplayer"
 	"TargetReference" "Gunbrush"
 	"TargetScale" "1"
-	"origin" "4 80 -2.38419e-007"
+	"origin" "0 80 -2.38419e-007"
 	editor
 	{
 		"color" "220 30 220"
@@ -1198,7 +1198,7 @@ entity
 		"PressedAttack" "a_branchTest0-1"
 		"PressedAttack2" "b_branchTest0-1"
 	}
-	"origin" "-36 72 1"
+	"origin" "-32 72 1"
 	editor
 	{
 		"color" "220 30 220"
@@ -1250,8 +1250,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-25.0737 -27.4373 15.0838]"
-		"look" "[-20.5794 -25.1596 10.7622]"
+		"position" "[-25.7616 -156.374 27.2326]"
+		"look" "[-24.5159 -150.027 25.7404]"
 	}
 }
 cordons

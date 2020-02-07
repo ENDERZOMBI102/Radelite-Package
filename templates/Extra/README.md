@@ -1,7 +1,8 @@
 **Some extras, like optional and old .vmfs and icons with layers, so you can edit them to your liking.**
 
 
- - Paint Gun.vmf - Old version of the Paint Guns. Nowadays it uses spheres, but these use blobs or nothing.
+ - Paint Gun MK2 and MK3.vmf - Old version of the Paint Guns. Basically you shoot gel with `attack`, and cycle through a selection of 3 gels with `attack`.
+MK2 has Jump, Speed and Cleansing Gel. MK3 has Jump, Speed and Reflection Gel.
 
  - Fire Panel.vmf - Old version of the Fire Panel.
  

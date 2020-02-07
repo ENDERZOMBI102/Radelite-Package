@@ -4,18 +4,17 @@
 		"ItemClass"		"ItemButtonFloor"
         "Editor"
         {
-			"SubTypeProperty"		"ButtonType"
             "SubType"
             {	
-                "Name"          		"Paint Gun Mk1"
+                "Name"          		"Paint Gun"
 				"Model"
 				{
 					"ModelName"		"bee2_pgun_pedestal_blue.3ds"
 				}
                 "Palette"
                 {
-                    "Tooltip"      			"PAINT GUN MK1"
-                    "Image"         		"palette/clean/paint_gun_mk1.png"
+                    "Tooltip"      			"PAINT GUN"
+                    "Image"         		"palette/clean/paint_gun.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
                 "Sounds"
@@ -26,48 +25,6 @@
                     "SOUND_DELETED"            "P2Editor.RemoveOther"
                 }
             }
-	        "SubType"
-            {	
-                "Name"          		"Paint Gun Mk2"
-				"Model"
-				{
-					"ModelName"		"bee2_pgun_pedestal_blue.3ds"
-				}
-                "Palette"
-                {
-                    "Tooltip"      			"PAINT GUN MK2"
-                    "Image"         		"palette/clean/paint_gun_mk2.png"
-                    "Position"      		"3 1 0"
-                }
-                "Sounds"
-                {
-                    "SOUND_CREATED"            "P2Editor.PlaceOther"
-                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
-                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-                    "SOUND_DELETED"            "P2Editor.RemoveOther"
-                }
-            }
-            "SubType"
-            {	
-                "Name"          		"Paint Gun Mk3"
-				"Model"
-				{
-					"ModelName"		"bee2_pgun_pedestal_blue.3ds"
-				}
-                "Palette"
-                {
-                    "Tooltip"      			"PAINT GUN MK3"
-                    "Image"         		"palette/clean/paint_gun_mk3.png"
-                    "Position"      		"3 1 0"
-                }
-                "Sounds"
-                {
-                    "SOUND_CREATED"            "P2Editor.PlaceOther"
-                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
-                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-                    "SOUND_DELETED"            "P2Editor.RemoveOther"
-                }
-            }	
             "MovementHandle"    		"HANDLE_4_DIRECTIONS"
         }
 		"Properties"
@@ -77,6 +34,41 @@
 				"DefaultValue"	"0"
 				"Index"			"0"
 			}
+			"StartLocked"
+			{
+				"DefaultValue"	"1"
+				"Index"			"1"
+			}
+			"StartOpen"
+			{
+				"DefaultValue"	"1"
+				"Index"			"2"
+			}
+			"CubeType"
+			{
+				"DefaultValue"	"1"
+				"Index"			"3"
+			}
+			"StartReversed"
+			{
+				"DefaultValue"	"0"
+				"Index"			"4"
+			}
+			"$painta"
+			{
+				"DefaultValue"	"0"
+				"Index"			"5"
+			}
+			"$paintb"
+			{
+				"DefaultValue"	"2"
+				"Index"			"6"
+			}
+			"$paintgunplayer"
+			{
+				"DefaultValue"	"!player"
+				"Index"			"7"
+			}
 		}
         "Exporting"
         {
@@ -85,71 +77,71 @@
                 "0"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"1"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"2"
                 {
-                    "Name"         		"instances/BEE2/clean/items/paint_gun_mk2.vmf"
-                    "EntityCount"       	"13"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "Name"         		"instances/BEE2/clean/items/paint_gun2.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"3"
                 {
-                    "Name"         		"instances/BEE2/clean/items/paint_gun_mk2.vmf"
-                    "EntityCount"       	"13"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "Name"         		"instances/BEE2/clean/items/paint_gun2.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"4"
                 {
-                    "Name"         		"instances/BEE2/clean/items/paint_gun_mk3.vmf"
-                    "EntityCount"       	"13"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "Name"         		"instances/BEE2/clean/items/paint_gun3.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
 				"5"
                 {
-                    "Name"         		"instances/BEE2/clean/items/paint_gun_mk3.vmf"
-                    "EntityCount"       	"13"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"76"
+                    "Name"         		"instances/BEE2/clean/items/paint_gun3.vmf"
+                    "EntityCount"       	"10"
+                    "BrushCount"        	"11"
+                    "BrushSideCount"    	"70"
                 }
             }
             "Offset"            		"64 64 64"
             "TargetName"        		"paint_gun"
             "OccupiedVoxels"
-		{
-			"Voxel"
 			{
-				"Pos"		"0 0 0"
-				"Surface"
+				"Voxel"
 				{
-					"Pos"	"1 1 0"
-				}
-				"Surface"
-				{
-					"Pos"	"1 2 0"
-				}
-				"Surface"
-				{
-					"Pos"	"2 1 0"
-				}
-				"Surface"
-				{
-					"Pos"	"2 2 0"
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
 				}
 			}
-		}
 			"EmbeddedVoxels"
 			{
 				"Voxel"
@@ -157,7 +149,6 @@
 					"Pos"		"0 0 0"
 				}
 			}
-
 			"EmbedFace"
 			{
 				"Solid"
