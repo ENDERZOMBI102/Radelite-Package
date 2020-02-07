@@ -77,42 +77,42 @@
                 "0"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
-                    "EntityCount"       	"10"
+                    "EntityCount"       	"8"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"1"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun.vmf"
-                    "EntityCount"       	"10"
+                    "EntityCount"       	"8"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"2"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun2.vmf"
-                    "EntityCount"       	"10"
+                    "EntityCount"       	"8"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"3"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun2.vmf"
-                    "EntityCount"       	"10"
+                    "EntityCount"       	"8"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"4"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun3.vmf"
-                    "EntityCount"       	"10"
+                    "EntityCount"       	"8"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"5"
                 {
                     "Name"         		"instances/BEE2/clean/items/paint_gun3.vmf"
-                    "EntityCount"       	"10"
+                    "EntityCount"       	"8"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
