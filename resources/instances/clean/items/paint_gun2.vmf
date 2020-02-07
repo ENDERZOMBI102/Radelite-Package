@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "76"
+	"mapversion" "82"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "76"
+	"mapversion" "82"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,46 +758,6 @@ world
 }
 entity
 {
-	"id" "520"
-	"classname" "logic_branch"
-	"InitialValue" "$start_locked"
-	"targetname" "a_branch"
-	connections
-	{
-		"OnTrue" "PaintChangePaintType$painta0-1"
-		"OnTrue" "PaintStart0.1-1"
-	}
-	"origin" "-16 64 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "534"
-	"classname" "logic_branch"
-	"InitialValue" "$start_open"
-	"targetname" "b_branch"
-	connections
-	{
-		"OnTrue" "PaintChangePaintType$paintb0-1"
-		"OnTrue" "PaintStart0.1-1"
-	}
-	"origin" "0 64 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "505"
 	"classname" "func_instance_parms"
 	"parm1" "$paintgunplayer string !player"
@@ -806,7 +766,7 @@ entity
 	"parm6" "$start_locked boolean"
 	"parm7" "$start_open boolean"
 	"spawnflags" "0"
-	"origin" "-16 80 0"
+	"origin" "-12 80 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1048,7 +1008,7 @@ entity
 	"id" "173"
 	"classname" "player_weaponstrip"
 	"targetname" "weapon strip"
-	"origin" "24 72 0"
+	"origin" "28 72 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1175,7 +1135,7 @@ entity
 	"targetname" "brushtoplayer"
 	"TargetReference" "Gunbrush"
 	"TargetScale" "1"
-	"origin" "0 80 -2.38419e-007"
+	"origin" "4 80 -2.38419e-007"
 	editor
 	{
 		"color" "220 30 220"
@@ -1195,10 +1155,12 @@ entity
 	{
 		"UnpressedAttack2" "PaintStop0-1"
 		"UnpressedAttack" "PaintStop0-1"
-		"PressedAttack" "a_branchTest0-1"
-		"PressedAttack2" "b_branchTest0-1"
+		"PressedAttack" "PaintChangePaintType$painta0-1"
+		"PressedAttack2" "PaintChangePaintType$paintb0-1"
+		"PressedAttack" "Paint$starta0.1-1"
+		"PressedAttack2" "Paint$startb0.1-1"
 	}
-	"origin" "-32 72 1"
+	"origin" "-36 72 1"
 	editor
 	{
 		"color" "220 30 220"
@@ -1250,8 +1212,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-25.7616 -156.374 27.2326]"
-		"look" "[-24.5159 -150.027 25.7404]"
+		"position" "[-106.319 -68.6118 93.2114]"
+		"look" "[-101.824 -66.3341 88.8904]"
 	}
 }
 cordons
