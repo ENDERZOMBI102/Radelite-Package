@@ -12,6 +12,7 @@
 "Item"
 	{
 	"ID" "ITEM_RADELITE_LIB_TRIG"
+	"unstyled"    "1"
 	"Version"
 		{
 		"Styles"
@@ -125,22 +126,6 @@
 		"Styles"
 			{
 			"ANY_STYLE"  "paint_gun"
-			}
-		}
-	}
-	
-"Item"
-	{
-	"ID" "ITEM_RADIO"
-	"AllDescLast" "0"
-	"Version"
-		{
-		"Styles"
-			{
-			"BEE2_CLEAN" "radio_clean"
-			"BEE2_OVERGROWN" "radio_over"
-			"BEE2_PORTAL_1" "radio_p1"
-			"ANY_STYLE" "radio_clean"
 			}
 		}
 	}
