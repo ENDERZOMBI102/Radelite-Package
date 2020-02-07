@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "75"
+	"mapversion" "76"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "75"
+	"mapversion" "76"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -767,7 +767,7 @@ entity
 		"OnTrue" "PaintChangePaintType$painta0-1"
 		"OnTrue" "PaintStart0.1-1"
 	}
-	"origin" "-64 -56 0"
+	"origin" "-16 64 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -787,7 +787,7 @@ entity
 		"OnTrue" "PaintChangePaintType$paintb0-1"
 		"OnTrue" "PaintStart0.1-1"
 	}
-	"origin" "8 -56 0"
+	"origin" "0 64 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -806,7 +806,7 @@ entity
 	"parm6" "$start_locked boolean"
 	"parm7" "$start_open boolean"
 	"spawnflags" "0"
-	"origin" "32 -32 0"
+	"origin" "-16 80 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1048,7 +1048,7 @@ entity
 	"id" "173"
 	"classname" "player_weaponstrip"
 	"targetname" "weapon strip"
-	"origin" "24 24 0"
+	"origin" "24 72 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -1175,7 +1175,7 @@ entity
 	"targetname" "brushtoplayer"
 	"TargetReference" "Gunbrush"
 	"TargetScale" "1"
-	"origin" "-32 -32 -2.38419e-007"
+	"origin" "0 80 -2.38419e-007"
 	editor
 	{
 		"color" "220 30 220"
@@ -1198,7 +1198,7 @@ entity
 		"PressedAttack" "a_branchTest0-1"
 		"PressedAttack2" "b_branchTest0-1"
 	}
-	"origin" "-32 32 1"
+	"origin" "-32 72 1"
 	editor
 	{
 		"color" "220 30 220"
