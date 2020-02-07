@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "62"
+	"mapversion" "75"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "62"
+	"mapversion" "75"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,13 +758,53 @@ world
 }
 entity
 {
+	"id" "520"
+	"classname" "logic_branch"
+	"InitialValue" "$start_locked"
+	"targetname" "a_branch"
+	connections
+	{
+		"OnTrue" "PaintChangePaintType$painta0-1"
+		"OnTrue" "PaintStart0.1-1"
+	}
+	"origin" "-64 -56 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "534"
+	"classname" "logic_branch"
+	"InitialValue" "$start_open"
+	"targetname" "b_branch"
+	connections
+	{
+		"OnTrue" "PaintChangePaintType$paintb0-1"
+		"OnTrue" "PaintStart0.1-1"
+	}
+	"origin" "8 -56 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "505"
 	"classname" "func_instance_parms"
 	"parm1" "$paintgunplayer string !player"
-	"parm2" "$targetpaint string noll"
-	"parm3" "$targetpaintb string noll"
-	"parm4" "$painttype_attack integer 0"
-	"parm5" "$painttype_attackb integer 2"
+	"parm4" "$painta integer 0"
+	"parm5" "$paintb integer 2"
+	"parm6" "$start_locked boolean"
+	"parm7" "$start_open boolean"
 	"spawnflags" "0"
 	"origin" "32 -32 0"
 	editor
@@ -815,7 +855,7 @@ entity
 	"startdisabled" "0"
 	"suppressanimsounds" "0"
 	"targetname" "pedestal_base"
-	"origin" "0 0 -62.5"
+	"origin" "0 0 -64"
 	editor
 	{
 		"color" "220 30 220"
@@ -1155,10 +1195,8 @@ entity
 	{
 		"UnpressedAttack2" "PaintStop0-1"
 		"UnpressedAttack" "PaintStop0-1"
-		"PressedAttack" "$targetpaintChangePaintType$painttype_attack0-1"
-		"PressedAttack" "$targetpaintbStart0.01-1"
-		"PressedAttack" "$targetpaintStart0.01-1"
-		"PressedAttack" "$targetpaintbChangePaintType$painttype_attackb0-1"
+		"PressedAttack" "a_branchTest0-1"
+		"PressedAttack2" "b_branchTest0-1"
 	}
 	"origin" "-32 32 1"
 	editor
@@ -1212,8 +1250,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-20.1373 -4.64471 5.67287]"
-		"look" "[-13.9229 -3.76085 3.5128]"
+		"position" "[-25.7616 -156.374 27.2326]"
+		"look" "[-24.5159 -150.027 25.7404]"
 	}
 }
 cordons

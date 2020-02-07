@@ -29,14 +29,14 @@
         }
 		"Properties"
 		{
-			"StartLocked"
-			{
-				"DefaultValue"	"1"
-				"Index"			"0"
-			}
 			"ButtonType"
 			{
 				"DefaultValue"	"0"
+				"Index"			"0"
+			}
+			"StartLocked"
+			{
+				"DefaultValue"	"1"
 				"Index"			"1"
 			}
 			"StartOpen"
@@ -53,6 +53,16 @@
 			{
 				"DefaultValue"	"0"
 				"Index"			"4"
+			}
+			"$painta"
+			{
+				"DefaultValue"	"0"
+				"Index"			"5"
+			}
+			"$paintb"
+			{
+				"DefaultValue"	"2"
+				"Index"			"6"
 			}
 		}
         "Exporting"
