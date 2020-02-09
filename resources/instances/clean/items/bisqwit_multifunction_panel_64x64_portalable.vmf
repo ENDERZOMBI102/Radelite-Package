@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5685"
-	"mapversion" "95"
+	"editorbuild" "8419"
+	"mapversion" "96"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "95"
+	"mapversion" "96"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -512,7 +512,7 @@ entity
 	connections
 	{
 		"OnTrigger" "branch_toggleToggle0-1"
-		"OnTrigger" "pillar_clipKill0-1"
+		"OnTrigger" "pillar_clipDisable0-1"
 	}
 	"origin" "-96 -56 -112"
 	editor
@@ -569,7 +569,6 @@ entity
 		"OnCase09" "living_panelSetAnimation90deg_in_cornerfront0-1"
 		"OnCase10" "living_panelSetAnimation9arms_136out_040-1"
 		"OnCase11" "living_panelSetAnimation9arms_destroyed_040-1"
-		
 		"OnCase12" "living_panelSetAnimationHeavydoor_open0-1"
 		"OnCase13" "living_panelSetAnimationrampa_stair01_up0-1"
 		"OnCase14" "living_panelSetAnimationrampa_stair02_up0-1"
@@ -741,6 +740,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
 	"StartDisabled" "0"
 	"SuppressAnimSounds" "0"
 	"targetname" "living_panel"
@@ -873,8 +873,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5.43583 -122.918 -34.5171]"
-		"look" "[5.24176 -121.973 -34.7792]"
+		"position" "[-138.922 -94.5325 -48.448]"
+		"look" "[-138.312 -93.7658 -48.6477]"
 	}
 }
 cordons
