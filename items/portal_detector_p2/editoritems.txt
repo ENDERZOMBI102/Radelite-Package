@@ -43,17 +43,17 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/Libbybapa/pd_white.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"Name"				"instances/BEE2/clean/items/radelite/pd_white.vmf"
+					"EntityCount"		"5"
+					"BrushCount"		"26"
+					"BrushSideCount"	"158"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/items/Libbybapa/pd_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"Name"				"instances/BEE2/clean/items/radelite/pd_black.vmf"
+					"EntityCount"		"5"
+					"BrushCount"		"26"
+					"BrushSideCount"	"158"
 				}
 			}
 			"TargetName"		"pd"
