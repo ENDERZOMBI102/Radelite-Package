@@ -51,7 +51,7 @@ world
 		{
 			"id" "2"
 			"plane" "(-64 -64 -64) (64 -64 -64) (64 64 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/WATER_A1_INTRO3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -62,7 +62,7 @@ world
 		{
 			"id" "3"
 			"plane" "(-64 64 64) (-64 -64 64) (-64 -64 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/WATER_A1_INTRO3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -73,7 +73,7 @@ world
 		{
 			"id" "4"
 			"plane" "(64 64 -64) (64 -64 -64) (64 -64 64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/WATER_A1_INTRO3"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -84,7 +84,7 @@ world
 		{
 			"id" "5"
 			"plane" "(64 64 64) (-64 64 64) (-64 64 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/WATER_A1_INTRO3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -95,7 +95,7 @@ world
 		{
 			"id" "6"
 			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 64)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "NATURE/WATER_A1_INTRO3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -108,6 +108,81 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "65"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" "4"
+	"origin" "80 0 0"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" "3"
+	"origin" "-80 0 0"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "80"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" "2"
+	"origin" "0 0 -80"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "89"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" "5"
+	"origin" "0 80 0"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "95"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" "6"
+	"origin" "0 -80 0"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
