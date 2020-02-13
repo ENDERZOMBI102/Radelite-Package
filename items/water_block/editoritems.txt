@@ -37,7 +37,7 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/clean/items/water_block.vmf"
-					"EntityCount"		"2"
+					"EntityCount"		"7"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
