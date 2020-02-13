@@ -1,7 +1,6 @@
 	"Item"
 	{
 		"Type"			"ITEM_WATER_BLOCK"
-		"ItemClass" 	"ItemButtonFloor"
 		"Editor"
 		{
 			"SubType"
@@ -27,15 +26,9 @@
 				}
 			}
 			"MovementHandle"		"HANDLE_NONE"
-			"CanAnchorOnBarriers"	"1"
 		}
 		"Properties"
 		{
-			"ConnectionCount"
-			{
-				"DefaultValue"	"0"
-				"Index"		"1"
-			}
 		}
 		"Exporting"
 		{
@@ -48,23 +41,9 @@
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
-				"1"
-				{
-					"Name"				"instances/BEE2/clean/items/water_block.vmf"
-					"EntityCount"		"2"
-					"BrushCount"		"1"
-					"BrushSideCount"	"6"
-				}
 			}
 
 			"TargetName"		"router"
-			"Outputs"
-			{
-				"BEE2"
-				{
-					"Force" "input output"
-				}
-			}
 			"Offset"		"64 64 64"
 			"OccupiedVoxels"
 			{
