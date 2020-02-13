@@ -45,16 +45,16 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/p1/items/pd_white.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"EntityCount"		"8"
+					"BrushCount"		"2"
+					"BrushSideCount"	"12"
 				}
 				"1"
 				{
 					"Name"				"instances/BEE2/p1/items/pd_black.vmf"
-					"EntityCount"		"3"
-					"BrushCount"		"41"
-					"BrushSideCount"	"286"
+					"EntityCount"		"8"
+					"BrushCount"		"2"
+					"BrushSideCount"	"12"
 				}
 			}
 			"TargetName"		"pd"

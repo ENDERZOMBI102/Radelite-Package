@@ -11,13 +11,13 @@
 
 "Item"
 	{
-	"ID" "ITEM_RADELITE_LIB_TRIG"
+	"ID" "ITEM_CON_TRIG"
 	"unstyled"    "1"
 	"Version"
 		{
 		"Styles"
 			{
-			"ANY STYLE" "lib_trig"
+			"ANY STYLE" "con_trig"
 			}
 		}
 	}

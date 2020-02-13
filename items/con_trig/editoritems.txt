@@ -1,6 +1,6 @@
 "Item"
 {
-	"Type" "ITEM_RADELITE_LIB_TRIG"
+	"Type" "ITEM_CON_TRIG"
 	"ItemClass" "ItemButtonFloor"
 	"Editor"
 	{
@@ -95,42 +95,42 @@
 		{
 			"0"
 			{
-				"Name" "instances/bee2/clean/items/Libbybapa/trig_1.vmf"
+				"Name" "instances/bee2/clean/items/radelite/trig_1.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
 			}
 			"1"
 			{
-				"Name" "instances/bee2/clean/items/Libbybapa/trig_1.vmf"
+				"Name" "instances/bee2/clean/items/radelite/trig_1.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
 			}
 			"2"
 			{
-				"Name" "instances/bee2/clean/items/Libbybapa/trig_m.vmf"
+				"Name" "instances/bee2/clean/items/radelite/trig_m.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
 			}
 			"3"
 			{
-				"Name" "instances/bee2/clean/items/Libbybapa/trig_m.vmf"
+				"Name" "instances/bee2/clean/items/radelite/trig_m.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
 			}
 			"4"
 			{
-				"Name" "instances/bee2/clean/items/Libbybapa/con_save.vmf"
+				"Name" "instances/bee2/clean/items/radelite/con_save.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
 			}
 			"5"
 			{
-				"Name" "instances/bee2/clean/items/Libbybapa/con_sav.vmf"
+				"Name" "instances/bee2/clean/items/radelite/con_sav.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
