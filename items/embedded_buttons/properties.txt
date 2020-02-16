@@ -15,10 +15,10 @@
 	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Embedded-Buttons"
 	"ent_count" "3"
 	"all_name" "Embedded Buttons"
-	"all_icon" "palette/clean/embedded_button.png"
+	"all_icon" "palette/clean/grouped/embedded_buttons.png"
 	"Icon"
 	{
-		"all" "clean/embedded_button.png"
+		"all" "clean/embedded_buttons.png"
 		"0" "clean/embedded_weighted_button.png"
 		"1" "clean/embedded_cube_button.png"
 		"2" "clean/embedded_sphere_button.png"
