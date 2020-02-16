@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8037"
-	"mapversion" "78"
+	"editorbuild" "8419"
+	"mapversion" "79"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "78"
+	"mapversion" "79"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1243,82 +1243,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "597"
-		side
-		{
-			"id" "761"
-			"plane" "(96 -96 -49) (-96 -96 -49) (-96 96 -49)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "762"
-			"plane" "(96 96 -225) (-96 96 -225) (-96 -96 -225)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "763"
-			"plane" "(-96 96 -225) (96 96 -225) (96 96 -49)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "764"
-			"plane" "(96 -96 -225) (-96 -96 -225) (-96 -96 -49)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "765"
-			"plane" "(96 96 -225) (96 -96 -225) (96 -96 -49)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "766"
-			"plane" "(-96 -96 -225) (-96 96 -225) (-96 96 -49)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 241 230"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 }
 entity
 {
@@ -1400,7 +1324,7 @@ entity
 	"origin" "4 0 -186"
 	editor
 	{
-		"color" "173 223 245"
+		"color" "0 0 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -1595,8 +1519,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[15.0984 -4.54086 -106.58]"
-		"look" "[15.0984 -4.54085 -368.754]"
+		"position" "[15.0984 -4.54085 133.42]"
+		"look" "[15.0984 -4.54086 -128.754]"
 	}
 }
 cordons
