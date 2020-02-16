@@ -10,6 +10,8 @@
 "" ""
 "" "* This item is an upgrade to Radelite's Trigger Kill. Now it doesn't have a trigger, since there's already triggers in BEEMod. So, you can add different types of inputs to it. I still suggest just using an **laserfield**."
 }
+"all_name"		"Instant Kill/Win"
+"all_icon"		"palette/clean/grouped/instant_killwin.png"
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Instant-Kill"
 "ent_count" "4 (Kill)\n5 (Win)"
 "Icon"

@@ -13,7 +13,7 @@
 	"" "* The Franken Type activates when picked up, but deactivates when dropped."
 	}
 	"all_name"		"Activator Cubes"
-	"all_icon"		"palette/clean/activator_cubes.png"
+	"all_icon"		"palette/clean/grouped/activator_cubes.png"
 	"infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Activator-Cubes"
 	"ent_count" "3"
 	"Icon"

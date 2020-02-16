@@ -16,7 +16,7 @@
 		"" "Thank you to Libbybapa for the new versions of the Cube Triggers! Check out his other packages too."
 	}
 	"all_name" "CUBE TRIGGERS"
-	"all_icon" "palette/clean/cube_trigger_all.png"
+	"all_icon" "palette/clean/grouped/cube_trigger_all.png"
 	"Icon"
 	{
 		"all" "clean/cube_trigger_all.png"
