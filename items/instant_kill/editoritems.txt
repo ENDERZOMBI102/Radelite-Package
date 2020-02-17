@@ -7,14 +7,14 @@
 			"SubTypeProperty"		"StartReversed"
 			"SubType"
 			{
-				"Name"		"Instant Kill"
+				"Name"		"Instant Kill-WIN"
 				"Model"
 				{
 					"ModelName"		"trigger_once.3ds"
 				}
 				"Palette"
 				{
-					"Tooltip"	"INSTANT KILL"
+					"Tooltip"	"INSTANT KILL-WIN"
 					"Image"		"palette/clean/instant_kill.png"
 					"Position"	"1 6 0"
 				}
@@ -28,16 +28,9 @@
 			}
 			"SubType"
 			{
-				"Name"		"Instant Win"
 				"Model"
 				{
 					"ModelName"		"trigger_multiple.3ds"
-				}
-				"Palette"
-				{
-					"Tooltip"	"INSTANT WIN"
-					"Image"		"palette/clean/instant_win.png"
-					"Position"	"1 6 0"
 				}
 				"Sounds"
 				{

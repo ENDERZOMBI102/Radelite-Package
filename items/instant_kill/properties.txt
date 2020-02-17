@@ -17,7 +17,6 @@
 "Icon"
 {
 "all" "clean/instant_killwin.png"
-"0" "clean/instant_kill.png"
-"1" "clean/instant_win.png"
+"0" "clean/instant_killwin.png"
 }
 }

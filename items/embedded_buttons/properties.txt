@@ -19,8 +19,6 @@
 	"Icon"
 	{
 		"all" "clean/embedded_buttons.png"
-		"0" "clean/embedded_weighted_button.png"
-		"1" "clean/embedded_cube_button.png"
-		"2" "clean/embedded_sphere_button.png"
+		"0" "clean/embedded_buttons.png"
 	}
 }

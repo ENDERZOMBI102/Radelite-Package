@@ -7,7 +7,7 @@
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"Embedded Weighted Button"
+				"Name"			"Embedded Buttons"
 				"Model"
 				{
 					"ModelName"		"buttonweight.3ds"
@@ -15,7 +15,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"EMBEDDED WEIGHTED BUTTON"
+					"Tooltip"		"EMBEDDED BUTTONS"
 					"Image"			"palette/clean/embedded_weighted_button"
 					"Position"		"1 0 0"
 				}
@@ -29,17 +29,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Embedded Cube Button"
 				"Model"
 				{
 					"ModelName"		"buttoncube.3ds"
 					"TextureName"	"button_cube.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"EMBEDDED CUBE BUTTON"
-					"Image"			"palette/clean/embedded_cube_button"
-					"Position"		"2 0 0"
 				}
 				"Sounds"
 				{
@@ -51,17 +44,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Embedded Sphere Button"
 				"Model"
 				{
 					"ModelName"		"buttonball.3ds"
 					"TextureName"	"button_ball.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"EMBEDDED SPHERE BUTTON"
-					"Image"			"palette/clean/embedded_sphere_button"
-					"Position"		"3 0 0"
 				}
 				"Sounds"
 				{

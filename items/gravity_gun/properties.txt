@@ -27,7 +27,5 @@
 {
 "all" "clean/gravity_gun_mk1.png"
 "0" "clean/gravity_gun_mk1.png"
-"1" "clean/gravity_gun_mk2.png"
-"2" "clean/gravity_gun_mk3.png"
 }
 }

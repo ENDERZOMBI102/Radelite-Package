@@ -7,14 +7,14 @@
 			"SubTypeProperty"		"ButtonType"
             "SubType"
             {	
-                "Name"          		"Gravity Gun MK1"
+                "Name"          		"Gravity Gun"
 				"Model"
 				{
 					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
 				}
                 "Palette"
                 {
-                    "Tooltip"      			"GRAVITY GUN MK1"
+                    "Tooltip"      			"GRAVITY GUN"
                     "Image"         		"palette/clean/gravity_gun_mk1.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
@@ -28,17 +28,10 @@
             }
             "SubType"
             {	
-                "Name"          		"Gravity Gun MK2"
 				"Model"
 				{
 					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
 				}
-                "Palette"
-                {
-                    "Tooltip"      			"GRAVITY GUN MK2"
-                    "Image"         		"palette/clean/gravity_gun_mk2.png"
-                    "Position"      		"3 1 0"	
-                }
                 "Sounds"
                 {
                     "SOUND_CREATED"            "P2Editor.PlaceOther"
@@ -49,17 +42,10 @@
             }
             "SubType"
             {	
-                "Name"          		"Gravity Gun MK3"
 				"Model"
 				{
 					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
 				}
-                "Palette"
-                {
-                    "Tooltip"      			"GRAVITY GUN MK3"
-                    "Image"         		"palette/clean/gravity_gun_mk3.png"
-                    "Position"      		"3 1 0"	
-                }
                 "Sounds"
                 {
                     "SOUND_CREATED"            "P2Editor.PlaceOther"

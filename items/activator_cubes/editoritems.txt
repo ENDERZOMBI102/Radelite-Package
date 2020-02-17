@@ -6,7 +6,7 @@
 			"SubTypeProperty"		"CubeType"
 			"SubType"
 			{
-				"Name"			"Fizzled Activator Cube"
+				"Name"			"Activator Cubes"
 				"Model"
 				{
 					"ModelName"		"cube.3ds"
@@ -14,7 +14,7 @@
 				}
 				"Palette"
 				{
-					"Tooltip"		"FIZZLED ACTIVATOR CUBE"
+					"Tooltip"		"ACTIVATOR CUBES"
 					"Image"		    "palette/clean/fizzled_activator.png"
 					"Position"		"1 0 0"
 				}
@@ -41,17 +41,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Painted Activator Cube"
 				"Model"
 				{
 					"ModelName"		"cubecompanion.3ds"
 					"TextureName"	"cubecompanion.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"PAINTED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/painted_activator.png"
-					"Position"		"2 0 0"
 				}
 				"Sounds"
 				{
@@ -76,18 +69,11 @@
 			}
 			"SubType"
 			{
-				"Name"		"Picked Activator Cube"
 				"Model"
 				{
 					"ModelName"		"cubelaser.3ds"
 					"TextureName"	"cubelaser.png"
 				}
-				"Palette"
-				{
-					"Tooltip"		"PICKED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/picked_activator.png"
-					"Position"		"3 0 0"
-				}
 				"Sounds"
 				{
 					"SOUND_CREATED"				"P2Editor.PlaceCube"
@@ -111,18 +97,11 @@
 			}
             "SubType"
 			{
-				"Name"			"Dropped Activator Cube"
 				"Model"
 				{
 					"ModelName"		"cubesphere.3ds"
 					"TextureName"	"cubesphere.png"
 				}
-				"Palette"
-				{
-					"Tooltip"		"DROPPED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/dropped_activator.png"
-					"Position"		"1 0 0"
-				}
 				"Sounds"
 				{
 					"SOUND_CREATED"				"P2Editor.PlaceCube"
@@ -146,17 +125,10 @@
 			}
             "SubType"
 			{
-				"Name"			"Picked Dropped Activator Cube"
 				"Model"
 				{
 					"ModelName"		"frankenturret.3ds"
 					"TextureName"	"frankenturret.png"
-				}
-				"Palette"
-				{
-					"Tooltip"		"PICKED DROPPED ACTIVATOR CUBE"
-					"Image"		    "palette/clean/pickeddropped_activator.png"
-					"Position"		"1 0 0"
 				}
 				"Sounds"
 				{

@@ -19,10 +19,6 @@
 	"Icon"
 	{
 		"all" "clean/activator_cubes.png"
-		"0" "clean/fizzled_activator.png"
-		"1" "clean/painted_activator.png"
-		"2" "clean/picked_activator.png"
-		"3" "clean/dropped_activator.png"
-		"4" "clean/pickeddropped_activator.png"
+		"0" "clean/activator_cubes.png"
 	}
 }
