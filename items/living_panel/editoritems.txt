@@ -29,17 +29,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living Panel (Glass)"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
 					"TextureName"		"laser_models.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"LIVING PANEL (GLASS)"
-					"Image"		"palette/clean/living_panel_glass.png"
-					"Position"	"0 0 0"
 				}
 				"Sounds"
 				{
@@ -51,17 +44,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Living Panel (Skeleton)"
 				"Model"
 				{
 					"ModelName"		"laseremitc.3ds"
 					"TextureName"		"laser_models.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"LIVING PANEL (SKELETON)"
-					"Image"		"palette/clean/living_panel_skeleton.png"
-					"Position"	"0 0 0"
 				}
 				"Sounds"
 				{

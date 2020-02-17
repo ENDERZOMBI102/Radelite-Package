@@ -30,8 +30,6 @@
 	"Icon"
 	{
 		"all" "p1/living_panels.png"
-		"0"   "clean/living_panel.png"
-		"1"   "clean/living_panel_glass.png"
-		"2"   "p1/living_panel.png"
+		"0"   "clean/living_panels.png"
 	}
 }

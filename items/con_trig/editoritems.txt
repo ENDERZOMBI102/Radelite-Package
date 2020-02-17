@@ -8,14 +8,14 @@
 
 		"SubType"
 		{
-			"Name" "Cube Trigger Once"
+			"Name" "Cube Triggers"
 			"Model"
 			{
 				"ModelName" "trig_1.3ds"
 			}
 			"Palette"
 			{
-				"Tooltip" "CUBE TRIGGER ONCE"
+				"Tooltip" "CUBE TRIGGERS"
 				"Image" "palette/clean/cube_trigger_once.png"
 			}
 			"Sounds"
@@ -29,15 +29,9 @@
 
 		"SubType"
 		{
-			"Name" "Cube Trigger Multiple"
 			"Model"
 			{
 				"ModelName" "trig_m.3ds"
-			}
-			"Palette"
-			{
-				"Tooltip" "CUBE TRIGGER MULTIPLE"
-				"Image" "palette/clean/cube_trigger_multiple.png"
 			}
 			"Sounds"
 			{
@@ -50,15 +44,9 @@
 
 		"SubType"
 		{
-			"Name" "Connection Autosave"
 			"Model"
 			{
 				"ModelName" "con_save.3ds"
-			}
-			"Palette"
-			{
-				"Tooltip" "CONNNECTION AUTOSAVE"
-				"Image" "palette/clean/connection_autosave.png"
 			}
 			"Sounds"
 			{
@@ -136,7 +124,7 @@
 				"BrushSideCount" "6"
 			}
 		}
-		"TargetName" "lib_trig"
+		"TargetName" "con_trig"
 
 		"Inputs"
 		{

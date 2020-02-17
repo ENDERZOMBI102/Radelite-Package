@@ -29,17 +29,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Large Living Panel (Glass)"
 				"Model"
 				{
 					"ModelName"		"piston_lift_grate.3ds"
 					"TextureName"		"pistonlift.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"LARGE LIVING PANEL (GLASS)"
-					"Image"		"palette/clean/living_panel_glass.png"
-					"Position"	"1 0 0"
 				}
 				"Sounds"
 				{
@@ -51,17 +44,10 @@
 			}
 			"SubType"
 			{
-				"Name"		"Large Living Panel (P1 Wall)"
 				"Model"
 				{
 					"ModelName"		"piston_lift_grate.3ds"
 					"TextureName"		"pistonlift.png"
-				}
-				"Palette"
-				{
-					"Tooltip"	"LARGE LIVING PANEL (P1 WALL)"
-					"Image"		"palette/p1/living_panel.png"
-					"Position"	"1 0 0"
 				}
 				"Sounds"
 				{

@@ -20,8 +20,6 @@
 	"Icon"
 	{
 		"all" "clean/cube_trigger_all.png"
-		"0" "clean/cube_trigger_once.png"
-		"1" "clean/cube_trigger_multiple.png"
-		"2" "clean/connection_autosave.png"
+		"0" "clean/cube_trigger_all.png"
 	}
 }
