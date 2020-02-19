@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "98"
+	"editorbuild" "5685"
+	"mapversion" "95"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -21,12 +21,12 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "8"
-	"bShow3DGrid" "1"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "98"
+	"mapversion" "95"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -100,8 +100,8 @@ entity
 		side
 		{
 			"id" "60"
-			"plane" "(-32.032 -32.032 -64) (-32.032 32.032 -64) (32.0316 32.032 -64)"
-			"material" "TILE/WHITE_CEILING_TILE001A"
+			"plane" "(-29.5 -29.5 -64) (-29.5 29.5 -64) (32.0316 29.5 -64)"
+			"material" "GLASS/GLASSWINDOW_FROSTED_002"
 			"uaxis" "[1 0 0 127] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
 			"rotation" "0"
@@ -111,8 +111,8 @@ entity
 		side
 		{
 			"id" "59"
-			"plane" "(-32.032 32.032 -65) (-32.032 -32.032 -65) (32.0316 -32.032 -65)"
-			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"plane" "(-29.5 29.5 -65) (-29.5 -29.5 -65) (32.0316 -29.5 -65)"
+			"material" "GLASS/GLASSWINDOW_FROSTED_002"
 			"uaxis" "[1 0 0 127] 0.25"
 			"vaxis" "[0 -1 0 384] 0.25"
 			"rotation" "0"
@@ -122,8 +122,8 @@ entity
 		side
 		{
 			"id" "58"
-			"plane" "(-32.032 -32.032 -65) (-32.032 32.032 -65) (-32.032 32.032 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"plane" "(-29.5 -29.5 -65) (-29.5 29.5 -65) (-29.5 29.5 -64)"
+			"material" "GLASS/GLASSWINDOW_FROSTED_002"
 			"uaxis" "[0 1 0 127] 0.25"
 			"vaxis" "[0 0 -1 392] 0.25"
 			"rotation" "0"
@@ -133,8 +133,8 @@ entity
 		side
 		{
 			"id" "57"
-			"plane" "(32.032 32.032 -65) (32.032 -32.032 -65) (32.032 -32.032 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"plane" "(29.5 29.5 -65) (29.5 -29.5 -65) (29.5 -29.5 -64)"
+			"material" "GLASS/GLASSWINDOW_FROSTED_002"
 			"uaxis" "[0 1 0 127] 0.25"
 			"vaxis" "[0 0 -1 392] 0.25"
 			"rotation" "0"
@@ -144,8 +144,8 @@ entity
 		side
 		{
 			"id" "56"
-			"plane" "(-32.032 32.032 -65) (32.032 32.032 -65) (32.032 32.032 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"plane" "(-29.5 29.5 -65) (29.5 29.5 -65) (29.5 29.5 -64)"
+			"material" "GLASS/GLASSWINDOW_FROSTED_002"
 			"uaxis" "[1 0 0 127] 0.25"
 			"vaxis" "[0 0 -1 392] 0.25"
 			"rotation" "0"
@@ -155,8 +155,8 @@ entity
 		side
 		{
 			"id" "55"
-			"plane" "(32.032 -32.032 -65) (-32.032 -32.032 -65) (-32.032 -32.032 -64)"
-			"material" "METAL/BLACK_FLOOR_METAL_001B"
+			"plane" "(29.5 -29.5 -65) (-29.5 -29.5 -65) (-29.5 -29.5 -64)"
+			"material" "GLASS/GLASSWINDOW_FROSTED_002"
 			"uaxis" "[1 0 0 127] 0.25"
 			"vaxis" "[0 0 -1 392] 0.25"
 			"rotation" "0"
@@ -525,6 +525,188 @@ entity
 }
 entity
 {
+	"id" "678"
+	"classname" "logic_case"
+	"Case01" "0"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"Case17" "17"
+	"Case18" "18"
+	"Case19" "19"
+	"Case20" "20"
+	"Case21" "21"
+	"Case22" "22"
+	"Case23" "23"
+	"Case24" "24"
+	"Case25" "25"
+	"Case26" "26"
+	"Case27" "27"
+	"Case28" "28"
+	"Case29" "29"
+	"Case30" "30"
+	"targetname" "type0_deactive_initializer"
+	connections
+	{
+		"OnCase03" "living_panelSetAnimation32_out_straight0-1"
+		"OnCase04" "living_panelSetAnimation64_out_straight0-1"
+		"OnCase05" "living_panelSetAnimation128_out_straight0-1"
+		"OnCase06" "living_panelSetAnimation90deg_64out_cornerback0-1"
+		"OnCase07" "living_panelSetAnimation90deg_64out_cornerfront0-1"
+		"OnCase08" "living_panelSetAnimation90deg_in_cornerback0-1"
+		"OnCase09" "living_panelSetAnimation90deg_in_cornerfront0-1"
+		"OnCase10" "living_panelSetAnimation9arms_136out_040-1"
+		"OnCase11" "living_panelSetAnimation9arms_destroyed_040-1"
+		
+		"OnCase12" "living_panelSetAnimationHeavydoor_open0-1"
+		"OnCase13" "living_panelSetAnimationrampa_stair01_up0-1"
+		"OnCase14" "living_panelSetAnimationrampa_stair02_up0-1"
+		"OnCase15" "living_panelSetAnimationrampa_stair03_up0-1"
+		"OnCase16" "living_panelSetAnimationrampa_stair04_up0-1"
+		"OnCase17" "living_panelSetAnimationreplace_tile_010-1"
+		"OnCase18" "living_panelSetAnimationtestanim0-1"
+		"OnCase19" "living_panelSetAnimationweatlylab_peaking_small0-1"
+		"OnCase20" "living_panelSetAnimationweatlylab_peaking_medium0-1"
+		"OnCase21" "living_panelSetAnimationweatlylab_peaking_large0-1"
+		"OnCase22" "living_panelSetAnimationwheatly_wallfrorm01_drunk_arm_close0-1"
+		"OnCase08" "nasty_panelTrigger0-1"
+		"OnCase09" "nasty_panelTrigger0-1"
+		"OnCase10" "nasty_panelTrigger0-1"
+		"OnCase12" "nasty_panelTrigger0-1"
+		"OnCase17" "nasty_panelTrigger0-1"
+		"OnCase18" "nasty_panelTrigger0-1"
+		"OnCase19" "nasty_panelTrigger0-1"
+		"OnCase20" "nasty_panelTrigger0-1"
+		"OnCase21" "nasty_panelTrigger0-1"
+		"OnCase22" "nasty_panelTrigger0-1"
+	}
+	"origin" "-128 -56 -144"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1482"
+	"classname" "logic_case"
+	"Case01" "0"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"Case17" "17"
+	"Case18" "18"
+	"Case19" "19"
+	"Case20" "20"
+	"Case21" "21"
+	"Case22" "22"
+	"Case23" "23"
+	"Case24" "24"
+	"Case25" "25"
+	"Case26" "26"
+	"Case27" "27"
+	"Case28" "28"
+	"Case29" "29"
+	"Case30" "30"
+	"targetname" "type1_deactive_initializer"
+	connections
+	{
+		"OnCase03" "living_panelSetAnimationpowerupD_010-1"
+		"OnCase04" "living_panelSetAnimationpowerupD_020-1"
+		"OnCase05" "living_panelSetAnimationpowerupE_010-1"
+		"OnCase06" "living_panelSetAnimationpowerupF_010-1"
+		"OnCase07" "living_panelSetAnimationpowerupF_020-1"
+		"OnCase08" "living_panelSetAnimationpowerupF_050-1"
+		"OnCase09" "living_panelSetAnimationpowerupG_010-1"
+		"OnCase10" "living_panelSetAnimationpowerupG_040-1"
+		"OnCase11" "living_panelSetAnimationpowerupG_100-1"
+		"OnCase12" "living_panelSetAnimationpowerupK_01up0-1"
+		"OnCase13" "living_panelSetAnimationpowerupN_010-1"
+		"OnCase14" "living_panelSetAnimationpowerupN_020-1"
+		"OnCase15" "living_panelSetAnimationpowerupN_030-1"
+		"OnCase16" "living_panelSetAnimationpowerupN_040-1"
+		"OnCase17" "living_panelSetAnimationpowerupN_050-1"
+		"OnCase18" "living_panelSetAnimationpowerupN_060-1"
+		"OnCase19" "living_panelSetAnimationpowerupN_070-1"
+		"OnCase20" "living_panelSetAnimationpowerupN_080-1"
+		"OnCase21" "living_panelSetAnimationpowerupN_090-1"
+		"OnCase03" "nasty_panelTrigger0-1"
+		"OnCase04" "nasty_panelTrigger0-1"
+		"OnCase05" "nasty_panelTrigger0-1"
+		"OnCase06" "nasty_panelTrigger0-1"
+		"OnCase07" "nasty_panelTrigger0-1"
+		"OnCase08" "nasty_panelTrigger0-1"
+		"OnCase09" "nasty_panelTrigger0-1"
+		"OnCase10" "nasty_panelTrigger0-1"
+		"OnCase11" "nasty_panelTrigger0-1"
+		"OnCase13" "nasty_panelTrigger0-1"
+		"OnCase14" "nasty_panelTrigger0-1"
+		"OnCase15" "nasty_panelTrigger0-1"
+		"OnCase16" "nasty_panelTrigger0-1"
+		"OnCase17" "nasty_panelTrigger0-1"
+		"OnCase18" "nasty_panelTrigger0-1"
+		"OnCase19" "nasty_panelTrigger0-1"
+		"OnCase20" "nasty_panelTrigger0-1"
+		"OnCase21" "nasty_panelTrigger0-1"
+	}
+	"origin" "-128 -24 -112"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1516"
+	"classname" "logic_branch"
+	"InitialValue" "$disable_autodrop"
+	"targetname" "initialize_animation"
+	connections
+	{
+		"OnFalse" "type0_deactive_initializerInValue$timer_delay0-1"
+		"OnTrue" "type1_deactive_initializerInValue$timer_delay0-1"
+	}
+	"origin" "-96 8 -80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "632"
 	"classname" "prop_dynamic"
 	"angles" "0 0 0"
@@ -559,7 +741,6 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "0"
 	"StartDisabled" "0"
 	"SuppressAnimSounds" "0"
 	"targetname" "living_panel"
@@ -593,9 +774,8 @@ entity
 	"classname" "func_instance_parms"
 	"parm1" "$connectioncount integer 1"
 	"parm2" "$start_deployed integer 0"
-	"parm3" "$lp_animation string bindPose"
+	"parm3" "$disable_autodrop integer 0"
 	"parm4" "$timer_delay integer 2"
-	"parm5" "$start_locked integer 0"
 	"origin" "-96 -24 -112"
 	editor
 	{
@@ -678,8 +858,6 @@ entity
 		"OnMapSpawn" "initialize_animationTest2.1-1"
 		"OnMapSpawn" "type0_deactive_initializerInValue$timer_delay0.13-1"
 		"OnMapSpawn" "branch_toggleTest2.2-1"
-		"OnMapSpawn" "living_panelSetAnimation$lp_animation2.2-1"
-		"OnMapSpawn" "nasty_panelTrigger2.2-1"
 	}
 	"origin" "-128 8 -80"
 	editor
@@ -695,8 +873,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-44.7648 -49.9218 -54.6358]"
-		"look" "[-44.1808 -49.1368 -54.8461]"
+		"position" "[5.43583 -122.918 -34.5171]"
+		"look" "[5.24176 -121.973 -34.7792]"
 	}
 }
 cordons
