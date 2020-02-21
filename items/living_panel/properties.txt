@@ -5,7 +5,9 @@
 	"Description"
 	{
 		"" "43 of the panel anims available in Hammer, all in one item."
-		"" "*If the animation that plays is the normal one, decrease the timer value."
+		"" "* If the animation that plays is the normal one, decrease the timer value."
+		"" "* Some animations are inverted, so make sure to use Start Deployed correctly."
+		"" "* The master list of animations is available on the wiki, so just click the More info button."
 		"" ""
 		"" ""
 		"" "Inputs:"
