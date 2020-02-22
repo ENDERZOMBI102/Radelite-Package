@@ -7,8 +7,11 @@
 "" "A editor block's sized swimmable water."
 "" ""
 "" "* It insta-kills Atlas and P-Body."
-"" "* Portal 2 has glitched water physics: The water pushes the player in a random direction."
+"" "* Portal 2 has glitched water physics: The water pushes the player in a specific direction."
 "" "* Also, env_cubes don't seem to work properly with glitched liquids."
+"" ""
+"" ""
+"" "> To-Do - Create a new force that pushes the player in the opposite direction of the glitched water, so they both cancel each other."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Water-Block"
 "ent_count" "7"

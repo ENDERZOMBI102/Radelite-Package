@@ -20,6 +20,9 @@
 "" ""
 "" "* Please note that there isn't currently a mechanism to detect when you pick up a cube."
 "" "* When we figure out how to make it work, it would work like HL2."
+"" ""
+"" ""
+"" "> To-Do - Complete Overhaul, in the works."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Gravity-Gun"
 "ent_count" "10"

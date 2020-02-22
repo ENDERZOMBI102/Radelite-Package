@@ -11,6 +11,9 @@
 	"" "* The Reflection Type activates when picked up."
 	"" "* The Sphere Type activates when dropped."
 	"" "* The Franken Type activates when picked up, but deactivates when dropped."
+	"" ""
+	"" ""
+	"" "> To-Do - Finish Dropper coding."
 	}
 	"all_name"		"Activator Cubes"
 	"all_icon"		"palette/clean/grouped/activator_cubes.png"

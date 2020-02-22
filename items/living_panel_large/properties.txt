@@ -22,6 +22,9 @@
 		"" "Of course you don't need to activate the element at all. Just affix it in a particular pose to provide a platform of your choice."
 		"" ""
 		"" "There are 68 different animations provided. The animation is selected using the Timer value, the Start Open checkbox and the Autodrop checkbox."
+		"" ""
+		"" ""
+		"" "> To-Do - Complete Overhaul, just like normal Living Panel."
 	}
 	"all_name"		"Living Panels"
 	"all_icon"		"palette/p1/grouped/living_panels.png"
