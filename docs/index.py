@@ -2,6 +2,6 @@ from browser import document, alert
 
 
 def echo():
-    alert("hello there!)
+    alert("hello there!")
 
 document["hi"].bind("click", echo())
