@@ -8,11 +8,11 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="author" content="ENDERZOMBI102">
             <link rel="icon" href="/favicon.png">
-            <base href="https://enderzombi102.github.io/Radelite_BEE2_package">
+            <script src="brython.js"></script>
+            <script src="brython_stdlib.js"></script>
       </head>
-      <body>
-            <script src="./index.js"/>
-            <a href="checkmyscreen.html">check your screen info</a>
-            
+      <script type="text/python" src="index.py"></script>
+      <body onload="brython(1)">
+            <button id="hi">ciao</button>
       </body>
 </html>
