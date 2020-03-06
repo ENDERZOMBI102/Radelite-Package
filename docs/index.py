@@ -1,7 +1,7 @@
 from browser import document, alert
 
 
-def echo(e):
-    alert("hello there!\n"+e)
+def echo(ev):
+    alert("hello there!\n"+ev)
 
 document["hi"].bind("click", echo)
