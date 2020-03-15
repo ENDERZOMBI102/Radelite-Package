@@ -1,6 +1,6 @@
 "ID" "Radelite_package"
 "Name" "Radelite's package"
-"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported by ENDERZOMBI102, Libbybapa, Flash4433 and FeZzBurn!"
+"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported by ENDERZOMBI102, Libbybapa, Flash4433!"
 "Prerequisites"
 {
 	"Package" "BEE2_CLEAN_STYLE"
