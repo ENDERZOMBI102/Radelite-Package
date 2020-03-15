@@ -73,7 +73,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/embedded_button_normal_white.vmf"
+					"Name"				"instances/BEE2/clean/items/embedded_button_normal.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"11"
 					"BrushSideCount"	"66"
@@ -87,7 +87,7 @@
 				}
 				"2"
 				{
-					"Name"				"instances/BEE2/clean/items/embedded_button_cube_white.vmf"
+					"Name"				"instances/BEE2/clean/items/embedded_button_cube.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"11"
 					"BrushSideCount"	"66"
@@ -101,7 +101,7 @@
 				}
 				"4"
 				{
-					"Name"				"instances/BEE2/clean/items/embedded_button_sphere_white.vmf"
+					"Name"				"instances/BEE2/clean/items/embedded_button_sphere.vmf"
 					"EntityCount"		"3"
 					"BrushCount"		"11"
 					"BrushSideCount"	"66"
