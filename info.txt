@@ -77,6 +77,12 @@
 			}
 		}
 	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_RADELITE_EMBEDDED_BUTTON"
+	"file"  "embeddedbutton_base.vmf"
+	}
+
 "Item"
 	{
 	"ID" "ITEM_ACTIVATOR_CUBES"
