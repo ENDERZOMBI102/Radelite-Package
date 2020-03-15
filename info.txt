@@ -77,7 +77,6 @@
 			}
 		}
 	}
-	
 "Item"
 	{
 	"ID" "ITEM_ACTIVATOR_CUBES"
@@ -128,11 +127,6 @@
 			"ANY_STYLE"  "paint_gun"
 			}
 		}
-	}	
-"BrushTemplate"
-	{
-	"ID"    "RADELITE_PAINTGUN_BASE"
-	"file"  "paintgun_base.vmf"
 	}
 	
 "Item"
