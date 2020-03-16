@@ -1491,7 +1491,7 @@ entity
 {
 	"id" "1517"
 	"classname" "logic_branch"
-	"InitialValue" "$start_open"
+	"InitialValue" "$start_locked"
 	"targetname" "initialize_animation_autodrop0"
 	connections
 	{
@@ -1513,7 +1513,7 @@ entity
 {
 	"id" "1518"
 	"classname" "logic_branch"
-	"InitialValue" "$start_open"
+	"InitialValue" "$start_locked"
 	"targetname" "initialize_animation_autodrop1"
 	connections
 	{
@@ -1604,7 +1604,7 @@ entity
 	"parm2" "$start_deployed integer 0"
 	"parm3" "$disable_autodrop integer 0"
 	"parm4" "$timer_delay integer 2"
-	"parm5" "$start_open integer 0"
+	"parm5" "$start_locked integer 0"
 	"origin" "-56 -24 -40"
 	editor
 	{

@@ -93,7 +93,7 @@
 				"DefaultValue"	"0"
 				"Index"		"5"
 			}
-			"StartOpen"
+			"StartLocked"
 			{
 				"DefaultValue"	"0"
 				"Index"		"6"
@@ -112,7 +112,7 @@
 				}
 				"1"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_nonportalable.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
@@ -133,14 +133,14 @@
 				}
 				"4"
 				{
-					"Name"				"instances/bee2/p1/items/bisqwit_multifunction_panel_128x128_portal1wall.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_skeleton.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
 				}
 				"5"
 				{
-					"Name"				"instances/bee2/p1/items/bisqwit_multifunction_panel_128x128_portal1wall.vmf"
+					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_skeleton.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
