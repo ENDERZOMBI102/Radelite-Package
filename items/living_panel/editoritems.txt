@@ -83,6 +83,11 @@
 				"DefaultValue"	"3"
 				"Index"		"4"
 			}
+			"AutoDrop"
+			{
+				"DefaultValue"	"0"
+				"Index"		"5"
+			}
 		}
 		"Exporting"
 		{
