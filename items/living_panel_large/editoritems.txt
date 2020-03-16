@@ -16,7 +16,7 @@
 				"Palette"
 				{
 					"Tooltip"	"LARGE LIVING PANEL"
-					"Image"		"palette/clean/living_panel.png"
+					"Image"		"palette/clean/lliving_panel.png"
 					"Position"	"1 0 0"
 				}
 				"Sounds"
