@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "82"
+	"mapversion" "83"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "82"
+	"mapversion" "83"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -890,7 +890,7 @@ entity
 	"fadescale" "1"
 	"ShowingPotatos" "0"
 	"spawnflags" "1"
-	"targetname" "Portal_Gun"
+	"targetname" "gun"
 	connections
 	{
 		"OnPlayerPickup" "pedestalSetAnimationretract1-1"
