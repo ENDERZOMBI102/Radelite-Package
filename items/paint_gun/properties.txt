@@ -11,7 +11,7 @@
 "" ""
 "" "* **Start Locked** enables `attack`, checked by default."
 "" "* **Start Open** enables `attack2`, checked by default."
-"" "* **Start Reversed** makes the gun work for P-Body. Uncheck for AtLAS, check for P-Body. Useless in SP."
+"" "* **Start Reversed** makes the gun work for Co-Op. Uncheck for AtLAS, check for P-Body. Useless in SP."
 "" ""
 "" ""
 "" "Button Type allows you to choose the gel for `attack`."
