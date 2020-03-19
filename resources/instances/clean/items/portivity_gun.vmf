@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "55"
+	"mapversion" "57"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "55"
+	"mapversion" "57"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -800,7 +800,7 @@ entity
 	"drawinfastreflection" "0"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "192.5 12 5"
+	"origin" "192 12 5"
 	"parentname" "gun_collision"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -3090,8 +3090,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-35.8693 -354.708 359.979]"
-		"look" "[-24.3498 -288.617 294.426]"
+		"position" "[-41.3036 17.7915 -27.3745]"
+		"look" "[27.113 -5.49746 -87.1627]"
 	}
 }
 cordons
