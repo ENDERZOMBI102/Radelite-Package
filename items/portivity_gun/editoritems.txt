@@ -1,0 +1,116 @@
+"Item"
+    {
+        "Type"     		"ITEM_PORTIVITY_GUN"
+        "Editor"
+        {
+            "SubType"
+            {	
+                "Name"          		"Portivity Gun"
+				"Model"
+				{
+					"ModelName"		"bee2_pgun_pedestal_orange.3ds"
+				}
+                "Palette"
+                {
+                    "Tooltip"      			"PORTIVITY GUN"
+                    "Image"         		"palette/clean/portivity_gun.png"
+                    "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
+                }
+                "Sounds"
+                {
+                    "SOUND_CREATED"            "P2Editor.PlaceOther"
+                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
+                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+                    "SOUND_DELETED"            "P2Editor.RemoveOther"
+                }
+            }
+            "MovementHandle"    		"HANDLE_4_DIRECTIONS"
+        }
+		"Properties"
+		{
+			"StartReversed"
+			{
+				"DefaultValue"	"0"
+				"Index"			"1"
+			}
+			"StartEnabled"
+			{
+				"DefaultValue"	"0"
+				"Index"			"2"
+			}
+		}
+        "Exporting"
+        {
+            "Instances"
+            {
+                "0"
+                {
+                    "Name"         		"instances/BEE2/clean/items/portivity_gun.vmf"
+                    "EntityCount"       	"29"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
+                }
+            }
+            "Offset"            		"64 64 64"
+            "TargetName"        		"pg_gun"
+            "OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
+				}
+				"Voxel"
+				{
+					"Pos"		"1 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
+				}
+			}
+			"EmbeddedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+				}
+			}
+			"EmbedFace"
+			{
+				"Solid"
+				{
+					"Center"		"64 64 128"
+					"Dimensions"	"128 128 4"
+					"Grid"			"Grid_default"
+				}
+			}
+        }
+    }

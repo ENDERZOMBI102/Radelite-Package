@@ -133,6 +133,19 @@
 	
 "Item"
 	{
+	"ID" "ITEM_PORTABILITY_GUN" 
+	"unstyled" "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE"  "portability_gun"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_SKYBOX_AREA"
 	"Version"
 		{
