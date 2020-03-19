@@ -1,10 +1,8 @@
 "Item"
     {
         "Type"     		"ITEM_GRAVITY_GUN"
-		"ItemClass"		"ItemButtonFloor"
         "Editor"
         {
-			"SubTypeProperty"		"ButtonType"
             "SubType"
             {	
                 "Name"          		"Gravity Gun"
@@ -15,37 +13,9 @@
                 "Palette"
                 {
                     "Tooltip"      			"GRAVITY GUN"
-                    "Image"         		"palette/clean/gravity_gun_mk1.png"
+                    "Image"         		"palette/clean/gravity_gun.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
-                "Sounds"
-                {
-                    "SOUND_CREATED"            "P2Editor.PlaceOther"
-                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
-                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-                    "SOUND_DELETED"            "P2Editor.RemoveOther"
-                }
-            }
-            "SubType"
-            {	
-				"Model"
-				{
-					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
-				}
-                "Sounds"
-                {
-                    "SOUND_CREATED"            "P2Editor.PlaceOther"
-                    "SOUND_EDITING_ACTIVATE"   "P2Editor.ExpandOther"
-                    "SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
-                    "SOUND_DELETED"            "P2Editor.RemoveOther"
-                }
-            }
-            "SubType"
-            {	
-				"Model"
-				{
-					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
-				}
                 "Sounds"
                 {
                     "SOUND_CREATED"            "P2Editor.PlaceOther"
@@ -58,10 +28,15 @@
         }
 		"Properties"
 		{
-			"ButtonType"
+			"StartReversed"
 			{
 				"DefaultValue"	"0"
-				"Index"			"0"
+				"Index"			"1"
+			}
+			"StartEnabled"
+			{
+				"DefaultValue"	"0"
+				"Index"			"2"
 			}
 		}
         "Exporting"
@@ -75,67 +50,32 @@
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"66"
                 }
-				"1"
-                {
-                    "Name"         		"instances/BEE2/clean/items/gravity_gun.vmf"
-                    "EntityCount"       	"10"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"66"
-                }
-				"2"
-                {
-                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk2.vmf"
-                    "EntityCount"       	"20"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"72"
-                }
-				"3"
-                {
-                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk2.vmf"
-                    "EntityCount"       	"20"
-                    "BrushCount"        	"12"
-                    "BrushSideCount"    	"72"
-                }
-				"4"
-                {
-                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk3.vmf"
-                    "EntityCount"       	"10"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"66"
-                }
-				"5"
-                {
-                    "Name"         		"instances/BEE2/clean/items/gravity_gun_mk3.vmf"
-                    "EntityCount"       	"10"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"66"
-                }
             }
             "Offset"            		"64 64 64"
-            "TargetName"        		"Gravity_gun"
+            "TargetName"        		"g_gun"
             "OccupiedVoxels"
-		{
-			"Voxel"
-			{
-				"Pos"		"0 0 0"
-				"Surface"
+            {
+				"Voxel"
 				{
-					"Pos"	"1 1 0"
-				}
-				"Surface"
-				{
-					"Pos"	"1 2 0"
-				}
-				"Surface"
-				{
-					"Pos"	"2 1 0"
-				}
-				"Surface"
-				{
-					"Pos"	"2 2 0"
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
 				}
 			}
-		}
 			"EmbeddedVoxels"
 			{
 				"Voxel"
