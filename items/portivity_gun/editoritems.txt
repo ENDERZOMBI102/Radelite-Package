@@ -8,7 +8,7 @@
                 "Name"          		"Portivity Gun"
 				"Model"
 				{
-					"ModelName"		"bee2_pgun_pedestal_orange.3ds"
+					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
 				}
                 "Palette"
                 {
