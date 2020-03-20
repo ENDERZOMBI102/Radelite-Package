@@ -133,13 +133,13 @@
 	
 "Item"
 	{
-	"ID" "ITEM_PORTABILITY_GUN" 
+	"ID" "ITEM_PORTIVITY_GUN" 
 	"unstyled" "1"
 	"Version"
 		{
 		"Styles"
 			{
-			"ANY_STYLE"  "portability_gun"
+			"ANY_STYLE"  "portivity_gun"
 			}
 		}
 	}
