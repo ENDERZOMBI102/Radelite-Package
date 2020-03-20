@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "57"
+	"mapversion" "58"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "57"
+	"mapversion" "58"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -754,6 +754,21 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "1505"
+	"classname" "player_weaponstrip"
+	"angles" "0 0 0"
+	"targetname" "weaponstrip"
+	"origin" "0 0 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -2992,7 +3007,7 @@ entity
 {
 	"id" "587"
 	"classname" "trigger_once"
-	"origin" "0 0 16"
+	"origin" "0 0 -10"
 	"solid" "6"
 	"spawnflags" "4097"
 	"startdisabled" "0"
@@ -3000,6 +3015,7 @@ entity
 	connections
 	{
 		"OnTrigger" "pedestalSetAnimationopen0-1"
+		"OnTrigger" "weaponstripStrip0-1"
 	}
 	solid
 	{
@@ -3007,7 +3023,7 @@ entity
 		side
 		{
 			"id" "308"
-			"plane" "(-64 -64 128) (-64 64 128) (64 64 128)"
+			"plane" "(-64 -64 76) (-64 64 76) (64 64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -3029,7 +3045,7 @@ entity
 		side
 		{
 			"id" "306"
-			"plane" "(64 64 -96) (64 -64 -96) (64 -64 128)"
+			"plane" "(64 64 -96) (64 -64 -96) (64 -64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3040,7 +3056,7 @@ entity
 		side
 		{
 			"id" "305"
-			"plane" "(-64 -64 -96) (-64 64 -96) (-64 64 128)"
+			"plane" "(-64 -64 -96) (-64 64 -96) (-64 64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3051,7 +3067,7 @@ entity
 		side
 		{
 			"id" "304"
-			"plane" "(64 -64 -96) (-64 -64 -96) (-64 -64 128)"
+			"plane" "(64 -64 -96) (-64 -64 -96) (-64 -64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3062,7 +3078,7 @@ entity
 		side
 		{
 			"id" "303"
-			"plane" "(-64 64 -96) (64 64 -96) (64 64 128)"
+			"plane" "(-64 64 -96) (64 64 -96) (64 64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3090,8 +3106,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-41.3036 17.7915 -27.3745]"
-		"look" "[27.113 -5.49746 -87.1627]"
+		"position" "[-14.3536 -52.3694 54.334]"
+		"look" "[0.964705 17.7775 -6.02002]"
 	}
 }
 cordons
