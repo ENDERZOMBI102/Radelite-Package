@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "58"
+	"mapversion" "60"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "58"
+	"mapversion" "60"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1922,7 +1922,7 @@ entity
 		"OnTrigger" "release_relayEnable0-1"
 		"OnTrigger" "pull_relayEnable0-1"
 		"OnTrigger" "push_relayEnable0-1"
-		"OnTrigger" "viewmodelSkin20.01-1"
+		"OnTrigger" "@portalgun_skin2Trigger0.01-1"
 		"OnTrigger" "@client_commandCommandr_drawviewmodel 10.01-1"
 		"OnTrigger" "stripEnable0-1"
 		"OnTrigger" "gun_makerForceSpawnAtEntityOrigin!player0-1"
@@ -1957,8 +1957,8 @@ entity
 		"OnTrigger" "push_relayDisable0-1"
 		"OnTrigger" "pull_relayDisable0-1"
 		"OnTrigger" "release_relayDisable0-1"
-		"OnTrigger" "viewmodelSkin10-1"
 		"OnTrigger" "stripEnable0-1"
+		"OnTrigger" "@portalgun_skin1Trigger0-1"
 	}
 	"origin" "-16 32 32"
 	editor
@@ -3106,8 +3106,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-14.3536 -52.3694 54.334]"
-		"look" "[0.964705 17.7775 -6.02002]"
+		"position" "[-37.1394 28.7192 36.7713]"
+		"look" "[-16.0106 43.4268 -53.4235]"
 	}
 }
 cordons
