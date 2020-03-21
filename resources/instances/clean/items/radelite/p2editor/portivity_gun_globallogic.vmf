@@ -1,0 +1,95 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "comp_kv_setter"
+	"kv_name" "classname"
+	"kv_value_global" "info_target"
+	"mode" "kv"
+	"target" "elev_entry-playerproxy"
+	"origin" "-8 8 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "49"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "@portalgun_skin1"
+	connections
+	{
+		"OnTrigger" "viewmodelSkin10-1"
+	}
+	"origin" "8 8 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "62"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "@portalgun_skin2"
+	connections
+	{
+		"OnTrigger" "viewmodelSkin20-1"
+	}
+	"origin" "8 -8 0"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

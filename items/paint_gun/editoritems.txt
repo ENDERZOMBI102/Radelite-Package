@@ -54,6 +54,11 @@
 				"DefaultValue"	"0"
 				"Index"			"4"
 			}
+			"StartEnabled"
+			{
+				"DefaultValue"	"0"
+				"Index"			"8"
+			}
 			"$painta"
 			{
 				"DefaultValue"	"0"
