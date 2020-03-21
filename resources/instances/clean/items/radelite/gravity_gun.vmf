@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "55"
+	"mapversion" "67"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "55"
+	"mapversion" "67"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,13 +758,44 @@ world
 }
 entity
 {
+	"id" "1505"
+	"classname" "player_weaponstrip"
+	"angles" "0 0 0"
+	"targetname" "weaponstrip"
+	"origin" "0 0 33"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1252"
+	"classname" "comp_entity_mover"
+	"direction" "0 0 0"
+	"distance" "1250"
+	"target" "launch_target"
+	"origin" "35 13 -7"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "700"
 	"classname" "info_target"
 	"angles" "0 0 0"
 	"parentname" "gun_collision"
 	"spawnflags" "0"
 	"targetname" "launch_target"
-	"origin" "1420.5 13 -3.00011"
+	"origin" "170.5 13 -3.00011"
 	editor
 	{
 		"color" "220 30 220"
@@ -784,13 +815,14 @@ entity
 	"drawinfastreflection" "0"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "192.5 12 5"
+	"origin" "192 12 5"
 	"parentname" "gun_collision"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
 	"shadowdepthnocache" "0"
+	"solid" "6"
 	"solidbsp" "0"
 	"Solidity" "1"
 	"spawnflags" "2"
@@ -889,6 +921,7 @@ entity
 	"origin" "68.5 13 8.38"
 	"parentname" "gun_collision"
 	"pushdir" "0 0 0"
+	"solid" "6"
 	"spawnflags" "5134"
 	"speed" "100000"
 	"StartDisabled" "1"
@@ -985,6 +1018,7 @@ entity
 	"origin" "-3.92 13 -3"
 	"parentname" "gun_collision"
 	"pushdir" "0 180 0"
+	"solid" "6"
 	"spawnflags" "4110"
 	"speed" "3000"
 	"StartDisabled" "1"
@@ -1084,6 +1118,7 @@ entity
 	"filtername" "nega_beast_filter"
 	"origin" "42.5 13 -3"
 	"parentname" "gun_collision"
+	"solid" "6"
 	"spawnflags" "5134"
 	"StartDisabled" "1"
 	"targetname" "holding_shift"
@@ -1196,7 +1231,7 @@ entity
 	"origin" "14.77 5.6499 -1.35973"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "200 200 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -1222,168 +1257,10 @@ entity
 	"origin" "22.5 3 -0.999868"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "200 200 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "844"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "gun_temp"
-	"Template01" "tempgun"
-	"origin" "-182.5 -161 32.0002"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "846"
-	"classname" "env_entity_maker"
-	"angles" "0 0 0"
-	"EntityTemplate" "gun_temp"
-	"PostSpawnDirection" "0 0 0"
-	"PostSpawnDirectionVariance" "0.15"
-	"PostSpawnInheritAngles" "0"
-	"PostSpawnSpeed" "0"
-	"spawnflags" "0"
-	"targetname" "gun_maker"
-	"origin" "-182.5 -137 32.0002"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "848"
-	"classname" "weapon_portalgun"
-	"angles" "0 270 0"
-	"CanFirePortal1" "0"
-	"CanFirePortal2" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ShowingPotatos" "0"
-	"spawnflags" "0"
-	"StartingTeamNum" "0"
-	"targetname" "tempgun"
-	"origin" "-150.5 -137 32.0002"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 15000]"
-	}
-}
-entity
-{
-	"id" "850"
-	"classname" "trigger_weapon_strip"
-	"KillWeapons" "1"
-	"origin" "-11.5 13 8.38"
-	"parentname" "gun_collision"
-	"spawnflags" "4097"
-	"StartDisabled" "1"
-	"targetname" "strip"
-	connections
-	{
-		"OnStartTouch" "stripDisable0-1"
-	}
-	solid
-	{
-		"id" "851"
-		side
-		{
-			"id" "542"
-			"plane" "(20.5 -19 34.7999) (-43.5 -19 34.7999) (-43.5 45 34.7999)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -27.0293] 1.29308"
-			"vaxis" "[0 -1 0 -41.5385] 0.775"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "541"
-			"plane" "(20.5 45 -47.2001) (-43.5 45 -47.2001) (-43.5 -19 -47.2001)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -27.0293] 1.29308"
-			"vaxis" "[0 -1 0 -41.5385] 0.775"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "540"
-			"plane" "(-43.5 -19 -47.1996) (-43.5 45 -47.1996) (-43.5 45 34.8029)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 41.5385] 0.775"
-			"vaxis" "[0 0 -1 0.977426] 0.441088"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "539"
-			"plane" "(-43.5 45 -47.1996) (20.5 45 -47.1996) (20.5 45 34.8028)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -27.0293] 1.29308"
-			"vaxis" "[0 0 -1 0.977426] 0.441088"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "538"
-			"plane" "(20.5 -19 -47.1996) (-43.5 -19 -47.1996) (-43.5 -19 34.8029)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -27.0293] 1.29308"
-			"vaxis" "[0 0 -1 0.977426] 0.441088"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "537"
-			"plane" "(20.5 45 -47.1996) (20.5 -19 -47.1996) (20.5 -19 34.8029)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 41.5385] 0.775"
-			"vaxis" "[0 0 -1 0.977426] 0.441088"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -1394,6 +1271,7 @@ entity
 	"origin" "-3.92 13 -43"
 	"parentname" "gun_collision"
 	"pushdir" "-90 0 0"
+	"solid" "6"
 	"spawnflags" "4110"
 	"speed" "225"
 	"StartDisabled" "1"
@@ -1490,6 +1368,7 @@ entity
 	"origin" "-3.92 13 37"
 	"parentname" "gun_collision"
 	"pushdir" "90 0 0"
+	"solid" "6"
 	"spawnflags" "4110"
 	"speed" "225"
 	"StartDisabled" "1"
@@ -1613,13 +1492,14 @@ entity
 {
 	"id" "861"
 	"classname" "weapon_portalgun"
-	"angles" "0 0 0"
-	"CanFirePortal1" "1"
-	"CanFirePortal2" "1"
+	"angles" "0 180 0"
+	"CanFirePortal1" "0"
+	"CanFirePortal2" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ShowingPotatos" "0"
+	"skin" "0"
 	"spawnflags" "7"
 	"StartingTeamNum" "0"
 	"targetname" "viewmodel"
@@ -1629,16 +1509,17 @@ entity
 		"OnPlayerPickup" "portalEnable0-1"
 		"OnPlayerPickup" "gun_collisionClearParent0-1"
 		"OnPlayerPickup" "alignment_relayEnable0-1"
-		"OnPlayerPickup" "alignment_relaySetMeasureTarget!player0-1"
-		"OnPlayerPickup" "@client_commandCommandviewmodel_offset_x 00-1"
-		"OnPlayerPickup" "@client_commandCommandviewmodel_offset_y 00-1"
-		"OnPlayerPickup" "@client_commandCommandviewmodel_offset_z 00-1"
+		"OnPlayerPickup" "alignment_relaySetMeasureTarget$player0-1"
+		"OnPlayerPickup" "@commandCommandviewmodel_offset_x 00-1"
+		"OnPlayerPickup" "@commandCommandviewmodel_offset_y 00-1"
+		"OnPlayerPickup" "@commandCommandviewmodel_offset_z 00-1"
 		"OnPlayerPickup" "pedestalKill5.5-1"
 		"OnPlayerPickup" "pedestal_baseSetAnimationclose3-1"
 		"OnPlayerPickup" "pedestalSetAnimationretract1-1"
-		"OnPlayerPickup" "gravityTrigger0.02-1"
+		"OnPlayerPickup" "gravityTrigger0.05-1"
+		"OnPlayerPickup" "portalTrigger0.05-1"
 	}
-	"origin" "-13.23 -0.350098 -1.35972"
+	"origin" "13 0 -1"
 	editor
 	{
 		"color" "0 0 200"
@@ -1663,6 +1544,7 @@ entity
 	"parentname" "gun_collision"
 	"physicsSpeed" "1000"
 	"playerSpeed" "450"
+	"solid" "6"
 	"spawnflags" "4110"
 	"StartDisabled" "1"
 	"targetname" "holding_shift"
@@ -1764,12 +1646,13 @@ entity
 	"drawinfastreflection" "0"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "-150.5 -113 32"
+	"origin" "9.5 15 -48"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
 	"shadowdepthnocache" "0"
+	"solid" "6"
 	"solidbsp" "0"
 	"Solidity" "1"
 	"spawnflags" "2"
@@ -1782,10 +1665,10 @@ entity
 		side
 		{
 			"id" "566"
-			"plane" "(-142.5 -121 40.0002) (-158.5 -121 40.0002) (-158.5 -105 40.0002)"
+			"plane" "(17.5 7 -40) (1.49609 7 -40) (1.5 23 -40)"
 			"material" "TOOLS/TOOLSNODRAW_PORTAL"
-			"uaxis" "[0 1 0 34.6537] 0.03"
-			"vaxis" "[1 0 0 -31.3412] 0.03"
+			"uaxis" "[0 1 0 -8.01318] 0.03"
+			"vaxis" "[1 0 0 -52.6747] 0.03"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1793,10 +1676,10 @@ entity
 		side
 		{
 			"id" "565"
-			"plane" "(-142.5 -105 24.0002) (-158.5 -105 24.0002) (-158.5 -121 24.0002)"
+			"plane" "(17.5 23 -56) (1.49609 23 -56) (1.5 7 -56)"
 			"material" "TOOLS/TOOLSNODRAW_PORTAL"
-			"uaxis" "[0 -1 0 -34.6537] 0.03"
-			"vaxis" "[1 0 0 -31.3412] 0.03"
+			"uaxis" "[0 -1 0 8.01318] 0.03"
+			"vaxis" "[1 0 0 -52.6747] 0.03"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1804,10 +1687,10 @@ entity
 		side
 		{
 			"id" "564"
-			"plane" "(-142.5 -121 24.0002) (-158.5 -121 24.0002) (-158.5 -121 40.0002)"
+			"plane" "(17.5 7 -56) (1.49609 7 -56) (1.5 7 -40)"
 			"material" "TOOLS/TOOLSNODRAW_PORTAL"
-			"uaxis" "[1 0 0 -31.3412] 0.03"
-			"vaxis" "[0 0 -1 -29.533] 0.03"
+			"uaxis" "[1 0 0 -52.6747] 0.03"
+			"vaxis" "[0 0 -1 -8.19971] 0.03"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1815,10 +1698,10 @@ entity
 		side
 		{
 			"id" "563"
-			"plane" "(-158.5 -105 24.0002) (-142.5 -105 24.0002) (-142.5 -105 40.0002)"
+			"plane" "(1.5 23 -56) (17.5 23 -56) (17.5 23 -40)"
 			"material" "TOOLS/TOOLSNODRAW_PORTAL"
-			"uaxis" "[-1 0 0 31.3412] 0.03"
-			"vaxis" "[0 0 -1 -29.533] 0.03"
+			"uaxis" "[-1 0 0 52.6747] 0.03"
+			"vaxis" "[0 0 -1 -8.19971] 0.03"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1826,10 +1709,10 @@ entity
 		side
 		{
 			"id" "562"
-			"plane" "(-158.5 -121 24.0002) (-158.5 -105 24.0002) (-158.5 -105 40.0002)"
+			"plane" "(1.5 7 -56) (1.5 23 -56) (1.5 23 -40)"
 			"material" "TOOLS/TOOLSNODRAW_PORTAL"
-			"uaxis" "[0 -1 0 -34.6537] 0.03"
-			"vaxis" "[0 0 -1 -29.533] 0.03"
+			"uaxis" "[0 -1 0 8.01318] 0.03"
+			"vaxis" "[0 0 -1 -8.19971] 0.03"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1837,10 +1720,10 @@ entity
 		side
 		{
 			"id" "561"
-			"plane" "(-142.5 -105 24.0002) (-142.5 -121 24.0002) (-142.5 -121 40.0002)"
+			"plane" "(17.5 23 -56) (17.5 7 -56) (17.5 7 -40)"
 			"material" "TOOLS/TOOLSNODRAW_PORTAL"
-			"uaxis" "[0 1 0 34.6537] 0.03"
-			"vaxis" "[0 0 -1 -29.533] 0.03"
+			"uaxis" "[0 1 0 -8.01318] 0.03"
+			"vaxis" "[0 0 -1 -8.19971] 0.03"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1864,6 +1747,7 @@ entity
 {
 	"id" "869"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
 	"spawnflags" "2"
 	"startdisabled" "1"
 	"targetname" "gravity"
@@ -1880,15 +1764,14 @@ entity
 		"OnTrigger" "release_relayEnable0-1"
 		"OnTrigger" "pull_relayEnable0-1"
 		"OnTrigger" "push_relayEnable0-1"
-		"OnTrigger" "viewmodelSkin20.01-1"
+		"OnTrigger" "@portalgun_skin2Trigger0.01-1"
 		"OnTrigger" "@client_commandCommandr_drawviewmodel 10.01-1"
 		"OnTrigger" "stripEnable0-1"
-		"OnTrigger" "gun_makerForceSpawnAtEntityOrigin!player0-1"
 	}
-	"origin" "-182.5 95 32.0002"
+	"origin" "-16 8 32"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -1898,6 +1781,7 @@ entity
 {
 	"id" "871"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
 	"spawnflags" "2"
 	"startdisabled" "1"
 	"targetname" "portal"
@@ -1912,13 +1796,13 @@ entity
 		"OnTrigger" "push_relayDisable0-1"
 		"OnTrigger" "pull_relayDisable0-1"
 		"OnTrigger" "release_relayDisable0-1"
-		"OnTrigger" "viewmodelSkin10-1"
 		"OnTrigger" "stripEnable0-1"
+		"OnTrigger" "@portalgun_skin1Trigger0-1"
 	}
-	"origin" "-182.5 119 32.0002"
+	"origin" "-16 32 32"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -1928,11 +1812,12 @@ entity
 {
 	"id" "873"
 	"classname" "point_servercommand"
+	"angles" "0 0 0"
 	"targetname" "@client_command"
-	"origin" "-182.5 71 32.0002"
+	"origin" "-16 -16 32"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "200 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -1942,6 +1827,7 @@ entity
 {
 	"id" "875"
 	"classname" "game_ui"
+	"angles" "0 0 0"
 	"FieldOfView" "-1.0"
 	"spawnflags" "0"
 	"targetname" "weapon_control"
@@ -1951,10 +1837,10 @@ entity
 		"PressedAttack2" "pull_relayTrigger0-1"
 		"UnpressedAttack2" "release_relayTrigger0-1"
 	}
-	"origin" "-150.5 7 32.0002"
+	"origin" "16 40 -16"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "200 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -1964,11 +1850,12 @@ entity
 {
 	"id" "879"
 	"classname" "point_clientcommand"
+	"angles" "0 0 0"
 	"targetname" "@command"
-	"origin" "-150.5 71 32.0002"
+	"origin" "16 -16 32"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "200 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -1978,16 +1865,17 @@ entity
 {
 	"id" "881"
 	"classname" "logic_measure_movement"
+	"angles" "0 0 0"
 	"MeasureReference" "measureing_brick"
 	"MeasureType" "1"
 	"Target" "gun_collision"
 	"targetname" "alignment_relay"
 	"TargetReference" "measureing_brick"
 	"TargetScale" "1"
-	"origin" "-182.5 -113 32.0002"
+	"origin" "-22.5 15 -47.9998"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -1997,6 +1885,7 @@ entity
 {
 	"id" "883"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
 	"targetname" "release_relay"
@@ -2010,10 +1899,10 @@ entity
 		"OnTrigger" "pullDisable0-1"
 		"OnTrigger" "blaperture_beamLightOff0-1"
 	}
-	"origin" "-182.5 -89 32.0002"
+	"origin" "-22.5 39 -47.9998"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2023,6 +1912,7 @@ entity
 {
 	"id" "885"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
 	"targetname" "pull_relay"
@@ -2034,10 +1924,10 @@ entity
 		"OnTrigger" "pullEnable0-1"
 		"OnTrigger" "blaperture_beamLightOn0-1"
 	}
-	"origin" "-182.5 -65 32.0002"
+	"origin" "-16 -32 -16"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2047,15 +1937,16 @@ entity
 {
 	"id" "887"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
 	"targetname" "push_relay"
 	connections
 	{
 		"OnTrigger" "pushDisable0.1-1"
-		"OnTrigger" "@client_commandCommand-use0.01-1"
+		"OnTrigger" "@commandCommand-use0.01-1"
 		"OnTrigger" "active_soundStopSound0-1"
-		"OnTrigger" "@client_commandCommand+use0-1"
+		"OnTrigger" "@commandCommand+use0-1"
 		"OnTrigger" "holding_shiftDisable0-1"
 		"OnTrigger" "lift_soundStopSound0-1"
 		"OnTrigger" "blaperture_pull_frontStop0-1"
@@ -2066,10 +1957,10 @@ entity
 		"OnTrigger" "launchStop0.5-1"
 		"OnTrigger" "blaperture_beamLightOff0-1"
 	}
-	"origin" "-182.5 -41 32.0002"
+	"origin" "-16 -8 -16"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2079,6 +1970,7 @@ entity
 {
 	"id" "889"
 	"classname" "logic_relay"
+	"angles" "0 0 0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
 	"targetname" "hold_relay"
@@ -2088,14 +1980,14 @@ entity
 		"OnTrigger" "lift_soundPlaySound0.01-1"
 		"OnTrigger" "holding_shiftDisable0-1"
 		"OnTrigger" "pullDisable0.01-1"
-		"OnTrigger" "@client_commandCommand-use0.01-1"
-		"OnTrigger" "@client_commandCommand+use0-1"
+		"OnTrigger" "@commandCommand-use0.01-1"
+		"OnTrigger" "@commandCommand+use0-1"
 		"OnTrigger" "blaperture_beamLightOff0.01-1"
 	}
-	"origin" "-182.5 -17 32.0002"
+	"origin" "-16 16 -16"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2105,6 +1997,7 @@ entity
 {
 	"id" "891"
 	"classname" "ambient_generic"
+	"angles" "0 0 0"
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
@@ -2123,7 +2016,7 @@ entity
 	"spinup" "0"
 	"targetname" "pull_sound"
 	"volstart" "0"
-	"origin" "-150.5 119 32.0002"
+	"origin" "16 32 32"
 	editor
 	{
 		"color" "220 30 220"
@@ -2136,6 +2029,7 @@ entity
 {
 	"id" "894"
 	"classname" "ambient_generic"
+	"angles" "0 0 0"
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
@@ -2154,7 +2048,7 @@ entity
 	"spinup" "0"
 	"targetname" "mode"
 	"volstart" "0"
-	"origin" "-150.5 95 32.0002"
+	"origin" "16 8 32"
 	editor
 	{
 		"color" "220 30 220"
@@ -2167,6 +2061,7 @@ entity
 {
 	"id" "897"
 	"classname" "ambient_generic"
+	"angles" "0 0 0"
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "2"
@@ -2185,7 +2080,7 @@ entity
 	"spinup" "0"
 	"targetname" "lift_sound"
 	"volstart" "0"
-	"origin" "-150.5 -17 32.0002"
+	"origin" "16 16 -16"
 	editor
 	{
 		"color" "220 30 220"
@@ -2198,6 +2093,7 @@ entity
 {
 	"id" "900"
 	"classname" "ambient_generic"
+	"angles" "0 0 0"
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
@@ -2216,7 +2112,7 @@ entity
 	"spinup" "0"
 	"targetname" "push_sound"
 	"volstart" "0"
-	"origin" "-150.5 -41 32.0002"
+	"origin" "16 -8 -16"
 	editor
 	{
 		"color" "220 30 220"
@@ -2229,6 +2125,7 @@ entity
 {
 	"id" "903"
 	"classname" "ambient_generic"
+	"angles" "0 0 0"
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
@@ -2247,7 +2144,7 @@ entity
 	"spinup" "0"
 	"targetname" "active_sound"
 	"volstart" "0"
-	"origin" "-150.5 -65 32.0002"
+	"origin" "16 -32 -16"
 	editor
 	{
 		"color" "220 30 220"
@@ -2260,6 +2157,7 @@ entity
 {
 	"id" "906"
 	"classname" "ambient_generic"
+	"angles" "0 0 0"
 	"cspinup" "0"
 	"fadeinsecs" "0"
 	"fadeoutsecs" "0"
@@ -2278,7 +2176,7 @@ entity
 	"spinup" "0"
 	"targetname" "release_sound"
 	"volstart" "0"
-	"origin" "-150.5 -89 32.0002"
+	"origin" "9.5 39 -47.9998"
 	editor
 	{
 		"color" "220 30 220"
@@ -2305,6 +2203,7 @@ entity
 	"SetVelocityLimit" "10000.0"
 	"SetVelocityLimitDelta" "0.0"
 	"SetVelocityScale" "1.0"
+	"solid" "6"
 	"spawnflags" "4110"
 	"StartDisabled" "1"
 	"targetname" "pull"
@@ -2409,6 +2308,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"shadowdepthnocache" "0"
+	"solid" "6"
 	"solidbsp" "0"
 	"Solidity" "1"
 	"spawnflags" "2"
@@ -2515,6 +2415,7 @@ entity
 	"parentname" "gun_collision"
 	"physicsSpeed" "1000"
 	"playerSpeed" "450"
+	"solid" "6"
 	"spawnflags" "4096"
 	"StartDisabled" "1"
 	"targetname" "push"
@@ -2630,6 +2531,7 @@ entity
 	"origin" "-3.92 -27 -3"
 	"parentname" "gun_collision"
 	"pushdir" "0 90 0"
+	"solid" "6"
 	"spawnflags" "4110"
 	"speed" "225"
 	"StartDisabled" "1"
@@ -2726,6 +2628,7 @@ entity
 	"origin" "-3.92 53 -3"
 	"parentname" "gun_collision"
 	"pushdir" "0 270 0"
+	"solid" "6"
 	"spawnflags" "4110"
 	"speed" "225"
 	"StartDisabled" "1"
@@ -2841,6 +2744,7 @@ entity
 	"mingpulevel" "0"
 	"model" "models/props/pedestal_base_reference.mdl"
 	"performancemode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"randomanimation" "0"
 	"renderamt" "255"
@@ -2890,6 +2794,7 @@ entity
 	"mingpulevel" "0"
 	"model" "models/bee2/props_ingame/pgun_pedestal.mdl"
 	"performancemode" "0"
+	"physdamagescale" "1.0"
 	"pressuredelay" "0"
 	"randomanimation" "0"
 	"renderamt" "255"
@@ -2921,13 +2826,15 @@ entity
 {
 	"id" "587"
 	"classname" "trigger_once"
-	"origin" "0 0 16"
+	"origin" "0 0 -10"
+	"solid" "6"
 	"spawnflags" "4097"
 	"startdisabled" "0"
 	"targetname" "open_trig"
 	connections
 	{
 		"OnTrigger" "pedestalSetAnimationopen0-1"
+		"OnTrigger" "weaponstripStrip0-1"
 	}
 	solid
 	{
@@ -2935,7 +2842,7 @@ entity
 		side
 		{
 			"id" "308"
-			"plane" "(-96 -96 128) (-96 96 128) (96 96 128)"
+			"plane" "(-64 -64 76) (-64 64 76) (64 64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2946,7 +2853,7 @@ entity
 		side
 		{
 			"id" "307"
-			"plane" "(-96 96 -96) (-96 -96 -96) (96 -96 -96)"
+			"plane" "(-64 64 -96) (-64 -64 -96) (64 -64 -96)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2957,7 +2864,7 @@ entity
 		side
 		{
 			"id" "306"
-			"plane" "(96 96 -96) (96 -96 -96) (96 -96 128)"
+			"plane" "(64 64 -96) (64 -64 -96) (64 -64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2968,7 +2875,7 @@ entity
 		side
 		{
 			"id" "305"
-			"plane" "(-96 -96 -96) (-96 96 -96) (-96 96 128)"
+			"plane" "(-64 -64 -96) (-64 64 -96) (-64 64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2979,7 +2886,7 @@ entity
 		side
 		{
 			"id" "304"
-			"plane" "(96 -96 -96) (-96 -96 -96) (-96 -96 128)"
+			"plane" "(64 -64 -96) (-64 -64 -96) (-64 -64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2990,7 +2897,7 @@ entity
 		side
 		{
 			"id" "303"
-			"plane" "(-96 96 -96) (96 96 -96) (96 96 128)"
+			"plane" "(-64 64 -96) (64 64 -96) (64 64 76)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -3015,7 +2922,12 @@ entity
 }
 cameras
 {
-	"activecamera" "-1"
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-36.5167 -45.6661 -18.62]"
+		"look" "[16.2986 26.111 10.6451]"
+	}
 }
 cordons
 {

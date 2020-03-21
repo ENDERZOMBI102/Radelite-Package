@@ -75,6 +75,26 @@
 						"Pos"	"2 2 0"
 					}
 				}
+				"Voxel"
+				{
+					"Pos"		"1 0 0"
+					"Surface"
+					{
+						"Pos"	"1 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"1 2 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 1 0"
+					}
+					"Surface"
+					{
+						"Pos"	"2 2 0"
+					}
+				}
 			}
 			"EmbeddedVoxels"
 			{
