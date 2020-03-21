@@ -1,6 +1,6 @@
 "ID" "Radelite_package"
 "Name" "Radelite's package"
-"Desc" "Items added by the Radelite's Addon for the old BeeMod 2, ported by ENDERZOMBI102, Libbybapa, Flash4433!"
+"Desc" "Items ported from the Radelite's Addon for the old BEEmod 2, ported by ENDERZOMBI102, Libbybapa and Flash4433!"
 "Prerequisites"
 {
 	"Package" "BEE2_CLEAN_STYLE"
@@ -39,7 +39,6 @@
 "Item"
 	{
 	"ID" "ITEM_WATER_BLOCK"
-	"AllDescLast" "0"
 	"unstyled"    "1"
 	"Version"
 		{
@@ -53,7 +52,6 @@
 "Item"
 	{
 	"ID" "ITEM_PORTAL_DETECTOR"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -69,7 +67,6 @@
 "Item"
 	{
 	"ID" "ITEM_EMBEDDED_BUTTONS"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -87,7 +84,6 @@
 "Item"
 	{
 	"ID" "ITEM_ACTIVATOR_CUBES"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -100,7 +96,6 @@
 "Item"
 	{
 	"ID" "ITEM_TURRET_DETECTOR"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -113,7 +108,7 @@
 "Item"
 	{
 	"ID" "ITEM_GRAVITY_GUN"
-	"AllDescLast" "0"
+	"unstyled" "1"
 	"Version"
 		{
 		"Styles"
@@ -126,7 +121,7 @@
 "Item"
 	{
 	"ID" "ITEM_PAINT_GUN" 
-	"AllDescLast" "0"
+	"unstyled" "1"
 	"Version"
 		{
 		"Styles"
@@ -138,8 +133,20 @@
 	
 "Item"
 	{
+	"ID" "ITEM_PORTIVITY_GUN" 
+	"unstyled" "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE"  "portivity_gun"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_SKYBOX_AREA"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -152,7 +159,6 @@
 "Item"
 	{
 	"ID" "ITEM_LIVING_PANEL_LARGE"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -165,7 +171,6 @@
 "Item"
 	{
 	"ID" "ITEM_LIVING_PANEL"
-	"AllDescLast" "0"
 	"Version"
 		{
 		"Styles"
@@ -178,7 +183,6 @@
 "Item"
 	{
 	"ID" "ITEM_INSTANT_KILL"
-	"AllDescLast" "0"
 	"unstyled"    "1"
 	"Version"
 		{

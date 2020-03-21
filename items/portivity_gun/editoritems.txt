@@ -1,19 +1,19 @@
 "Item"
     {
-        "Type"     		"ITEM_GRAVITY_GUN"
+        "Type"     		"ITEM_PORTIVITY_GUN"
         "Editor"
         {
             "SubType"
             {	
-                "Name"          		"Gravity Gun"
+                "Name"          		"Portivity Gun"
 				"Model"
 				{
 					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
 				}
                 "Palette"
                 {
-                    "Tooltip"      			"GRAVITY GUN"
-                    "Image"         		"palette/clean/gravity_gun.png"
+                    "Tooltip"      			"PORTIVITY GUN"
+                    "Image"         		"palette/clean/portivity_gun.png"
                     "Position"      		"3 1 0"					// 2. Zeile, 4. Reihe (line 2, row 4)
                 }
                 "Sounds"
@@ -28,11 +28,6 @@
         }
 		"Properties"
 		{
-			"StartReversed"
-			{
-				"DefaultValue"	"0"
-				"Index"			"1"
-			}
 		}
         "Exporting"
         {
@@ -40,16 +35,16 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/clean/items/radelite/gravity_gun.vmf"
-                    "EntityCount"       	"10"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"66"
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun.vmf"
+                    "EntityCount"       	"29"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
                 }
             }
             "Offset"            		"64 64 64"
-            "TargetName"        		"g_gun"
+            "TargetName"        		"pg_gun"
             "OccupiedVoxels"
-            {
+			{
 				"Voxel"
 				{
 					"Pos"		"0 0 0"
@@ -98,7 +93,6 @@
 					"Pos"		"0 0 0"
 				}
 			}
-
 			"EmbedFace"
 			{
 				"Solid"
