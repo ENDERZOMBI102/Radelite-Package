@@ -6,11 +6,10 @@
 {
 "" "Gravity Gun."
 "" ""
-"" "* **Start Enabled** makes the selected player spawn with the gun."
 "" "* **Start Reversed** makes the gun work for Co-Op. Uncheck for AtLAS, check for P-Body. Useless in SP."
 "" ""
 "" ""
-"" "> To-Do: Add the Start Enabled, Start Reversed, Auto Disable when picking up another gun."
+"" "> To-Do: Add Auto Disable when picking up another gun."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Gravity-Gun"
 "ent_count" "10"
