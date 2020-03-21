@@ -45,7 +45,7 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/clean/items/portivity_gun.vmf"
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun.vmf"
                     "EntityCount"       	"29"
                     "BrushCount"        	"24"
                     "BrushSideCount"    	"148"
