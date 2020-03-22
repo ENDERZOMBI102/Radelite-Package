@@ -12,7 +12,7 @@
 "" "> To-Do: Add Auto Disable when picking up another gun."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Portivity-Gun"
-"ent_count" "29"
+"ent_count" "31"
 "Icon"
 {
 "0" "clean/portivity_gun.png"

@@ -41,9 +41,9 @@
                 "0"
                 {
                     "Name"         		"instances/BEE2/clean/items/radelite/gravity_gun.vmf"
-                    "EntityCount"       	"10"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"66"
+                    "EntityCount"       	"26"
+                    "BrushCount"        	"23"
+                    "BrushSideCount"    	"142"
                 }
             }
             "Offset"            		"64 64 64"
