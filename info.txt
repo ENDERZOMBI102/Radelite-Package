@@ -39,12 +39,13 @@
 "Item"
 	{
 	"ID" "ITEM_WATER_BLOCK"
-	"unstyled"    "1"
 	"Version"
 		{
 		"Styles"
 			{
-			"ANY_STYLE" "water_block"
+			"BEE2_CLEAN" "water_block"
+			"BEE2_PORTAL_1" "water_block"
+			"BEE2_CLEAN_ORIGINAL" "water_block"
 			}
 		}
 	}
