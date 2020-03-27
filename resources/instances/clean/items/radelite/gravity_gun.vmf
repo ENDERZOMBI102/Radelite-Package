@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "67"
+	"mapversion" "68"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "67"
+	"mapversion" "68"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,17 +758,100 @@ world
 }
 entity
 {
-	"id" "1505"
-	"classname" "player_weaponstrip"
-	"angles" "0 0 0"
-	"targetname" "weaponstrip"
-	"origin" "0 0 33"
+	"id" "1738"
+	"classname" "trigger_weapon_strip"
+	"KillWeapons" "1"
+	"origin" "-0 0 14.58"
+	"solid" "6"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"targetname" "strip"
+	connections
+	{
+		"OnStartTouch" "stripDisable0.01-1"
+	}
+	solid
+	{
+		"id" "1739"
+		side
+		{
+			"id" "608"
+			"plane" "(24 -24 40.9986) (-23.9985 -24 40.9986) (-23.9985 24 40.9986)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -35.9228] 1.29308"
+			"vaxis" "[0 -1 0 -58.3127] 0.775"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "607"
+			"plane" "(24 24 -41.0014) (-23.9985 24 -41.0014) (-23.9985 -24 -41.0014)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -35.9228] 1.29308"
+			"vaxis" "[0 -1 0 -58.3127] 0.775"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "606"
+			"plane" "(-24 -24 -41.001) (-24 24 -41.001) (-24 24 41.0014)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 58.3127] 0.775"
+			"vaxis" "[0 0 -1 15.0306] 0.441088"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "605"
+			"plane" "(-24 24 -41.001) (24 24 -41.001) (24 24 41.0014)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -35.9228] 1.29308"
+			"vaxis" "[0 0 -1 15.0306] 0.441088"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "604"
+			"plane" "(24 -24 -41.001) (-23.9971 -24 -41.001) (-24 -24 41.0014)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -35.9228] 1.29308"
+			"vaxis" "[0 0 -1 15.0306] 0.441088"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "603"
+			"plane" "(24 24 -41.001) (24 -24 -41.001) (24 -24 41.0014)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 58.3127] 0.775"
+			"vaxis" "[0 0 -1 15.0306] 0.441088"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -1502,7 +1585,7 @@ entity
 	"skin" "0"
 	"spawnflags" "7"
 	"StartingTeamNum" "0"
-	"targetname" "viewmodel"
+	"targetname" "gun"
 	connections
 	{
 		"OnPlayerPickup" "portalTrigger0.01-1"
@@ -1766,7 +1849,6 @@ entity
 		"OnTrigger" "push_relayEnable0-1"
 		"OnTrigger" "@portalgun_skin2Trigger0.01-1"
 		"OnTrigger" "@client_commandCommandr_drawviewmodel 10.01-1"
-		"OnTrigger" "stripEnable0-1"
 	}
 	"origin" "-16 8 32"
 	editor
@@ -1796,7 +1878,6 @@ entity
 		"OnTrigger" "push_relayDisable0-1"
 		"OnTrigger" "pull_relayDisable0-1"
 		"OnTrigger" "release_relayDisable0-1"
-		"OnTrigger" "stripEnable0-1"
 		"OnTrigger" "@portalgun_skin1Trigger0-1"
 	}
 	"origin" "-16 32 32"
@@ -2822,111 +2903,13 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
-entity
-{
-	"id" "587"
-	"classname" "trigger_once"
-	"origin" "0 0 -10"
-	"solid" "6"
-	"spawnflags" "4097"
-	"startdisabled" "0"
-	"targetname" "open_trig"
-	connections
-	{
-		"OnTrigger" "pedestalSetAnimationopen0-1"
-		"OnTrigger" "weaponstripStrip0-1"
-	}
-	solid
-	{
-		"id" "588"
-		side
-		{
-			"id" "308"
-			"plane" "(-64 -64 76) (-64 64 76) (64 64 76)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "307"
-			"plane" "(-64 64 -96) (-64 -64 -96) (64 -64 -96)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "306"
-			"plane" "(64 64 -96) (64 -64 -96) (64 -64 76)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "305"
-			"plane" "(-64 -64 -96) (-64 64 -96) (-64 64 76)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "304"
-			"plane" "(64 -64 -96) (-64 -64 -96) (-64 -64 76)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "303"
-			"plane" "(-64 64 -96) (64 64 -96) (64 64 76)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-36.5167 -45.6661 -18.62]"
-		"look" "[16.2986 26.111 10.6451]"
+		"position" "[-7.53645 51.4625 40.105]"
+		"look" "[-26.2577 -17.4595 -20.6991]"
 	}
 }
 cordons

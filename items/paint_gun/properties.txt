@@ -36,7 +36,7 @@
 "" "> To-Do: Add the Start Enabled, Auto Disable when picking up another gun."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Paint-Gun"
-"ent_count" "8"
+"ent_count" "7"
 "Icon"
 {
 "0" "clean/paint_gun.png"
