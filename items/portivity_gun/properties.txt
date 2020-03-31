@@ -5,10 +5,10 @@
 "Description"
 {
 "" "It's a Portal Gun with a Gravity Gun. You can switch between modes with Crouch."
+"" ""
 "" "* It's very similar with the one in Into the Multiverse, the Portal 2 workshop map series."
-"" ""
-"" ""
 "" "* Unfortunately, there can't be more than one Portivity Gun per chamber, so both Co-Op players can't have the Portivity Gun."
+"" ""
 "" "> To-Do: Add Auto Disable when picking up another gun."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Portivity-Gun"

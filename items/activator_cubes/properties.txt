@@ -1,7 +1,7 @@
 "Properties"
 	{
 	"Authors" "Radelite, ENDERZOMBI102, Flash4433"
-	"Tags" "Portal 2;Buttons"
+	"Tags" "Portal 2;Cubes"
 	"Description"
 	{	
 	"" "A pack of cubes that, when something happens to them, they output a signal."

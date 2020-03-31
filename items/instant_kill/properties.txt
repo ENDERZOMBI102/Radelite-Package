@@ -6,7 +6,7 @@
 {
 "" "An invisible item that, if it receives an **input**, it will **insta-kill** the player. When the player dies, it looks like he fell."
 "" ""
-"" "* **Start Reversed** - Instead of dying, it finishes the map with a fade out. Useful if you want some sort of cinematic ending."
+"" "* **Start Reversed** - Instead of dying, the player is taken to the voting screen (end) after a short fade out. Useful if you want some sort of cinematic ending."
 "" ""
 "" "* This item is an upgrade to Radelite's Trigger Kill. Now it doesn't have a trigger, since there's already triggers in BEEMod. So, you can add different types of inputs to it. I still suggest just using an **laserfield**."
 }

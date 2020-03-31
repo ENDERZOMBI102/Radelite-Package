@@ -10,7 +10,7 @@
 "" "* env_fires react to gravity, so you can make cool contraptions."
 "" ""
 "" ""
-"" "> To-Do - Create a more realistic fire. Add connection system."
+"" "> To-Do - Create a more realistic fire and a connection system."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Fire_Panel"
 "ent_count" "7"
