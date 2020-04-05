@@ -36,18 +36,18 @@
 		}
 	}
 
-// "Item"
-// 	{
-// 	"ID" "ITEM_WATER_BLOCK"
-// 	"unstyled"    "1"
-// 	"Version"
-// 		{
-// 		"Styles"
-// 			{
-// 			"ANY_STYLE" "water_block"
-// 			}
-// 		}
-// 	}
+"Item"
+	{
+	"ID" "ITEM_WATER_BLOCK"
+	"unstyled"    "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "water_block"
+			}
+		}
+	}
 	
 "Item"
 	{
@@ -144,17 +144,17 @@
 		}
 	}
 
-// "Item"
-// 	{
-// 	"ID" "ITEM_SKYBOX_AREA"
-// 	"Version"
-// 		{
-// 		"Styles"
-// 			{
-// 			"ANY_STYLE" "skybox"
-// 			}
-// 		}
-// 	}
+"Item"
+	{
+	"ID" "ITEM_SKYBOX_AREA"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "skybox"
+			}
+		}
+	}
 	
 "Item"
 	{
