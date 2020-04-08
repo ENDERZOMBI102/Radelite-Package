@@ -38,7 +38,6 @@ entity
 	{
 		"OnPlayerPickup" "@disable_radelite_paintgunTrigger0-1"
 		"OnPlayerPickup" "@disable_portivity_gunTrigger0-1"
-		"OnPlayerPickup" "@disable_portivity_gun2Trigger0-1"
 		"OnPlayerPickup" "@disable_gravity_gunTrigger0-1"
 		"OnPlayerPickup" "@disable_gravity_gun2Trigger0-1"
 	}
