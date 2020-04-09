@@ -769,6 +769,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "stripDisable0.01-1"
+		"OnStartTouch" "pedestalSetAnimationopen0-1"
 	}
 	solid
 	{
