@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "68"
+	"mapversion" "70"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "68"
+	"mapversion" "70"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -758,10 +758,40 @@ world
 }
 entity
 {
+	"id" "1960"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"startdisabled" "0"
+	"targetname" "shutdown"
+	connections
+	{
+		"OnTrigger" "gravityDisable0.02-1"
+		"OnTrigger" "stripEnable0-1"
+		"OnTrigger" "weapon_controlDeactivate0-1"
+		"OnTrigger" "portalDisable0.01-1"
+		"OnTrigger" "release_relayDisable0-1"
+		"OnTrigger" "pull_relayDisable0-1"
+		"OnTrigger" "push_relayDisable0-1"
+		"OnTrigger" "holding_shiftDisable0-1"
+		"OnTrigger" "pushDisable0-1"
+		"OnTrigger" "pullDisable0-1"
+		"OnTrigger" "blap_crosshairDisable0-1"
+	}
+	"origin" "0 1 55"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "1738"
 	"classname" "trigger_weapon_strip"
 	"KillWeapons" "1"
-	"origin" "-0 0 14.58"
+	"origin" "0 0 14.58"
 	"solid" "6"
 	"spawnflags" "4097"
 	"StartDisabled" "0"
@@ -2908,8 +2938,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-7.53645 51.4625 40.105]"
-		"look" "[-26.2577 -17.4595 -20.6991]"
+		"position" "[12.3137 83.0653 70.4995]"
+		"look" "[-6.40754 14.1433 9.69543]"
 	}
 }
 cordons
