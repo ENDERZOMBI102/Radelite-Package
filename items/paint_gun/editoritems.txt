@@ -82,42 +82,42 @@
                 "0"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_weighted_white.vmf"
-                    "EntityCount"       	"8"
+                    "EntityCount"       	"7"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"1"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_weighted_black.vmf"
-                    "EntityCount"       	"8"
+                    "EntityCount"       	"7"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"2"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_cube_white.vmf"
-                    "EntityCount"       	"8"
+                    "EntityCount"       	"7"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"3"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_cube_black.vmf"
-                    "EntityCount"       	"8"
+                    "EntityCount"       	"7"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"4"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_ball_white.vmf"
-                    "EntityCount"       	"8"
+                    "EntityCount"       	"7"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }
 				"5"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_ball_black.vmf"
-                    "EntityCount"       	"8"
+                    "EntityCount"       	"7"
                     "BrushCount"        	"11"
                     "BrushSideCount"    	"70"
                 }

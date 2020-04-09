@@ -9,7 +9,6 @@
 				"Model"
 				{
 					"ModelName"		"trigger_once.3ds"
-					"TextureName"	"arm_4panel.png"
 				}
 				"Palette"
 				{
