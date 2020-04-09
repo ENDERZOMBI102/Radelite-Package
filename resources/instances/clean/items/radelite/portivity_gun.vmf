@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "63"
+	"mapversion" "65"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "63"
+	"mapversion" "65"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -754,6 +754,67 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "2418"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "gun_temp2"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0.15"
+	"PostSpawnInheritAngles" "0"
+	"PostSpawnSpeed" "0"
+	"spawnflags" "0"
+	"targetname" "gun_maker2"
+	"origin" "-22.5 -9 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2003"
+	"classname" "weapon_portalgun"
+	"angles" "0 270 0"
+	"CanFirePortal1" "$portalblue"
+	"CanFirePortal2" "$portalorange"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ShowingPotatos" "0"
+	"spawnflags" "0"
+	"StartingTeamNum" "0"
+	"targetname" "tempgun2"
+	"origin" "10 -9 -36"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "2148"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "2"
+	"targetname" "gun_temp2"
+	"Template01" "tempgun2"
+	"origin" "-22.5 -33 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 entity
@@ -1669,8 +1730,8 @@ entity
 	"id" "861"
 	"classname" "weapon_portalgun"
 	"angles" "0 0 0"
-	"CanFirePortal1" "1"
-	"CanFirePortal2" "1"
+	"CanFirePortal1" "$portalblue"
+	"CanFirePortal2" "$portalorange"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
@@ -1962,8 +2023,6 @@ entity
 	"targetname" "portal"
 	connections
 	{
-		"OnTrigger" "@commandCommandupgrade_portalgun0.02-1"
-		"OnTrigger" "@commandCommandgive_portalgun0.01-1"
 		"OnTrigger" "portalDisable0.01-1"
 		"OnTrigger" "gravityEnable0.01-1"
 		"OnTrigger" "blap_crosshairDisable0-1"
@@ -1975,6 +2034,7 @@ entity
 		"OnTrigger" "release_relayDisable0-1"
 		"OnTrigger" "stripEnable0-1"
 		"OnTrigger" "@portalgun_skin1Trigger0-1"
+		"OnTrigger" "gun_maker2ForceSpawnAtEntityOrigin!player0.01-1"
 	}
 	"origin" "-16 32 32"
 	editor
@@ -2035,21 +2095,6 @@ entity
 		"OnDuck" "gravityTrigger0-1"
 	}
 	"origin" "-16 40 -16"
-	editor
-	{
-		"color" "200 0 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 15000]"
-	}
-}
-entity
-{
-	"id" "879"
-	"classname" "point_clientcommand"
-	"angles" "0 0 0"
-	"targetname" "@command"
-	"origin" "16 -16 32"
 	editor
 	{
 		"color" "200 0 0"
@@ -3121,8 +3166,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-15.6183 20.3488 55.575]"
-		"look" "[47.6956 -44.5459 31.536]"
+		"position" "[-40.9516 -5.20394 34.7218]"
+		"look" "[25.5801 -5.50169 -31.3938]"
 	}
 }
 cordons

@@ -1,6 +1,7 @@
 "Item"
     {
         "Type"     		"ITEM_PORTIVITY_GUN"
+        "ItemClass"		"ItemButtonFloor"
         "Editor"
         {
             "SubType"
@@ -8,7 +9,7 @@
                 "Name"          		"Portivity Gun"
 				"Model"
 				{
-					"ModelName"		"bee2_pgun_pedestal_oran.3ds"
+					"ModelName"		"bee2_pgun_pedestal_dual.3ds"
 				}
                 "Palette"
                 {
@@ -28,6 +29,11 @@
         }
 		"Properties"
 		{
+			"ButtonType"
+			{
+				"DefaultValue"	"0"
+				"Index"			"1"
+			}
 		}
         "Exporting"
         {
@@ -35,7 +41,42 @@
             {
                 "0"
                 {
-                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun.vmf"
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun0.vmf"
+                    "EntityCount"       	"28"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
+                }
+                "1"
+                {
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun1.vmf"
+                    "EntityCount"       	"28"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
+                }
+                "2"
+                {
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun2.vmf"
+                    "EntityCount"       	"28"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
+                }
+                "3"
+                {
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun3.vmf"
+                    "EntityCount"       	"28"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
+                }
+                "4"
+                {
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun4.vmf"
+                    "EntityCount"       	"28"
+                    "BrushCount"        	"24"
+                    "BrushSideCount"    	"148"
+                }
+                "5"
+                {
+                    "Name"         		"instances/BEE2/clean/items/radelite/portivity_gun5.vmf"
                     "EntityCount"       	"28"
                     "BrushCount"        	"24"
                     "BrushSideCount"    	"148"
