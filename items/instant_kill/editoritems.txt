@@ -1,13 +1,12 @@
 "Item"
 	{
 		"Type"		"ITEM_INSTANT_KILL"
-		"ItemClass"	"ItemBase"
 		"Editor"
 		{
 			"SubTypeProperty"		"StartReversed"
 			"SubType"
 			{
-				"Name"		"Instant Kill-WIN"
+				"Name"		"Instant Kill-Win"
 				"Model"
 				{
 					"ModelName"		"trigger_once.3ds"
@@ -49,12 +48,17 @@
 			"ConnectionCount"
 			{
 				"DefaultValue"	"0"
-				"Index"		"0"
+				"Index"		"1"
 			}
 			"StartReversed"
 			{
 				"DefaultValue"	"0"
-				"Index"		"1"
+				"Index"		"2"
+			}
+			"StartOpen"
+			{
+				"DefaultValue"	"0"
+				"Index"		"3"
 			}
 		}
 		"Exporting"

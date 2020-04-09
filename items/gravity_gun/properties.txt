@@ -9,7 +9,7 @@
 "" "* **Start Reversed** makes the gun work for Co-Op. Uncheck for AtLAS, check for P-Body. Useless in SP."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Gravity-Gun"
-"ent_count" "24"
+"ent_count" "26"
 "Icon"
 {
 "0" "clean/gravity_gun.png"

@@ -5,6 +5,8 @@
 "Description"
 {
 "" "An alternative version of an Obs Room."
+"" ""
+"" "> To-Do: Nonfunctional"
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/SkyBox"
 "ent_count" "12"

@@ -7,7 +7,7 @@
 "" "Outputs when a Portal is placed on it."
 "" ""
 "" "* The Portal still works, it just gives an output if the Portal is there."
-"" " __Start_open__ checked will cause the detector to be invisible."
+"" "* Start Open - Makes the detector invisible."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/Portal-Detector"
 "ent_count" "5"

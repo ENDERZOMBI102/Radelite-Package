@@ -104,42 +104,42 @@
 			{
 				"0"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_portalable.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_128x128_portalable.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
 				}
 				"1"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_128x128.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
 				}
 				"2"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_glass.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_128x128_glass.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"9"
 					"BrushSideCount"	"62"
 				}
 				"3"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_glass.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_128x128_glass.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"9"
 					"BrushSideCount"	"62"
 				}
 				"4"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_skeleton.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_128x128_skeleton.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
 				}
 				"5"
 				{
-					"Name"				"instances/bee2/clean/items/bisqwit_multifunction_panel_128x128_skeleton.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_128x128_skeleton.vmf"
 					"EntityCount"		"21"
 					"BrushCount"		"10"
 					"BrushSideCount"	"68"
