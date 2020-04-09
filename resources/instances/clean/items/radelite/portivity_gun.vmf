@@ -1410,7 +1410,7 @@ entity
 	"parentname" "gun_collision"
 	"solid" "6"
 	"spawnflags" "4097"
-	"StartDisabled" "1"
+	"StartDisabled" "0"
 	"targetname" "strip"
 	connections
 	{
