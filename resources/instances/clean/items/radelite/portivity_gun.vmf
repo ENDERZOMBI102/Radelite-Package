@@ -1414,7 +1414,7 @@ entity
 	"targetname" "strip"
 	connections
 	{
-		"OnStartTouch" "stripDisable0-1"
+		"OnStartTouch" "stripDisable0.01-1"
 	}
 	solid
 	{
