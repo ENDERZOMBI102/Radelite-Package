@@ -37,9 +37,8 @@ entity
 	connections
 	{
 		"OnUser1" "@disable_radelite_paintgunTrigger0-1"
-		"OnUser1" "@disable_gravity_gun2Trigger0-1"
-		"OnUser1" "@disable_gravity_gunTrigger0-1"
 		"OnUser1" "@disable_portivity_gunTrigger0-1"
+		"OnUser1" "@disable_gravity_gunTrigger0-1"
 	}
 	"origin" "0 0 0"
 	editor

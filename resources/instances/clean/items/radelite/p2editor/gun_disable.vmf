@@ -33,13 +33,12 @@ entity
 	"id" "2"
 	"classname" "comp_kv_setter"
 	"mode" "kv"
-	"target" "gun"
+	"target" "strip"
 	connections
 	{
-		"OnPlayerPickup" "@disable_radelite_paintgunTrigger0-1"
-		"OnPlayerPickup" "@disable_portivity_gunTrigger0-1"
-		"OnPlayerPickup" "@disable_gravity_gunTrigger0-1"
-		"OnPlayerPickup" "@disable_gravity_gun2Trigger0-1"
+		"OnStartTouch" "@disable_radelite_paintgunTrigger0-1"
+		"OnStartTouch" "@disable_portivity_gunTrigger0-1"
+		"OnStartTouch" "@disable_gravity_gunTrigger0-1"
 	}
 	"origin" "0 0 0"
 	editor
