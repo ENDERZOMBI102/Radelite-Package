@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "86"
+	"mapversion" "87"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "86"
+	"mapversion" "87"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1147,12 +1147,12 @@ entity
 	"targetname" "Paintui"
 	connections
 	{
-		"UnpressedAttack2" "PaintStop0-1"
-		"UnpressedAttack" "PaintStop0-1"
+		"UnpressedAttack2" "PaintStop0.02-1"
+		"UnpressedAttack" "PaintStop0.02-1"
 		"PressedAttack" "PaintChangePaintType$painta0-1"
 		"PressedAttack2" "PaintChangePaintType$paintb0-1"
-		"PressedAttack" "Paint$starta0.1-1"
-		"PressedAttack2" "Paint$startb0.1-1"
+		"PressedAttack" "Paint$starta0.01-1"
+		"PressedAttack2" "Paint$startb0.01-1"
 	}
 	"origin" "-16 0 29"
 	editor
@@ -1206,8 +1206,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-66.034 -32.7903 48.5138]"
-		"look" "[-61.539 -30.5126 44.1928]"
+		"position" "[-31.8697 -15.4786 31.8503]"
+		"look" "[-26.44 -12.7273 29.2021]"
 	}
 }
 cordons
