@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "84"
+	"mapversion" "86"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "84"
+	"mapversion" "86"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -761,7 +761,7 @@ entity
 	"id" "542"
 	"classname" "trigger_weapon_strip"
 	"KillWeapons" "1"
-	"origin" "0 -0 14.58"
+	"origin" "0 0 14.58"
 	"solid" "6"
 	"spawnflags" "4097"
 	"StartDisabled" "0"
@@ -776,10 +776,10 @@ entity
 		side
 		{
 			"id" "206"
-			"plane" "(24 -24 40.9986) (-23.9985 -24 40.9986) (-23.9985 24 40.9986)"
+			"plane" "(32 -32 41) (-32 -32 41) (-32 32 41)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -35.9228] 1.29308"
-			"vaxis" "[0 -1 0 5.6873] 0.775"
+			"uaxis" "[1 0 0 -42.1096] 1.29308"
+			"vaxis" "[0 -1 0 -4.63528] 0.775"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -787,10 +787,10 @@ entity
 		side
 		{
 			"id" "205"
-			"plane" "(24 24 -41.0014) (-23.9985 24 -41.0014) (-23.9985 -24 -41.0014)"
+			"plane" "(32 32 -41) (-32 32 -41) (-32 -32 -41)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -35.9228] 1.29308"
-			"vaxis" "[0 -1 0 5.6873] 0.775"
+			"uaxis" "[1 0 0 -42.1096] 1.29308"
+			"vaxis" "[0 -1 0 -4.63528] 0.775"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -798,9 +798,9 @@ entity
 		side
 		{
 			"id" "204"
-			"plane" "(-24 -24 -41.001) (-24 24 -41.001) (-24 24 41.0014)"
+			"plane" "(-32 -32 -41) (-32 32 -41) (-32 32 41)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -5.6873] 0.775"
+			"uaxis" "[0 1 0 4.63528] 0.775"
 			"vaxis" "[0 0 -1 15.0306] 0.441088"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -809,9 +809,9 @@ entity
 		side
 		{
 			"id" "203"
-			"plane" "(-24 24 -41.001) (24 24 -41.001) (24 24 41.0014)"
+			"plane" "(-32 32 -41) (32 32 -41) (32 32 41)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -35.9228] 1.29308"
+			"uaxis" "[1 0 0 -42.1096] 1.29308"
 			"vaxis" "[0 0 -1 15.0306] 0.441088"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -820,9 +820,9 @@ entity
 		side
 		{
 			"id" "202"
-			"plane" "(24 -24 -41.001) (-23.9971 -24 -41.001) (-24 -24 41.0014)"
+			"plane" "(32 -32 -41) (-32 -32 -41) (-32 -32 41)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -35.9228] 1.29308"
+			"uaxis" "[1 0 0 -42.1096] 1.29308"
 			"vaxis" "[0 0 -1 15.0306] 0.441088"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -831,9 +831,9 @@ entity
 		side
 		{
 			"id" "201"
-			"plane" "(24 24 -41.001) (24 -24 -41.001) (24 -24 41.0014)"
+			"plane" "(32 32 -41) (32 -32 -41) (32 -32 41)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -5.6873] 0.775"
+			"uaxis" "[0 1 0 4.63528] 0.775"
 			"vaxis" "[0 0 -1 15.0306] 0.441088"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1205,8 +1205,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-83.8119 2.37979 48.4806]"
-		"look" "[-79.3169 4.65749 44.1596]"
+		"position" "[-66.034 -32.7903 48.5138]"
+		"look" "[-61.539 -30.5126 44.1928]"
 	}
 }
 cordons
