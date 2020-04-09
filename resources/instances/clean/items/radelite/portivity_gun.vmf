@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "65"
+	"mapversion" "66"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "65"
+	"mapversion" "66"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -791,7 +791,7 @@ entity
 	"spawnflags" "0"
 	"StartingTeamNum" "0"
 	"targetname" "tempgun2"
-	"origin" "10 -9 -36"
+	"origin" "-22.5 -21 -19.0002"
 	editor
 	{
 		"color" "0 0 200"
@@ -1392,7 +1392,7 @@ entity
 	"spawnflags" "0"
 	"StartingTeamNum" "0"
 	"targetname" "tempgun"
-	"origin" "9.5 -9 -47.9998"
+	"origin" "-23 -21 -31"
 	editor
 	{
 		"color" "0 0 200"
@@ -3166,8 +3166,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-40.9516 -5.20394 34.7218]"
-		"look" "[25.5801 -5.50169 -31.3938]"
+		"position" "[-70.7417 -56.5284 -22.9996]"
+		"look" "[10.5327 -11.322 -35.1938]"
 	}
 }
 cordons
