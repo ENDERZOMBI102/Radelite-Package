@@ -147,7 +147,7 @@
 "Item"
 	{
 	"ID" "ITEM_SKYBOX_AREA"
-	"unstyled"	"1"
+	"unstyled" "1"
 	"Version"
 		{
 		"ID"	"VER_DEFAULT"
@@ -160,10 +160,17 @@
 	"Version"
 		{
 		"ID"	"VER_OLD"
-		"Name"	"BEE2 Skybox (Old)"
+		"Name"	"Old BEE2 Skybox"
 		"Styles"
 			{
-			"ANY_STYLE" "skybox_old"
+			"BEE2_CLEAN"	"skybox_old"
+			"BEE2_PORTAL_1"	"skybox_old"
+			"BEE2_OVERGROWN" "skybox_old"
+			"BEE2_BTS" "skybox_old"
+			"BEE2_1950s" "skybox_old"
+			"BEE2_1960s" "skybox_old"
+			"BEE2_1970s" "skybox_old"
+			"BEE2_1980s" "skybox_old"
 			}
 		}
 	}
