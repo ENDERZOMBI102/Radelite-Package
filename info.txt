@@ -147,8 +147,20 @@
 "Item"
 	{
 	"ID" "ITEM_SKYBOX_AREA"
+	"unstyled"	"1"
 	"Version"
 		{
+		"ID"	"VER_DEFAULT"
+		"Name"	"Default"
+		"Styles"
+			{
+			"ANY_STYLE" "skybox"
+			}
+		}
+	"Version"
+		{
+		"ID"	"VER_OLD"
+		"Name"	"BEE2 Skybox (Old)"
 		"Styles"
 			{
 			"ANY_STYLE" "skybox_old"
@@ -160,7 +172,7 @@
 	"ID"    "TEMP_RADELITE_SKYBOX"
 	"file"  "skybox_base.vmf"
 	}
-	
+
 "Item"
 	{
 	"ID" "ITEM_LIVING_PANEL_LARGE"
