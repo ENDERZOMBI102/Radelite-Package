@@ -151,7 +151,7 @@
 		{
 		"Styles"
 			{
-			"ANY_STYLE" "skybox"
+			"ANY_STYLE" "skybox_old"
 			}
 		}
 	}

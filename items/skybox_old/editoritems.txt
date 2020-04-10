@@ -1,0 +1,64 @@
+"Item"
+	{
+		"Type"			 "ITEM_SKYBOX_AREA"
+		"Editor"
+		{
+			"SubType"
+			{
+				"Name"		"SkyBox (Old)"
+				"Model"
+				{
+					"ModelName"		"observation_office_1x1.3ds"
+				}
+				"Palette"
+				{
+					"Tooltip"	"SKYBOX (OLD)"
+					"Image"		"palette/clean/skybox.png"
+					"Position"	"3 4 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"MovementHandle"		"HANDLE_NONE"
+			"InvalidSurface"		"FLOOR"
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"				"instances/BEE2/clean/items/skybox_old.vmf"
+					"EntityCount"		"12"
+					"BrushCount"		"17"
+					"BrushSideCount"	"102"
+				}
+			}
+
+			"TargetName"		"skyb"
+			"Offset"		"64 64 64"
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+			}
+			"EmbeddedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+				}
+			}
+		}
+	}
