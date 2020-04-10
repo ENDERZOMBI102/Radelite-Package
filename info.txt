@@ -155,6 +155,11 @@
 			}
 		}
 	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_RADELITE_SKYBOX"
+	"file"  "skybox_base.vmf"
+	}
 	
 "Item"
 	{
