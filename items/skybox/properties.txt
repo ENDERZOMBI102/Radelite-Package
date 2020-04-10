@@ -4,9 +4,7 @@
 "Tags" "Portal 2"
 "Description"
 {
-"" "An alternative version of an Obs Room."
-"" ""
-"" "> To-Do: Nonfunctional"
+"" "An alternative version of the Skybox. This one uses the skybox selected in BEE2, and is usually just the black void."
 }
 "infoURL" "https://github.com/ENDERZOMBI102/Radelite_BEE2_package/wiki/SkyBox"
 "ent_count" "12"
