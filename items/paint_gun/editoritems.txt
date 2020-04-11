@@ -79,47 +79,48 @@
         {
             "Instances"
             {
+// Correct
                 "0"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_weighted_white.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"70"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
                 }
 				"1"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_weighted_black.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"70"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
                 }
 				"2"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_cube_white.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"70"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
                 }
 				"3"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_cube_black.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"70"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
                 }
 				"4"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_ball_white.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"70"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
                 }
 				"5"
                 {
                     "Name"         		"instances/BEE2/clean/items/pg_ball_black.vmf"
-                    "EntityCount"       	"7"
-                    "BrushCount"        	"11"
-                    "BrushSideCount"    	"70"
+                    "EntityCount"       	"8"
+                    "BrushCount"        	"12"
+                    "BrushSideCount"    	"76"
                 }
             }
             "Offset"            		"64 64 64"
