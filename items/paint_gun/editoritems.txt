@@ -32,47 +32,32 @@
 			"ButtonType"
 			{
 				"DefaultValue"	"0"
-				"Index"			"0"
+				"Index"			"1"
 			}
 			"StartLocked"
 			{
 				"DefaultValue"	"1"
-				"Index"			"1"
+				"Index"			"2"
 			}
 			"StartOpen"
 			{
 				"DefaultValue"	"1"
-				"Index"			"2"
+				"Index"			"3"
 			}
 			"CubeType"
 			{
 				"DefaultValue"	"1"
-				"Index"			"3"
+				"Index"			"4"
 			}
 			"StartReversed"
 			{
 				"DefaultValue"	"0"
-				"Index"			"4"
+				"Index"			"5"
 			}
 			"StartEnabled"
 			{
 				"DefaultValue"	"0"
-				"Index"			"8"
-			}
-			"$painta"
-			{
-				"DefaultValue"	"0"
-				"Index"			"5"
-			}
-			"$paintb"
-			{
-				"DefaultValue"	"2"
 				"Index"			"6"
-			}
-			"$paintgunplayer"
-			{
-				"DefaultValue"	"!player"
-				"Index"			"7"
 			}
 		}
         "Exporting"

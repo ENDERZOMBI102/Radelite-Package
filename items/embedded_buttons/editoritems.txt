@@ -64,7 +64,7 @@
 			"ButtonType"
 			{
 				"DefaultValue"	"0"
-				"Index"			"0"
+				"Index"			"1"
 			}
 		}
 		"Exporting"

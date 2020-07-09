@@ -64,17 +64,12 @@
 		"ButtonType"
 		{
 			"DefaultValue" "0"
-			"Index" "0"
+			"Index" "1"
 		}
 		"ConnectionCount"
 		{
 			"DefaultValue" "0"
-			"Index" "1"
-		}
-		"CubeFilter"
-		{
-			"Cube" "<any>"
-			"ResultVar" "$filter_name"
+			"Index" "2"
 		}
 	}
 	"Exporting"
