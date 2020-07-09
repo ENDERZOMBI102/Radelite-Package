@@ -714,7 +714,6 @@ entity
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"comments" "200000light_observation_room"
 		"logicalpos" "[0 0]"
 	}
 }
