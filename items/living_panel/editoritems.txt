@@ -100,7 +100,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_64x64_portalable.vmf"
+					"Name"				"instances/bee2/clean/items/radelite/living_panel/bisqwit_multifunction_panel_64x64.vmf"
 					"EntityCount"		"9"
 					"BrushCount"		"4"
 					"BrushSideCount"	"24"
@@ -180,34 +180,6 @@
 				"Voxel"
 				{
 					"Pos"		"0 0 0"
-				}
-			}
-
-			"EmbedFace"
-			{
-				"Solid"
-				{
-					"Center"		"64 16 128"
-					"Dimensions"	"128 32 4"
-					"Grid"			"4x4"
-				}
-				"Solid"
-				{
-					"Center"		"64 112 128"
-					"Dimensions"	"128 32 4"
-					"Grid"			"4x4"
-				}
-				"Solid"
-				{
-					"Center"		"16 64 128"
-					"Dimensions"	"32 64 4"
-					"Grid"			"4x4"
-				}
-				"Solid"
-				{
-					"Center"		"112 64 128"
-					"Dimensions"	"32 64 4"
-					"Grid"			"4x4"
 				}
 			}
 

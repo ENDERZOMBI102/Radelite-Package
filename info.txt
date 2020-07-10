@@ -182,24 +182,29 @@
 
 "Item"
 	{
-	"ID" "ITEM_LIVING_PANEL_LARGE"
-	"Version"
-		{
-		"Styles"
-			{
-			"ANY_STYLE" "living_panel_large"
-			}
-		}
-	}
-	
-"Item"
-	{
 	"ID" "ITEM_LIVING_PANEL"
 	"Version"
 		{
 		"Styles"
 			{
 			"ANY_STYLE" "living_panel"
+			}
+		}
+	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_RADELITE_LIVING_PANEL"
+	"file"  "livingpanel_temp.vmf"
+	}
+
+"Item"
+	{
+	"ID" "ITEM_LIVING_PANEL_LARGE"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "living_panel_large"
 			}
 		}
 	}
