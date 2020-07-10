@@ -196,6 +196,11 @@
 	"ID"    "TEMP_RADELITE_LIVING_PANEL"
 	"file"  "livingpanel_temp.vmf"
 	}
+"BrushTemplate"
+	{
+	"ID"    "TEMP_RADELITE_LIVING_PANEL2"
+	"file"  "livingpanel2_temp.vmf"
+	}
 
 "Item"
 	{
