@@ -11,7 +11,7 @@
 		"" ""
 		"" ""
 		"" "* Start Deployed - Inverts the direction of the panel's animation."
-		"" "* Timer & Start Locked & Autodrop - Choose which animation to play from 68 selectable animations."
+		"" "* Timer & Start Locked & Autodrop - Choose which animation to play from 69 selectable animations."
 		"" "* Start Reversed - Invert the color of the panel."
 		"" ""
 		"" ""
