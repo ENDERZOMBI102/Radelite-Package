@@ -118,7 +118,7 @@
 			}
 			"5"
 			{
-				"Name" "instances/bee2/clean/items/radelite/con_sav.vmf"
+				"Name" "instances/bee2/clean/items/radelite/con_save.vmf"
 				"EntityCount" "0"
 				"BrushCount" "1"
 				"BrushSideCount" "6"
