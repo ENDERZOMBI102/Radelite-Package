@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "66"
+	"mapversion" "70"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "66"
+	"mapversion" "70"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -842,7 +842,7 @@ entity
 	"origin" "0 1 55"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -1308,7 +1308,7 @@ entity
 	"origin" "14.77 5.6499 -1.35973"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -1334,7 +1334,7 @@ entity
 	"origin" "22.5 3 -0.999868"
 	editor
 	{
-		"color" "200 200 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -1406,7 +1406,7 @@ entity
 	"id" "850"
 	"classname" "trigger_weapon_strip"
 	"KillWeapons" "1"
-	"origin" "-11.5 13 8.38"
+	"origin" "-1.75 2.5 8.38"
 	"parentname" "gun_collision"
 	"solid" "6"
 	"spawnflags" "4097"
@@ -1422,7 +1422,7 @@ entity
 		side
 		{
 			"id" "542"
-			"plane" "(20.5 -19 34.7999) (-43.5 -19 34.7999) (-43.5 45 34.7999)"
+			"plane" "(20.5 -19 34.7999) (-23.9986 -19 34.7999) (-23.9986 24 34.7999)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -27.0293] 1.29308"
 			"vaxis" "[0 -1 0 -41.5385] 0.775"
@@ -1433,7 +1433,7 @@ entity
 		side
 		{
 			"id" "541"
-			"plane" "(20.5 45 -47.2001) (-43.5 45 -47.2001) (-43.5 -19 -47.2001)"
+			"plane" "(20.5 24 -47.2001) (-23.9986 24 -47.2001) (-23.9986 -19 -47.2001)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -27.0293] 1.29308"
 			"vaxis" "[0 -1 0 -41.5385] 0.775"
@@ -1444,7 +1444,7 @@ entity
 		side
 		{
 			"id" "540"
-			"plane" "(-43.5 -19 -47.1996) (-43.5 45 -47.1996) (-43.5 45 34.8029)"
+			"plane" "(-24 -19 -47.1997) (-24 24 -47.1997) (-24 24 34.8027)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 41.5385] 0.775"
 			"vaxis" "[0 0 -1 0.977426] 0.441088"
@@ -1455,7 +1455,7 @@ entity
 		side
 		{
 			"id" "539"
-			"plane" "(-43.5 45 -47.1996) (20.5 45 -47.1996) (20.5 45 34.8028)"
+			"plane" "(-24 24 -47.1997) (20.5 24 -47.1997) (20.5 24 34.8027)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -27.0293] 1.29308"
 			"vaxis" "[0 0 -1 0.977426] 0.441088"
@@ -1466,7 +1466,7 @@ entity
 		side
 		{
 			"id" "538"
-			"plane" "(20.5 -19 -47.1996) (-43.5 -19 -47.1996) (-43.5 -19 34.8029)"
+			"plane" "(20.5 -19 -47.1997) (-23.9973 -19 -47.1997) (-24 -19 34.8027)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 -27.0293] 1.29308"
 			"vaxis" "[0 0 -1 0.977426] 0.441088"
@@ -1477,7 +1477,7 @@ entity
 		side
 		{
 			"id" "537"
-			"plane" "(20.5 45 -47.1996) (20.5 -19 -47.1996) (20.5 -19 34.8029)"
+			"plane" "(20.5 24 -47.1997) (20.5 -19 -47.1997) (20.5 -19 34.8027)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 41.5385] 0.775"
 			"vaxis" "[0 0 -1 0.977426] 0.441088"
@@ -2007,7 +2007,7 @@ entity
 	"origin" "-16 8 32"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -2039,7 +2039,7 @@ entity
 	"origin" "-16 32 32"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -2054,7 +2054,7 @@ entity
 	"origin" "-16 -16 32"
 	editor
 	{
-		"color" "200 0 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
@@ -2077,7 +2077,7 @@ entity
 	"origin" "16 40 -16"
 	editor
 	{
-		"color" "200 0 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -2097,7 +2097,7 @@ entity
 	"origin" "-16 40 -16"
 	editor
 	{
-		"color" "200 0 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -2117,7 +2117,7 @@ entity
 	"origin" "-22.5 15 -47.9998"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 15000]"
@@ -2144,7 +2144,7 @@ entity
 	"origin" "-22.5 39 -47.9998"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2169,7 +2169,7 @@ entity
 	"origin" "-16 -32 -16"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2202,7 +2202,7 @@ entity
 	"origin" "-16 -8 -16"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -2229,7 +2229,7 @@ entity
 	"origin" "-16 16 -16"
 	editor
 	{
-		"color" "0 100 250"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -3000,7 +3000,7 @@ entity
 	"startdisabled" "0"
 	"suppressanimsounds" "0"
 	"targetname" "pedestal_base"
-	"origin" "0 0 -62.5"
+	"origin" "0 0 -64"
 	editor
 	{
 		"color" "220 30 220"
@@ -3055,7 +3055,7 @@ entity
 	{
 		"OnUser4" "pedestalFireUser10-1"
 	}
-	"origin" "0 0 -62.5"
+	"origin" "0 0 -64"
 	editor
 	{
 		"color" "220 30 220"
@@ -3166,8 +3166,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-70.7417 -56.5284 -22.9996]"
-		"look" "[10.5327 -11.322 -35.1938]"
+		"position" "[6.23381 -6.47361 17.7845]"
+		"look" "[-14.7915 17.8986 -70.3166]"
 	}
 }
 cordons
