@@ -71,11 +71,11 @@
 			"DefaultValue" "0"
 			"Index" "1"
 		}
-		"CubeFilter"
-		{
-			"Cube" "<any>"
-			"ResultVar" "$filter_name"
-		}
+		//"CubeFilter"
+		//{
+		//	"Cube" "<any>"
+		//	"ResultVar" "$filter_name"
+		//}
 	}
 	"Exporting"
 	{

@@ -59,21 +59,21 @@
 				"DefaultValue"	"0"
 				"Index"			"8"
 			}
-			"$painta"
-			{
-				"DefaultValue"	"0"
-				"Index"			"5"
-			}
-			"$paintb"
-			{
-				"DefaultValue"	"2"
-				"Index"			"6"
-			}
-			"$paintgunplayer"
-			{
-				"DefaultValue"	"!player"
-				"Index"			"7"
-			}
+//			"$painta"
+//			{
+//				"DefaultValue"	"0"
+//				"Index"			"5"
+//			}
+//			"$paintb"
+//			{
+//				"DefaultValue"	"2"
+//				"Index"			"6"
+//			}
+//			"$paintgunplayer"
+//			{
+//				"DefaultValue"	"!player"
+//				"Index"			"7"
+//			}
 		}
         "Exporting"
         {
