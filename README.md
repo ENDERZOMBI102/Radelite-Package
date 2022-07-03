@@ -13,5 +13,5 @@ Radelite's Package Showcase by Flash4433: (Currently being remaked with the upda
 https://steamcommunity.com/workshop/filedetails/?id=1852153970
 
 DOWNLOAD LINK:
-https://github.com/ENDERZOMBI102/Radelite_BEE2_package/releases/latest
+https://github.com/ENDERZOMBI102/Radelite-Package/releases/latest
 This link is ALWAYS up-to-date
