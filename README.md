@@ -9,5 +9,5 @@ This package aims to make these items fully work in BEE2.4, while improving thei
 Radelite's Package Showcase by Flash4433: (may be outdated)
 https://steamcommunity.com/workshop/filedetails/?id=1852153970
 
-# Note for users
+## Note for users
 If you use any item from this package, we would be happy if you mentioned it in your map's description.
